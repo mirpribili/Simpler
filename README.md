@@ -4,7 +4,7 @@
 
 
 
-[Подлежащие]() **+**
+ <span style='color:green'>!Важно.</span> **+** [Подлежащие]()
 
 
 
@@ -13,7 +13,7 @@
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
 
 ```diff
-- text in red
+- text in red [Подлежащие]()
 + text in green
 ! text in orange
 # text in gray
