@@ -17,8 +17,8 @@
 @@ text in purple (and bold)@@
 ```
 
-<span style="color:orange;">Word up</span>
-
+<span style="color:blue;">Word up</span>
+<span style='color:red'>!Важно.</span> 
 
 ### Command line
 
