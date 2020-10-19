@@ -13,7 +13,7 @@
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
 
 ```diff
-- text in red [Подлежащие]()
+- text in red
 + text in green
 ! text in orange
 # text in gray
@@ -41,3 +41,21 @@
 
 [git-formatting-syntax](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax)
 
+
+#### STEP 1
+- conda deactivate
+- cd $HOME
+- mkdir enviroments
+- cd enviroments
+- python3 -m venv simpler_env
+- source simpler_env/bin/activate
+- - deactivate
+- python
+- exit()
+- **cd $HOME/enviroments;source simpler_env/bin/activate**
+- $HOME/enviroments/simpler_env/bin/python3.7 -m pip install --upgrade pip
+- pip install Pillow
+- pip list
+
+#### STEP2
+- **cd $HOME/simpler;python generate_img_with_text.py**
