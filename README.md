@@ -17,8 +17,11 @@
 @@ text in purple (and bold)@@
 ```
 
-<span style="color:blue;">Word up</span>
-<span style='color:red'>!Важно.</span> 
+```html
+   // code for coloring
+   	<span style="color:blue;">Word up</span>
+	<span style='color:red'>!Важно.</span> 
+```
 
 ### Command line
 
