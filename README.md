@@ -1,7 +1,7 @@
 # Simpler
 
 ### Вопрос о способности в прошлом:
-<div style="background-color:#599be0">Подлежащие</div> **+**
+<span style="background-color:#599be0">Подлежащие</span> **+**
 
 
 
