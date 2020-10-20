@@ -67,8 +67,14 @@ d = Generate_img_with_text("will", "orange", smesh=15, img_weight=50)#will
 d.save()
 d = Generate_img_with_text("could", "orange", smesh=10, img_weight=85)#will
 d.save()
+d = Generate_img_with_text("couldn't", "orange", smesh=10, img_weight=100)#will
+d.save()
 
+d = Generate_img_with_text("call", "#22a221", smesh=15, img_weight=50)#will
+d.save()
 d = Generate_img_with_text("сказуемое", "#22a221")# сказуемое
+d.save()
+d = Generate_img_with_text("sweam", "#22a221")# сказуемое
 d.save()
 
 d = Generate_img_with_text("we", smesh=10, img_weight=40)#подлежащее
