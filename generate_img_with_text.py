@@ -60,6 +60,8 @@ d = Generate_img_with_text("he", smesh=10, img_weight=40)#подлежащее
 d.save()
 d = Generate_img_with_text("we", smesh=10, img_weight=40)#подлежащее
 d.save()
+d = Generate_img_with_text("they", smesh=10, img_weight=50)#подлежащее
+d.save()
 d = Generate_img_with_text("was", "#22a221", smesh=8, img_weight=60)# сказуемое
 d.save()
 d = Generate_img_with_text("wasn't", "#22a221", smesh=8, img_weight=80)# сказуемое
