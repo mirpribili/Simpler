@@ -98,6 +98,15 @@ d = Generate_img_with_text("should", "orange", smesh=10, img_weight=100)#will
 d.save()
 d = Generate_img_with_text("shouldn't", "orange", smesh=10, img_weight=100)#will
 d.save()
+d = Generate_img_with_text("do", "orange", smesh=10, img_weight=40)#will
+d.save()
+d = Generate_img_with_text("do-does", "orange", smesh=10, img_weight=100)#will
+d.save()
+
+d = Generate_img_with_text("don't-doesn't", "#FF521E", smesh=10)#will
+d.save()
+
+
 
 d = Generate_img_with_text("call", "#22a221", smesh=15, img_weight=50)#will
 d.save()
@@ -105,13 +114,13 @@ d = Generate_img_with_text("eat", "#22a221", smesh=15, img_weight=50)#will
 d.save()
 d = Generate_img_with_text("сказуемое", "#22a221")# сказуемое
 d.save()
-d = Generate_img_with_text("have", "#22a221", smesh=15, img_weight=50)# сказуемое
+d = Generate_img_with_text("have", "#22a221", smesh=15, img_weight=65)# сказуемое
 d.save()
 d = Generate_img_with_text("have-has", "#22a221")# сказуемое
 d.save()
 d = Generate_img_with_text("sweam", "#22a221", smesh=10, img_weight=100)# сказуемое
 d.save()
-d = Generate_img_with_text("take", "#22a221", smesh=15, img_weight=50)# сказуемое
+d = Generate_img_with_text("take", "#22a221", smesh=15, img_weight=65)# сказуемое
 d.save()
 d = Generate_img_with_text("глагол_зелен", "#22a221", smesh=10,)# сказуемое
 d.save()
