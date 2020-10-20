@@ -12,7 +12,7 @@
 - - <img src="i\he.png"> <img src="i\+.png"> <img src="i\wasn't.png"> <img src="i\+.png"><img src="i\able to.png"> join us **yesterday**
 - - <img src="i\we.png"> <img src="i\+.png"> <img src="i\weren't.png"> <img src="i\+.png"><img src="i\able to.png"> go **backstage**
 - - <img src="i\I.png"> <img src="i\+.png"> <img src="i\wasn't.png"> <img src="i\+.png"><img src="i\able to.png"> speak **with he**
-- - <img src="i\they.png"> <img src="i\+.png"> <img src="i\weren't.png"> <img src="i\+.png"> <img src="i\able to.png"> get/book **front row seats**
+- - <img src="i\they.png"> <img src="i\+.png"> <img src="i\weren't.png"> <img src="i\+.png"> <img src="i\able to.png"> get **/** book **front row seats**
 
 ### Cпособности в будующем - Will Be able to:
 #### Я смогу, я буду уметь:
