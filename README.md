@@ -1,10 +1,13 @@
 # Simpler
+##### ----------------------------------------------------------------------------------------
 
 ### Cпособности в прошлом:
 #### Could - мог, умел
 - <img src="i\подлежащее.png"> <img src="i\could.png"> <img src="i\сказуемое.png"> **when I was five**
 - <img src="i\I.png"> <img src="i\could.png"> <img src="i\not.png"> <img src="i\sweam.png"> **when I was five**
 - - <img src="i\I.png"> <img src="i\couldn't.png"> <img src="i\call.png"> **you yesterday**
+
+##### ----------------------------------------------------------------------------------------
 
 ### Cпособности в прошлом:
 #### Be able to - я мог, умел
@@ -21,9 +24,13 @@
 - - - <img src="i\I.png"> <img src="i\wasn't.png"> <img src="i\able to.png"> speak **with he**
 - - - <img src="i\they.png"> <img src="i\weren't.png"> <img src="i\able to.png"> get **/** book **front row seats**
 
+##### ----------------------------------------------------------------------------------------
+
 ### Cпособности в будущем:
 #### Will Be able to - Я смогу, я буду уметь:
 - <img src="i\подлежащее.png"> <img src="i\will.png"> <img src="i\be.png"> <img src="i\able to.png"> <img src="i\глагол.png">
+
+##### ----------------------------------------------------------------------------------------
 
 ### Should - стоит, следует:
 - <img src="i\подлежащее.png"> <img src="i\should.png"> <img src="i\глагол_зелен.png">
@@ -34,6 +41,8 @@
 - <img src="i\what.png">  <img src="i\should.png"> <img src="i\I.png"> **WEAR?**
 - <img src="i\I.png"> <img src="i\shouldn't.png"> <img src="i\eat.png"> **so much sugar**
 
+##### ----------------------------------------------------------------------------------------
+
 ### Have to - обязан вынужден:
 - <img src="i\подлежащее.png"> <img src="i\have-has.png"> <img src="i\to.png"> <img src="i\глагол.png">
 - - <img src="i\you.png"> <img src="i\have.png"> <img src="i\to.png"> **SHOW** ypur ID at the entrance
@@ -42,7 +51,7 @@
 - - <img src="i\why.png"> <img src="i\do.png"> <img src="i\we.png"> <img src="i\have.png"> <img src="i\to.png"> **get up** so early
 - <img src="i\подлежащее.png"> <img src="i\don't-doesn't.png"> <img src="i\have.png"> <img src="i\to.png">  <img src="i\глагол.png">
 
-
+##### ----------------------------------------------------------------------------------------
 
  <span style='color:green'>!Важно.</span> **+** [Подлежащие]()
 
