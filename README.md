@@ -14,7 +14,7 @@
 - - <img src="i\I.png"> <img src="i\+.png"> <img src="i\wasn't.png"> <img src="i\+.png"><img src="i\able to.png"> speak **with he**
 - - <img src="i\they.png"> <img src="i\+.png"> <img src="i\weren't.png"> <img src="i\+.png"> <img src="i\able to.png"> get **/** book **front row seats**
 
-### Cпособности в будующем - Will Be able to:
+### Cпособности в будущем - Will Be able to:
 #### Я смогу, я буду уметь:
 <img src="i\подлежащее.png"><img src="i\+.png"><img src="i\will.png"> <img src="i\+.png"> <img src="i\be.png"> <img src="i\+.png"> <img src="i\able to.png"> <img src="i\глагол.png">
 
