@@ -65,6 +65,11 @@ d.save()
 
 d = Generate_img_with_text("will", "orange", smesh=15, img_weight=50)#will
 d.save()
+d = Generate_img_with_text("could", "orange", smesh=10, img_weight=85)#will
+d.save()
+
+d = Generate_img_with_text("сказуемое", "#22a221")# сказуемое
+d.save()
 
 d = Generate_img_with_text("we", smesh=10, img_weight=40)#подлежащее
 d.save()
@@ -84,4 +89,4 @@ d = Generate_img_with_text("not", "#FF3030", smesh=10, img_weight=60)# not
 d.save()
 # cd $HOME/simpler;python generate_img_with_text.py
 # git add .;git commit -m "add generate img with text";git push origin
-
+# pip freeze > requirements.txt

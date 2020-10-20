@@ -1,21 +1,25 @@
 # Simpler
 
-### Cпособности в прошлом - Be able to:
-<img src="i\подлежащее.png">  <img src="i\was-were.png">  <img src="i\able to.png"> <img src="i\глагол.png">
-- <img src="i\I.png">  <img src="i\was.png">  <img src="i\able to.png"> swim **when i was five**
-- - <img src="i\she.png"><img src="i\was.png">  <img src="i\even.png"> 
+### Cпособности в прошлом:
+#### Could - мог, умел
+<img src="i\подлежащее.png"> <img src="i\could.png"> <img src="i\сказуемое.png"> **when I was five**
+#### Be able to
+<img src="i\подлежащее.png"> <img src="i\was-were.png"> <img src="i\able to.png"> <img src="i\глагол.png">
+- <img src="i\I.png"> <img src="i\was.png"> <img src="i\able to.png"> swim **when i was five**
+- - <img src="i\she.png"> <img src="i\was.png"> <img src="i\even.png"> 
  <img src="i\able to.png"> get **his autograph**
-- <img src="i\was.png"> <img src="i\he.png">  <img src="i\able to.png"> write **when he was four?**
-- - <img src="i\was.png"> <img src="i\she.png">  <img src="i\able to.png"> rent **a car** there?
-- <img src="i\подлежащее.png">  <img src="i\was-were.png"> <img src="i\not.png"> <img src="i\able to.png"> <img src="i\глагол.png">
-- - <img src="i\he.png">  <img src="i\wasn't.png"> <img src="i\able to.png"> join us **yesterday**
-- - <img src="i\we.png">  <img src="i\weren't.png"> <img src="i\able to.png"> go **backstage**
-- - <img src="i\I.png">  <img src="i\wasn't.png"> <img src="i\able to.png"> speak **with he**
-- - <img src="i\they.png">  <img src="i\weren't.png">  <img src="i\able to.png"> get **/** book **front row seats**
+- <img src="i\was.png"> <img src="i\he.png"> <img src="i\able to.png"> write **when he was four?**
+- - <img src="i\was.png"> <img src="i\she.png"> <img src="i\able to.png"> rent **a car** there?
+- - <img src="i\was.png"> <img src="i\she.png"> <img src="i\able to.png"> join **them**?
+- <img src="i\подлежащее.png"> <img src="i\was-were.png"> <img src="i\not.png"> <img src="i\able to.png"> <img src="i\глагол.png">
+- - <img src="i\he.png"> <img src="i\wasn't.png"> <img src="i\able to.png"> join us **yesterday**
+- - <img src="i\we.png"> <img src="i\weren't.png"> <img src="i\able to.png"> go **backstage**
+- - <img src="i\I.png"> <img src="i\wasn't.png"> <img src="i\able to.png"> speak **with he**
+- - <img src="i\they.png"> <img src="i\weren't.png"> <img src="i\able to.png"> get **/** book **front row seats**
 
 ### Cпособности в будущем - Will Be able to:
 #### Я смогу, я буду уметь:
-<img src="i\подлежащее.png"><img src="i\will.png">  <img src="i\be.png">  <img src="i\able to.png"> <img src="i\глагол.png">
+<img src="i\подлежащее.png"> <img src="i\will.png"> <img src="i\be.png"> <img src="i\able to.png"> <img src="i\глагол.png">
 
 
 
@@ -28,16 +32,18 @@
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
 
 ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
+- from there
++ оттуда
+
+! speak to him
+# поговорить с ним
+
 @@ text in purple (and bold)@@
 ```
 
 ```html
-   // code for coloring
-   	<span style="color:blue;">Word up</span>
+  // code for coloring
+  	<span style="color:blue;">Word up</span>
 	<span style='color:red'>!Важно.</span> 
 ```
 
