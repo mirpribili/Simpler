@@ -74,6 +74,8 @@ d = Generate_img_with_text("be", "#22a221", smesh=10, img_weight=40)# сказу
 d.save()
 d = Generate_img_with_text("wasn't", "#22a221", smesh=8, img_weight=80)# сказуемое
 d.save()
+d = Generate_img_with_text("even", "#C354FF", smesh=8, img_weight=80)# сказуемое
+d.save()
 d = Generate_img_with_text("weren't", "#22a221", smesh=8, img_weight=85)# сказуемое
 d.save()
 d = Generate_img_with_text("not", "#FF3030", smesh=10, img_weight=60)# not
