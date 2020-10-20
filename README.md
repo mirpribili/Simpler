@@ -43,6 +43,7 @@
 
 
 #### STEP 1
+
 - conda deactivate
 - cd $HOME
 - mkdir enviroments
@@ -52,7 +53,7 @@
 - - deactivate
 - python
 - exit()
-- **cd $HOME/enviroments;source simpler_env/bin/activate**
+- **conda deactivate;cd $HOME/enviroments;source simpler_env/bin/activate**
 - $HOME/enviroments/simpler_env/bin/python3.7 -m pip install --upgrade pip
 - pip install Pillow
 - pip list
