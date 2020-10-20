@@ -92,6 +92,8 @@ d.save()
 
 d = Generate_img_with_text("will", "orange", smesh=15, img_weight=50)#will
 d.save()
+d = Generate_img_with_text("must", "orange", smesh=15, img_weight=50)#will
+d.save()
 d = Generate_img_with_text("could", "orange", smesh=10, img_weight=85)#will
 d.save()
 d = Generate_img_with_text("couldn't", "orange", smesh=10, img_weight=100)#will
@@ -112,6 +114,8 @@ d.save()
 d = Generate_img_with_text("haven't-hasn't", "#FF521E", smesh=10)#will
 d.save()
 d = Generate_img_with_text("haven't", "#FF521E", smesh=10)#will
+d.save()
+d = Generate_img_with_text("mustn't", "#FF521E", smesh=10)#will
 d.save()
 
 
