@@ -29,7 +29,7 @@ class Generate_img_with_text(object):
 		if self.text_color != "black":
 			self.draw_text.text(
 			    (
-			    	(self.img_weight - self.pix_in_1_letter * len(self.text)) * .5 - self.pix_in_1_letter +1,  
+			    	(self.img_weight - self.pix_in_1_letter * len(self.text)) * .5 - self.pix_in_1_letter +1 + self.smesh,  
 			    	(self.img_height - self.font_size)*.5 - 2 +1 #height
 			    ),
 			    self.text,
@@ -54,9 +54,19 @@ class Generate_img_with_text(object):
 #d = Generate_img_with_text("able to", background_collor="#D8D8D8", text_color="black")
 #d = Generate_img_with_text("глагол", background_collor="#D8D8D8", text_color="black")
 #d = Generate_img_with_text("was-were", "#22a221")
-d = Generate_img_with_text("I", smesh=10, img_weight=20)
+d = Generate_img_with_text("I", smesh=10, img_weight=20)#подлежащее
 d.save()
-d = Generate_img_with_text("was", "#22a221",  img_weight=60)
+d = Generate_img_with_text("he", smesh=10, img_weight=40)#подлежащее
+d.save()
+d = Generate_img_with_text("we", smesh=10, img_weight=40)#подлежащее
+d.save()
+d = Generate_img_with_text("was", "#22a221", smesh=8, img_weight=60)# сказуемое
+d.save()
+d = Generate_img_with_text("wasn't", "#22a221", smesh=8, img_weight=80)# сказуемое
+d.save()
+d = Generate_img_with_text("weren't", "#22a221", smesh=8, img_weight=85)# сказуемое
+d.save()
+d = Generate_img_with_text("not", "#FF3030", smesh=10, img_weight=60)# not
 d.save()
 # cd $HOME/simpler;python generate_img_with_text.py
 # git add .;git commit -m "add generate img with text";git push origin
