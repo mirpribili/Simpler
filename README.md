@@ -1,7 +1,7 @@
 # Simpler
 
 ### Cпособности в прошлом - Be able to:
-<img src="подлежащее.png"> **+** <img src="was-were.png"> **+** **able to** **глаголов**
+<img src="подлежащее.png"> <img src="+.png"> <img src="was-were.png"> <img src="+.png"> <img src="able to.png"> <img src="глагол.png">
 
 
 
