@@ -18,7 +18,7 @@ class Generate_img_with_text(object):
 			self.img_weight,
 			self.img_height), color=(self.background_collor))
 		# Создаем объект со шрифтом
-		self.font = ImageFont.truetype('Roboto-Black.ttf', size=self.font_size)
+		self.font = ImageFont.truetype('i/Roboto-Black.ttf', size=self.font_size)
 		self.draw_text = ImageDraw.Draw(self.im)
 		#time.sleep(10)
 		#im.close()
@@ -48,7 +48,7 @@ class Generate_img_with_text(object):
 		    fill=self.text_color)
 		#im.show()
 	def save(self):
-		self.im.save(self.text + '.png')
+		self.im.save("i/" + self.text + '.png')
 
 #d = Generate_img_with_text("+", background_collor="white", text_color="black", smesh=10, img_weight=20)
 #d = Generate_img_with_text("able to", background_collor="#D8D8D8", text_color="black")

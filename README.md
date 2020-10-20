@@ -7,7 +7,7 @@
 <img src="was.png"> <img src="+.png"> <img src="even.png"> <img src="+.png">
  <img src="able to.png"> get **his autograph**
 - <img src="was.png"><img src="+.png"> <img src="he.png"> <img src="+.png"> <img src="able to.png"> write **when he was four?**
-- <img src="was.png"><img src="+.png"> <img src="she.png"> <img src="+.png"> <img src="able to.png"> rent **a car** there?
+- - <img src="was.png"><img src="+.png"> <img src="she.png"> <img src="+.png"> <img src="able to.png"> rent **a car** there?
 - <img src="подлежащее.png"> <img src="+.png"> <img src="was-were.png"> <img src="+.png"><img src="not.png"> <img src="+.png"><img src="able to.png"> <img src="глагол.png">
 - - <img src="he.png"> <img src="+.png"> <img src="wasn't.png"> <img src="+.png"><img src="able to.png"> join us **yesterday**
 - - <img src="we.png"> <img src="+.png"> <img src="weren't.png"> <img src="+.png"><img src="able to.png"> go **backstage**
