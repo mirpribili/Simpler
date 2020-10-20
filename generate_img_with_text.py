@@ -61,7 +61,7 @@ d.save()
 d = Generate_img_with_text("she", smesh=10, img_weight=40)#подлежащее
 d.save()
 
-d = Generate_img_with_text("will", "orange", smesh=10, img_weight=40)#will
+d = Generate_img_with_text("will", "orange", smesh=15, img_weight=50)#will
 d.save()
 
 d = Generate_img_with_text("we", smesh=10, img_weight=40)#подлежащее
