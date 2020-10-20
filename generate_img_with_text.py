@@ -50,10 +50,11 @@ class Generate_img_with_text(object):
 	def save(self):
 		self.im.save(self.text + '.png')
 
-d = Generate_img_with_text("+", background_collor="white", text_color="black", smesh=10, img_weight=20)
-#d = Generate_img_with_text("able to", background_collor="white", text_color="black")
+#d = Generate_img_with_text("+", background_collor="white", text_color="black", smesh=10, img_weight=20)
+d = Generate_img_with_text("able to", background_collor="#cac8d9", text_color="black")
 #d = Generate_img_with_text("глагол", background_collor="white", text_color="black")
 #d = Generate_img_with_text("was-were", "#22a221")
 d.save()
 # cd $HOME/simpler;python generate_img_with_text.py
+# git add .;git commit -m "add generate img with text";git push origin
 
