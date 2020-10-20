@@ -5,9 +5,9 @@
 - <img src="I.png"> <img src="+.png"> <img src="was.png"> <img src="+.png"> <img src="able to.png"> swim **when i was five**
 - <img src="was.png"><img src="+.png"> <img src="he.png"> <img src="+.png"> <img src="able to.png"> write **when he was four?**
 - <img src="подлежащее.png"> <img src="+.png"> <img src="was-were.png"> <img src="+.png"><img src="not.png"> <img src="+.png"><img src="able to.png"> <img src="глагол.png">
-- <img src="he.png"> <img src="+.png"> <img src="wasn't.png"> <img src="+.png"> <img src="+.png"><img src="able to.png"> join us **yesterday**
-- <img src="we.png"> <img src="+.png"> <img src="weren't.png"> <img src="+.png"><img src="able to.png"> go **backstage**
-- <img src="they.png"> <img src="+.png"> <img src="weren't.png"> <img src="+.png"> <img src="able to.png"> get **front row seats**
+- - <img src="he.png"> <img src="+.png"> <img src="wasn't.png"> <img src="+.png"><img src="able to.png"> join us **yesterday**
+- - <img src="we.png"> <img src="+.png"> <img src="weren't.png"> <img src="+.png"><img src="able to.png"> go **backstage**
+- - <img src="they.png"> <img src="+.png"> <img src="weren't.png"> <img src="+.png"> <img src="able to.png"> get **front row seats**
 
 
 
