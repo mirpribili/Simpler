@@ -47,6 +47,7 @@ class Generate_img_with_text(object):
 	def save(self):
 		self.im.save(self.text + '.png')
 
-d = Generate_img_with_text("подлежащее")
+d = Generate_img_with_text("was-were", "#22a221")
 d.save()
+# cd $HOME/simpler;python generate_img_with_text.py
 
