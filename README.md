@@ -3,8 +3,9 @@
 ### Cпособности в прошлом:
 #### Could - мог, умел
 <img src="i\подлежащее.png"> <img src="i\could.png"> <img src="i\сказуемое.png"> **when I was five**
+
 <img src="i\I.png"> <img src="i\could.png"> <img src="i\not.png"> <img src="i\sweam.png"> **when I was five**
-<img src="i\I.png"> <img src="i\couldn't.png"> <img src="i\call.png"> **you yesterday**
+- <img src="i\I.png"> <img src="i\couldn't.png"> <img src="i\call.png"> **you yesterday**
 
 #### Be able to
 <img src="i\подлежащее.png"> <img src="i\was-were.png"> <img src="i\able to.png"> <img src="i\глагол.png">
