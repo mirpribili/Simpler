@@ -2,6 +2,8 @@ from PIL import Image, ImageDraw, ImageFont
 import time
 
 class Generate_img_with_text(object):
+	i = 0
+	list_png = set()
 	"""docstring for ClassName"""
 	def __init__(self, text, background_collor='#599be0', img_weight=150, text_color="white", smesh=0):
 		#super(ClassName, self).__init__()
@@ -24,31 +26,37 @@ class Generate_img_with_text(object):
 		#im.close()
 		#text_width, text_height = draw_text.textsize(text_temp)
 		#print(text_width, text_height)
-		
+		Generate_img_with_text.i += 1
 		# добавим тень к тексту
 		if self.text_color != "black":
 			self.draw_text.text(
-			    (
-			    	(self.img_weight - self.pix_in_1_letter * len(self.text)) * .5 - self.pix_in_1_letter +1 + self.smesh,  
-			    	(self.img_height - self.font_size)*.5 - 2 +1 #height
-			    ),
-			    self.text,
-			    # Добавляем шрифт к изображению
-			    font=self.font,
-			    fill='black')
+				(
+					(self.img_weight - self.pix_in_1_letter * len(self.text)) * .5 - self.pix_in_1_letter +1 + self.smesh,  
+					(self.img_height - self.font_size)*.5 - 2 +1 #height
+				),
+				self.text,
+				# Добавляем шрифт к изображению
+				font=self.font,
+				fill='black')
 
 		self.draw_text.text(
-		    (
-		    	(self.img_weight - self.pix_in_1_letter * len(self.text)) * .5 - self.pix_in_1_letter + self.smesh,  
-		    	(self.img_height - self.font_size)*.5 - 2 #height
-		    ),
-		    self.text,
-		    # Добавляем шрифт к изображению
-		    font=self.font,
-		    fill=self.text_color)
+			(
+				(self.img_weight - self.pix_in_1_letter * len(self.text)) * .5 - self.pix_in_1_letter + self.smesh,  
+				(self.img_height - self.font_size)*.5 - 2 #height
+			),
+			self.text,
+			# Добавляем шрифт к изображению
+			font=self.font,
+			fill=self.text_color)
 		#im.show()
+	@staticmethod
+	def get_created_instances_count():
+		return Generate_img_with_text.i
+
 	def save(self):
+		assert self.text not in Generate_img_with_text.list_png , "I LOVE YOU, i:" + str(Generate_img_with_text.i) + " name:" + self.text
 		self.im.save("i/" + self.text + '.png')
+		Generate_img_with_text.list_png.add(self.text)
 
 #d = Generate_img_with_text("+", background_collor="white", text_color="black", smesh=10, img_weight=20)
 d = Generate_img_with_text("able to", background_collor="#D8D8D8", text_color="black", smesh=12, img_weight=80)
@@ -57,7 +65,8 @@ d = Generate_img_with_text("what", background_collor="#D8D8D8", text_color="blac
 d.save()
 d = Generate_img_with_text("глагол", background_collor="#D8D8D8", text_color="black")
 d.save()
-#d = Generate_img_with_text("was-were", "#22a221")
+d = Generate_img_with_text("was-were", "#22a221")
+d.save()
 d = Generate_img_with_text("I", smesh=10, img_weight=20)#подлежащее
 d.save()
 d = Generate_img_with_text("he", smesh=10, img_weight=40)#подлежащее
@@ -90,7 +99,6 @@ d = Generate_img_with_text("take", "#22a221", smesh=15, img_weight=50)# сказ
 d.save()
 d = Generate_img_with_text("глагол_зелен", "#22a221", smesh=10,)# сказуемое
 d.save()
-
 d = Generate_img_with_text("we", smesh=10, img_weight=40)#подлежащее
 d.save()
 d = Generate_img_with_text("they", smesh=10, img_weight=50)#подлежащее
@@ -101,12 +109,17 @@ d = Generate_img_with_text("be", "#22a221", smesh=10, img_weight=40)# сказу
 d.save()
 d = Generate_img_with_text("wasn't", "#22a221", smesh=8, img_weight=80)# сказуемое
 d.save()
-d = Generate_img_with_text("even", "#C354FF", smesh=8, img_weight=80)# сказуемое
-d.save()
 d = Generate_img_with_text("weren't", "#22a221", smesh=8, img_weight=85)# сказуемое
 d.save()
 d = Generate_img_with_text("not", "#FF3030", smesh=10, img_weight=60)# not
 d.save()
+
+d = Generate_img_with_text("even", "#C354FF", smesh=8, img_weight=80)# сказуемое
+d.save()
+d = Generate_img_with_text("never", "#C354FF", smesh=8, img_weight=80)# сказуемое
+d.save()
 # cd $HOME/simpler;python generate_img_with_text.py
 # git add .;git commit -m "add generate img with text";git push origin
 # pip freeze > requirements.txt
+
+print("ALL IS OK!! get_created_instances_count:", Generate_img_with_text.get_created_instances_count())

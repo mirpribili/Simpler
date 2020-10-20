@@ -28,10 +28,8 @@
 ### Should - стоит, следует:
 - <img src="i\подлежащее.png"> <img src="i\should.png"> <img src="i\глагол_зелен.png">
 - - **I think** <img src="i\we.png"> <img src="i\should.png"> **ASK** that guy
+- - <img src="i\we.png"> <img src="i\should.png"> <img src="i\be.png"> **careful**
 - - <img src="i\you.png"> <img src="i\should.png"> <img src="i\never.png"> **GO** there again
-```diff
-@@ You should never go there again@@
-```
 - <img src="i\should.png"> <img src="i\I.png"> <img src="i\take.png"> **an umbrella?**
 - <img src="i\what.png">  <img src="i\should.png"> <img src="i\I.png"> **WEAR?**
 - <img src="i\I.png"> <img src="i\shouldn't.png"> <img src="i\eat.png"> **so much sugar**
