@@ -73,6 +73,8 @@ d = Generate_img_with_text("able to", background_collor="#D8D8D8", text_color="b
 d.save()
 d = Generate_img_with_text("what", background_collor="#D8D8D8", text_color="black", smesh=12, img_weight=80)
 d.save()
+d = Generate_img_with_text("why", background_collor="#D8D8D8", text_color="black", smesh=10, img_weight=40)
+d.save()
 d = Generate_img_with_text("глагол", background_collor="#D8D8D8", text_color="black")
 d.save()
 d = Generate_img_with_text("to", background_collor="#D8D8D8", text_color="black", smesh=10, img_weight=40)
