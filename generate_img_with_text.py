@@ -1,6 +1,16 @@
 from PIL import Image, ImageDraw, ImageFont
 import time
 
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
 class Generate_img_with_text(object):
 	i = 0
 	list_png = set()
@@ -65,6 +75,8 @@ d = Generate_img_with_text("what", background_collor="#D8D8D8", text_color="blac
 d.save()
 d = Generate_img_with_text("глагол", background_collor="#D8D8D8", text_color="black")
 d.save()
+d = Generate_img_with_text("to", background_collor="#D8D8D8", text_color="black", smesh=10, img_weight=40)
+d.save()
 d = Generate_img_with_text("was-were", "#22a221")
 d.save()
 d = Generate_img_with_text("I", smesh=10, img_weight=20)#подлежащее
@@ -92,6 +104,10 @@ d.save()
 d = Generate_img_with_text("eat", "#22a221", smesh=15, img_weight=50)#will
 d.save()
 d = Generate_img_with_text("сказуемое", "#22a221")# сказуемое
+d.save()
+d = Generate_img_with_text("have", "#22a221", smesh=15, img_weight=50)# сказуемое
+d.save()
+d = Generate_img_with_text("have-has", "#22a221")# сказуемое
 d.save()
 d = Generate_img_with_text("sweam", "#22a221", smesh=10, img_weight=100)# сказуемое
 d.save()
@@ -122,4 +138,6 @@ d.save()
 # git add .;git commit -m "add generate img with text";git push origin
 # pip freeze > requirements.txt
 
-print("ALL IS OK!! get_created_instances_count:", Generate_img_with_text.get_created_instances_count())
+#print("ALL IS OK!! get_created_instances_count:", Generate_img_with_text.get_created_instances_count())
+print(f"{bcolors.OKGREEN}OK!!{bcolors.ENDC} \nget_created_instances_count: {Generate_img_with_text.get_created_instances_count()}")
+

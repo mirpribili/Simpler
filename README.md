@@ -34,6 +34,10 @@
 - <img src="i\what.png">  <img src="i\should.png"> <img src="i\I.png"> **WEAR?**
 - <img src="i\I.png"> <img src="i\shouldn't.png"> <img src="i\eat.png"> **so much sugar**
 
+### Have to - обязан вынужден:
+- <img src="i\подлежащее.png"> <img src="i\have-has.png"> <img src="i\to.png"> <img src="i\глагол.png">
+- - <img src="i\you.png"> <img src="i\have.png"> <img src="i\to.png"> **SHOW** ypur ID at the entrance
+
 
  <span style='color:green'>!Важно.</span> **+** [Подлежащие]()
 
