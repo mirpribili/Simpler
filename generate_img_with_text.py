@@ -53,6 +53,8 @@ class Generate_img_with_text(object):
 #d = Generate_img_with_text("+", background_collor="white", text_color="black", smesh=10, img_weight=20)
 d = Generate_img_with_text("able to", background_collor="#D8D8D8", text_color="black", smesh=12, img_weight=80)
 d.save()
+d = Generate_img_with_text("what", background_collor="#D8D8D8", text_color="black", smesh=12, img_weight=80)
+d.save()
 d = Generate_img_with_text("глагол", background_collor="#D8D8D8", text_color="black")
 d.save()
 #d = Generate_img_with_text("was-were", "#22a221")
@@ -61,6 +63,8 @@ d.save()
 d = Generate_img_with_text("he", smesh=10, img_weight=40)#подлежащее
 d.save()
 d = Generate_img_with_text("she", smesh=10, img_weight=40)#подлежащее
+d.save()
+d = Generate_img_with_text("you", smesh=10, img_weight=40)#подлежащее
 d.save()
 
 d = Generate_img_with_text("will", "orange", smesh=15, img_weight=50)#will
