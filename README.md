@@ -3,6 +3,9 @@
 ### Cпособности в прошлом - Be able to:
 <img src="подлежащее.png"> <img src="+.png"> <img src="was-were.png"> <img src="+.png"> <img src="able to.png"> <img src="глагол.png">
 - <img src="I.png"> <img src="+.png"> <img src="was.png"> <img src="+.png"> <img src="able to.png"> swim **when i was five**
+- - <img src="she.png"> <img src="+.png">
+<img src="was.png"> <img src="+.png"> **even**
+ <img src="able to.png"> get **his autograph**
 - <img src="was.png"><img src="+.png"> <img src="he.png"> <img src="+.png"> <img src="able to.png"> write **when he was four?**
 - <img src="подлежащее.png"> <img src="+.png"> <img src="was-were.png"> <img src="+.png"><img src="not.png"> <img src="+.png"><img src="able to.png"> <img src="глагол.png">
 - - <img src="he.png"> <img src="+.png"> <img src="wasn't.png"> <img src="+.png"><img src="able to.png"> join us **yesterday**
