@@ -43,15 +43,25 @@
 
 ##### ----------------------------------------------------------------------------------------
 
-### Have to - обязан вынужден:
+### Have to - обязан, вынужден, приходится:
 - <img src="i\подлежащее.png"> <img src="i\have-has.png"> <img src="i\to.png"> <img src="i\глагол.png">
 - - <img src="i\you.png"> <img src="i\have.png"> <img src="i\to.png"> **SHOW** ypur ID at the entrance
 - - <img src="i\I.png"> <img src="i\have.png"> <img src="i\to.png">  <img src="i\be.png">  at the office at seven a.m. every day
-- <img src="i\do-does.png"> <img src="i\подлежащее.png"> <img src="i\have.png"> <img src="i\to.png">  <img src="i\глагол.png">
-- - <img src="i\why.png"> <img src="i\do.png"> <img src="i\we.png"> <img src="i\have.png"> <img src="i\to.png"> **get up** so early
+- <img src="i\do-does.png"> <img src="i\подлежащее.png"> <img src="i\have.png"> <img src="i\to.png">  <img src="i\глагол.png">**?**
+- - <img src="i\why.png"> <img src="i\do.png"> <img src="i\we.png"> <img src="i\have.png"> <img src="i\to.png"> **get up** so early **?**
 - <img src="i\подлежащее.png"> <img src="i\don't-doesn't.png"> <img src="i\have.png"> <img src="i\to.png">  <img src="i\глагол.png">
 
 ##### ----------------------------------------------------------------------------------------
+
+##### ----------------------------------------------------------------------------------------
+
+### Have ??? - сделано к настоящему моменту:
+
+- <img src="i\подлежащее.png"> <img src="i\haven't-hasn't.png"> <img src="i\глагол(-ed).png">
+- <img src="i\I.png"> <img src="i\haven't.png"> chek**ED** this suitcase yet
+
+##### ----------------------------------------------------------------------------------------
+
 
  <span style='color:green'>!Важно.</span> **+** [Подлежащие]()
 

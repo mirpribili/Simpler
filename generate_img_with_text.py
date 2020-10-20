@@ -105,8 +105,20 @@ d.save()
 d = Generate_img_with_text("do-does", "orange", smesh=10, img_weight=100)#will
 d.save()
 
+
+
 d = Generate_img_with_text("don't-doesn't", "#FF521E", smesh=10)#will
 d.save()
+d = Generate_img_with_text("haven't-hasn't", "#FF521E", smesh=10)#will
+d.save()
+d = Generate_img_with_text("haven't", "#FF521E", smesh=10)#will
+d.save()
+
+
+
+d = Generate_img_with_text("глагол(-ed)", "#22a221")# сказуемое
+d.save()
+
 
 
 
