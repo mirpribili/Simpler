@@ -51,7 +51,7 @@ class Generate_img_with_text(object):
 		self.im.save("i/" + self.text + '.png')
 
 #d = Generate_img_with_text("+", background_collor="white", text_color="black", smesh=10, img_weight=20)
-d = Generate_img_with_text("able to", background_collor="#D8D8D8", text_color="black", smesh=8, img_weight=80)
+d = Generate_img_with_text("able to", background_collor="#D8D8D8", text_color="black", smesh=12, img_weight=80)
 d.save()
 d = Generate_img_with_text("глагол", background_collor="#D8D8D8", text_color="black")
 d.save()
