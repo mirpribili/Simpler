@@ -33,7 +33,7 @@
 ##### ----------------------------------------------------------------------------------------
 
 ### Should - стоит, следует:
-- <img src="i\подлежащее.png"> <img src="i\should.png"> <img src="i\глагол_зелен.png">
+- <img src="i\подлежащее.png"> <img src="i\should.png"> <img src="i\глагол_.png">
 - - **I think** <img src="i\we.png"> <img src="i\should.png"> **ASK** that guy
 - - <img src="i\we.png"> <img src="i\should.png"> <img src="i\be.png"> **careful**
 - - <img src="i\you.png"> <img src="i\should.png"> <img src="i\never.png"> **GO** there again
@@ -55,10 +55,10 @@
 
 ### Must - должен сделать:
 
-- <img src="i\подлежащее.png"> <img src="i\must.png"> <img src="i\глагол_зелен.png">
+- <img src="i\подлежащее.png"> <img src="i\must.png"> <img src="i\глагол_.png">
 - - <img src="i\we.png"> <img src="i\must.png"> <img src="i\never.png"> **TALK** about this again
-- <img src="i\подлежащее.png"> <img src="i\must.png"> <img src="i\not.png"> <img src="i\глагол_зелен.png">
-- - <img src="i\подлежащее.png"> <img src="i\mustn't.png"> <img src="i\глагол_зелен.png">
+- <img src="i\подлежащее.png"> <img src="i\must.png"> <img src="i\not.png"> <img src="i\глагол_.png">
+- - <img src="i\подлежащее.png"> <img src="i\mustn't.png"> <img src="i\глагол_.png">
 
 
 

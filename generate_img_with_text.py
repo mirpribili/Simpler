@@ -140,7 +140,7 @@ d = Generate_img_with_text("sweam", "#22a221", smesh=10, img_weight=100)# ска
 d.save()
 d = Generate_img_with_text("take", "#22a221", smesh=15, img_weight=65)# сказуемое
 d.save()
-d = Generate_img_with_text("глагол_зелен", "#22a221", smesh=10,)# сказуемое
+d = Generate_img_with_text("глагол_", "#22a221", smesh=10,)# сказуемое
 d.save()
 d = Generate_img_with_text("we", smesh=10, img_weight=40)#подлежащее
 d.save()
