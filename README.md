@@ -27,8 +27,10 @@
 
 ### Should - стоит, следует:
 <img src="i\подлежащее.png"> <img src="i\should.png"> <img src="i\глагол_зелен.png">
+
 <img src="i\should.png"> <img src="i\I.png"> <img src="i\take.png"> **an umbrella**
- <img src="i\I.png"> <img src="i\shouldn't.png"> <img src="i\eat.png"> **so much sugar**
+
+<img src="i\I.png"> <img src="i\shouldn't.png"> <img src="i\eat.png"> **so much sugar**
 
 
  <span style='color:green'>!Важно.</span> **+** [Подлежащие]()
