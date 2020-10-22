@@ -210,6 +210,8 @@ d = Generate_img_with_text("even", "#C354FF")# сказуемое
 d.save()
 d = Generate_img_with_text("never", "#C354FF")# сказуемое
 d.save()
+d = Generate_img_with_text("ever", "#C354FF")# сказуемое
+d.save()
 # cd $HOME/simpler;python generate_img_with_text.py
 # git add .;git commit -m "add generate img with text";git push origin
 # pip freeze > requirements.txt
