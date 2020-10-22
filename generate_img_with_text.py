@@ -96,141 +96,124 @@ class Generate_img_with_text(object):
 		self.im.save("i/" + self.text + '.png')
 		Generate_img_with_text.list_png.add(self.text)
 
-base = {
-	#GRAY
-	'able to':{'background_collor':'#D8D8D8', 'text_color':'black'},
-	# BLUE
-	'I':None,
-	# GRAY
-	#"+":{ 'background_collor':"white", "text_color":"black"},
-
-	"what":{ 'background_collor':"#D8D8D8", "text_color":"black"},
-
-	"why":{ 'background_collor':"#D8D8D8", "text_color":"black"},
-
-	"глагол":{ 'background_collor':"#D8D8D8", "text_color":"black"},
-
-	"to":{ 'background_collor':"#D8D8D8", "text_color":"black"},
+	
 
 
-	# BLUE
-	"he":None,#подлежащее
-	"I'd":None,#подлежащее
+# GRAY
+#d = Generate_img_with_text("+", background_collor="white", text_color="black")
+d = Generate_img_with_text("able to", background_collor="#D8D8D8", text_color="black")
+d.save()
+d = Generate_img_with_text("what", background_collor="#D8D8D8", text_color="black")
+d.save()
+d = Generate_img_with_text("why", background_collor="#D8D8D8", text_color="black")
+d.save()
+d = Generate_img_with_text("глагол", background_collor="#D8D8D8", text_color="black")
+d.save()
+d = Generate_img_with_text("to", background_collor="#D8D8D8", text_color="black")
+d.save()
 
-	"she":None,#подлежащее
-
-	"you":None,#подлежащее
-
-	"the bulgar":None,#подлежащее
-
-
-
-	# ORANGE
-	"had":{ 'background_collor':"orange"},#will
-
-	"will":{ 'background_collor':"orange"},#will
-
-	"must":{ 'background_collor':"orange"},#will
-
-	"could":{ 'background_collor':"orange"},#will
-
-	"couldn't":{ 'background_collor':"orange"},#will
-
-	"should":{ 'background_collor':"orange"},#will
-
-	"shouldn't":{ 'background_collor':"orange"},#will
-
-	"do":{ 'background_collor':"orange"},#will
-
-	"do-does":{ 'background_collor':"orange"},#will
+# BLUE
+d = Generate_img_with_text("I")#подлежащее
+d.save()
+d = Generate_img_with_text("he")#подлежащее
+d.save()
+d = Generate_img_with_text("she")#подлежащее
+d.save()
+d = Generate_img_with_text("you")#подлежащее
+d.save()
+d = Generate_img_with_text("the bulgar")#подлежащее
+d.save()
 
 
-
-	# GREEN - RED
-	"don't-doesn't":{ 'background_collor':"#FF521E"},#will
-	"locked":{ 'background_collor':"#FF521E"},#will
-	"heard":{ 'background_collor':"#FF521E"},#will
-
-	"haven't-hasn't":{ 'background_collor':"#FF521E"},#will
-
-	"haven't":{ 'background_collor':"#FF521E"},#will
-
-	"mustn't":{ 'background_collor':"#FF521E"},#will
-
-
-
-	# GREEN
-	"disappeared":{ 'background_collor':"#22a221"},# сказуемое
-
-	"гл-в-СОВЕРШ-Й ф":{ 'background_collor':"#22a221"},# сказуемое
-
-	"try":{ 'background_collor':"#22a221"},# сказуемое
-
+# ORANGE
+d = Generate_img_with_text("had", "orange")#will
+d.save()
+d = Generate_img_with_text("will", "orange")#will
+d.save()
+d = Generate_img_with_text("must", "orange")#will
+d.save()
+d = Generate_img_with_text("could", "orange")#will
+d.save()
+d = Generate_img_with_text("couldn't", "orange")#will
+d.save()
+d = Generate_img_with_text("should", "orange")#will
+d.save()
+d = Generate_img_with_text("shouldn't", "orange")#will
+d.save()
+d = Generate_img_with_text("do", "orange")#will
+d.save()
+d = Generate_img_with_text("do-does", "orange")#will
+d.save()
 
 
-	# GREEN
-	"call":{ 'background_collor':"#22a221"},#will
-
-	"eat":{ 'background_collor':"#22a221"},#will
-
-	"сказуемое":{ 'background_collor':"#22a221"},# сказуемое
-
-	"have":{ 'background_collor':"#22a221"},# сказуемое
-
-	"have-has":{ 'background_collor':"#22a221"},# сказуемое
-
-	"sweam":{ 'background_collor':"#22a221"},# сказуемое
-
-	"take":{ 'background_collor':"#22a221"},# сказуемое
-
-	"глагол_":{ 'background_collor':"#22a221"},# сказуемое
-
-	"we":None,#подлежащее
-
-	"they":None,#подлежащее
-
-	"was":{ 'background_collor':"#22a221"},# сказуемое
-
-	"be":{ 'background_collor':"#22a221"},# сказуемое
-
-	"wasn't":{ 'background_collor':"#22a221"},# сказуемое
-
-	"weren't":{ 'background_collor':"#22a221"},# сказуемое
-
-	"not":{ 'background_collor':"#FF3030"},# not
-
-	"was-were":{ 'background_collor':"#22a221"},
+# GREEN - RED
+d = Generate_img_with_text("don't-doesn't", "#FF521E")#will
+d.save()
+d = Generate_img_with_text("haven't-hasn't", "#FF521E")#will
+d.save()
+d = Generate_img_with_text("haven't", "#FF521E")#will
+d.save()
+d = Generate_img_with_text("mustn't", "#FF521E")#will
+d.save()
 
 
+# GREEN
+d = Generate_img_with_text("disappeared", "#22a221")# сказуемое
+d.save()
+d = Generate_img_with_text("гл-в-СОВЕРШ-Й ф", "#22a221")# сказуемое
+d.save()
+d = Generate_img_with_text("try", "#22a221")# сказуемое
+d.save()
+d = Generate_img_with_text("called", "#22a221")# сказуемое
+d.save()
+d = Generate_img_with_text("heard", "#22a221")# сказуемое
+d.save()
 
-	# PURPL
-	"even":{ 'background_collor':"#C354FF"},# сказуемое
 
-	"never":{ 'background_collor':"#C354FF"},# сказуемое
+# GREEN
+d = Generate_img_with_text("call", "#22a221")#will
+d.save()
+d = Generate_img_with_text("eat", "#22a221")#will
+d.save()
+d = Generate_img_with_text("сказуемое", "#22a221")# сказуемое
+d.save()
+d = Generate_img_with_text("have", "#22a221")# сказуемое
+d.save()
+d = Generate_img_with_text("have-has", "#22a221")# сказуемое
+d.save()
+d = Generate_img_with_text("sweam", "#22a221")# сказуемое
+d.save()
+d = Generate_img_with_text("take", "#22a221")# сказуемое
+d.save()
+d = Generate_img_with_text("глагол_", "#22a221")# сказуемое
+d.save()
+d = Generate_img_with_text("we")#подлежащее
+d.save()
+d = Generate_img_with_text("they")#подлежащее
+d.save()
+d = Generate_img_with_text("was", "#22a221")# сказуемое
+d.save()
+d = Generate_img_with_text("be", "#22a221")# сказуемое
+d.save()
+d = Generate_img_with_text("wasn't", "#22a221")# сказуемое
+d.save()
+d = Generate_img_with_text("weren't", "#22a221")# сказуемое
+d.save()
+d = Generate_img_with_text("not", "#FF3030")# not
+d.save()
+d = Generate_img_with_text("was-were", "#22a221")
+d.save()
 
 
-}
-for i in base:
-	try:
-		background_collor = base[i]['background_collor']
-	except:
-		background_collor = '#599be0'
-
-	try:
-		text_color = base[i]['text_color']
-	except:
-		text_color = 'white'
-
-	print(i, background_collor, text_color)
-	d = Generate_img_with_text(i, background_collor=background_collor, text_color=text_color)
-	d.save()
-else:
-	print("get_created_instances_count:",Generate_img_with_text.get_created_instances_count())
-
+# PURPL
+d = Generate_img_with_text("even", "#C354FF")# сказуемое
+d.save()
+d = Generate_img_with_text("never", "#C354FF")# сказуемое
+d.save()
 # cd $HOME/simpler;python generate_img_with_text.py
 # git add .;git commit -m "add generate img with text";git push origin
 # pip freeze > requirements.txt
 
 #print("ALL IS OK!! get_created_instances_count:", Generate_img_with_text.get_created_instances_count())
-
+print(f"{bcolors.OKGREEN}OK!!{bcolors.ENDC} \nget_created_instances_count: {Generate_img_with_text.get_created_instances_count()}")
 

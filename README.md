@@ -73,7 +73,7 @@
 - <img src="i\had.png"> <img src="i\подлежащее.png"> <img src="i\гл-в-СОВЕРШ-Й ф.png"> **?**
 - - <img src="i\had.png"> <img src="i\you.png"> <img src="i\heard.png">  the news before he told you**?**
 - - > Ты услышал новости до того, как он сообщил тебе?
-
+- - <img src="i\had.png"> <img src="i\you.png"><img src="i\ever.png"> <img src="i\called.png"> the police until yesterday**?**
 
 
 ##### ----------------------------------------------------------------------------------------
