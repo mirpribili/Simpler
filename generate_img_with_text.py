@@ -170,6 +170,8 @@ d = Generate_img_with_text("called", "#22a221")# сказуемое
 d.save()
 d = Generate_img_with_text("heard", "#22a221")# сказуемое
 d.save()
+d = Generate_img_with_text("turned on", "#22a221")# сказуемое
+d.save()
 
 
 # GREEN
