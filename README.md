@@ -68,7 +68,11 @@
 
 - <img src="i\подлежащее.png"> <img src="i\had.png"> <img src="i\гл-в-СОВЕРШ-Й ф.png">
 - - <img src="i\the bulgar.png"> <img src="i\had.png"> <img src="i\disappeared.png"> by the time we came back
-
+- - <img src="i\I'd.png"> <img src="i\locked.png"> all the windows before I left
+- - Я запер все окна перед тем, как ушел!
+- <img src="i\had.png"> <img src="i\подлежащее.png"> <img src="i\гл-в-СОВЕРШ-Й ф.png"> **?**
+- - <img src="i\had.png"> <img src="i\you.png"> <img src="i\heard.png">  the news before he told you**?**
+- - > Ты услышал новости до того, как он сообщил тебе?
 
 
 
