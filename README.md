@@ -63,8 +63,9 @@
 - - <img src="i\подлежащее.png"> <img src="i\mustn't.png"> <img src="i\глагол_.png">
 
 ##### ----------------------------------------------------------------------------------------
-
-### Действие завершилось РАНЕЕ другого события или времени в прошлом:
+# *
+### Совершенное прошедшее время
+#### Действие завершилось РАНЕЕ другого события или времени в прошлом:
 
 - <img src="i\подлежащее.png"> <img src="i\had.png"> <img src="i\гл-в-СОВЕРШ-Й ф.png">
 - - <img src="i\the bulgar.png"> <img src="i\had.png"> <img src="i\disappeared.png"> by the time we came back
@@ -74,7 +75,9 @@
 - - <img src="i\had.png"> <img src="i\you.png"> <img src="i\heard.png">  the news before he told you**?**
 - - > Ты услышал новости до того, как он сообщил тебе?
 - - <img src="i\had.png"> <img src="i\you.png"> <img src="i\ever.png"> <img src="i\called.png"> the police until yesterday **?**
-
+- <img src="i\подлежащее.png"> <img src="i\hadn't.png"> <img src="i\гл-в-СОВЕРШ-Й ф.png">
+- - <img src="i\I.png"> <img src="i\hadn't.png"> <img src="i\turned on.png"> the alarm I remembered
+- - > Я вспомнил, что я не включил сигнализацию
 
 ##### ----------------------------------------------------------------------------------------
 

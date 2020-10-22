@@ -146,7 +146,7 @@ d = Generate_img_with_text("do-does", "orange")#will
 d.save()
 
 
-# GREEN - RED
+# ORANGE - RED
 d = Generate_img_with_text("don't-doesn't", "#FF521E")#will
 d.save()
 d = Generate_img_with_text("haven't-hasn't", "#FF521E")#will
@@ -154,6 +154,8 @@ d.save()
 d = Generate_img_with_text("haven't", "#FF521E")#will
 d.save()
 d = Generate_img_with_text("mustn't", "#FF521E")#will
+d.save()
+d = Generate_img_with_text("hadn't", "#FF521E")#will
 d.save()
 
 
