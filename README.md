@@ -62,6 +62,14 @@
 - <img src="i\подлежащее.png"> <img src="i\must.png"> <img src="i\not.png"> <img src="i\глагол_.png">
 - - <img src="i\подлежащее.png"> <img src="i\mustn't.png"> <img src="i\глагол_.png">
 
+##### ----------------------------------------------------------------------------------------
+
+### Действие завершилось РАНЕЕ другого события или времени в прошлом:
+
+- <img src="i\подлежащее.png"> <img src="i\had.png"> <img src="i\гл-в-СОВЕРШ-Й ф.png">
+- - <img src="i\the bulgar.png"> <img src="i\had.png"> <img src="i\disappeared.png"> by the time we came back
+
+
 
 
 ##### ----------------------------------------------------------------------------------------
@@ -78,7 +86,7 @@
 
 ### постараюсь:
 
-- <img src="i\I.png"> **TRY** <img src="i\to.png"> come back on Wendsday
+- <img src="i\I.png"> <img src="i\try.png"> <img src="i\to.png"> come back on Wendsday
 
 ##### ----------------------------------------------------------------------------------------
 
@@ -118,7 +126,7 @@
 
 ### Command line
 
-- cd $HOME/simpler
+- **cd $HOME/simpler**
 - **git clone https://github.com/mirpribili/simpler.git**
 - cd simpler
 - git --version

@@ -68,6 +68,7 @@ class Generate_img_with_text(object):
 		self.im.save("i/" + self.text + '.png')
 		Generate_img_with_text.list_png.add(self.text)
 
+# GRAY
 #d = Generate_img_with_text("+", background_collor="white", text_color="black", smesh=10, img_weight=20)
 d = Generate_img_with_text("able to", background_collor="#D8D8D8", text_color="black", smesh=12, img_weight=80)
 d.save()
@@ -79,8 +80,8 @@ d = Generate_img_with_text("глагол", background_collor="#D8D8D8", text_col
 d.save()
 d = Generate_img_with_text("to", background_collor="#D8D8D8", text_color="black", smesh=10, img_weight=40)
 d.save()
-d = Generate_img_with_text("was-were", "#22a221")
-d.save()
+
+# BLUE
 d = Generate_img_with_text("I", smesh=10, img_weight=20)#подлежащее
 d.save()
 d = Generate_img_with_text("he", smesh=10, img_weight=40)#подлежащее
@@ -89,7 +90,13 @@ d = Generate_img_with_text("she", smesh=10, img_weight=40)#подлежащее
 d.save()
 d = Generate_img_with_text("you", smesh=10, img_weight=40)#подлежащее
 d.save()
+d = Generate_img_with_text("the bulgar", smesh=10, img_weight=40)#подлежащее
+d.save()
 
+
+# ORANGE
+d = Generate_img_with_text("had", "orange", smesh=15, img_weight=50)#will
+d.save()
 d = Generate_img_with_text("will", "orange", smesh=15, img_weight=50)#will
 d.save()
 d = Generate_img_with_text("must", "orange", smesh=15, img_weight=80)#will
@@ -108,7 +115,7 @@ d = Generate_img_with_text("do-does", "orange", smesh=10, img_weight=100)#will
 d.save()
 
 
-
+# GREEN - RED
 d = Generate_img_with_text("don't-doesn't", "#FF521E", smesh=10)#will
 d.save()
 d = Generate_img_with_text("haven't-hasn't", "#FF521E", smesh=10)#will
@@ -119,13 +126,16 @@ d = Generate_img_with_text("mustn't", "#FF521E", smesh=10)#will
 d.save()
 
 
-
-d = Generate_img_with_text("глагол(-ed)", "#22a221")# сказуемое
+# GREEN
+d = Generate_img_with_text("disappeared", "#22a221")# сказуемое
+d.save()
+d = Generate_img_with_text("гл-в-СОВЕРШ-Й ф", "#22a221")# сказуемое
+d.save()
+d = Generate_img_with_text("try", "#22a221", smesh=15, img_weight=65)# сказуемое
 d.save()
 
 
-
-
+# GREEN
 d = Generate_img_with_text("call", "#22a221", smesh=15, img_weight=50)#will
 d.save()
 d = Generate_img_with_text("eat", "#22a221", smesh=15, img_weight=50)#will
@@ -156,9 +166,11 @@ d = Generate_img_with_text("weren't", "#22a221", smesh=8, img_weight=85)# ска
 d.save()
 d = Generate_img_with_text("not", "#FF3030", smesh=10, img_weight=60)# not
 d.save()
+d = Generate_img_with_text("was-were", "#22a221")
+d.save()
 
 
-
+# PURPL
 d = Generate_img_with_text("even", "#C354FF", smesh=8, img_weight=80)# сказуемое
 d.save()
 d = Generate_img_with_text("never", "#C354FF", smesh=8, img_weight=80)# сказуемое
