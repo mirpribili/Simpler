@@ -71,25 +71,21 @@
 > Соверенная форма неправильных глаголов:
 
 ```diff
-! 1234567890
-!  1234567890
-! abcdefghyj
-
 ! lose
 @@ lost @@
 
 ! find			! think
-@@ found 		 thought @@
+@@ found 		  thought @@
 
 ! cut			! put
-@@ cut @@		@@ put @@
+@@ cut  		  put @@
 ! read
 @@ read @@ (произносится red)
 
 ! eat 			! take
-@@ eaten @@		@@ taken @@
+@@ eaten  		  taken @@
 ! given 		! write
-@@ given @@		@@ written @@
+@@ given 		  written @@
 
 ! know
 @@ known @@
