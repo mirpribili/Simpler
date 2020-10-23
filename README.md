@@ -31,6 +31,7 @@
 ### Cпособности в будущем:
 #### Will Be able to - Я смогу, я буду уметь:
 - <img src="i\подлежащее.png"> <img src="i\will.png"> <img src="i\be.png"> <img src="i\able to.png"> <img src="i\глагол.png">
+- <img src="i\подлежащее.png"> <img src="i\won't.png"> <img src="i\be.png"> <img src="i\able to.png"> <img src="i\глагол.png">
 
 ##### ----------------------------------------------------------------------------------------
 
