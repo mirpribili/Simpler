@@ -78,26 +78,18 @@
 ! lose
 @@ lost @@
 
-! find
-@@ found @@
-! think
-@@ thought @@
+! find			! think
+@@ found @@		@@ thought @@
 
-! cut
-@@ cut @@
-! put
-@@ put @@
+! cut			! put
+@@ cut @@		@@ put @@
 ! read
 @@ read @@ (произносится red)
 
-! eat
-@@ eaten @@
-! take
-@@ taken @@
-! give
-@@ given @@
-! write
-@@ written @@
+! eat 			! take
+@@ eaten @@		@@ taken @@
+! given 		! write
+@@ given @@		@@ written @@
 
 ! know
 @@ known @@
