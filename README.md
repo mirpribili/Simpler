@@ -66,13 +66,24 @@
 
 ##### ----------------------------------------------------------------------------------------
 
+### Совершенное продолженное время
+#### действие длится уже некоторе время **И** продолжается сейчас:
+- <img src="i\подлежащее.png"> <img src="i\have-has_.png"> <img src="i\been.png"> <img src="i\have_.png"> <img src="i\глагол(-ing).png">
+- - <img src="i\.png"><img src="i\'ve.png"> <img src="i\been.png"> <img src="i\callING.png"> you all morning
+-- > Я звоню тебе все утро
+- <img src="i\have-has_.png"> <img src="i\подлежащее.png"> <img src="i\been.png"> <img src="i\глагол(-ing).png"> **?**
+- - <img src="i\have_.png"> <img src="i\you.png"> <img src="i\been.png"> <img src="i\have_.png"> <img src="i\eavesdropping.png"> **?**
+
+##### ----------------------------------------------------------------------------------------
+
 ### Совершенное будущее время
 #### подчеркнуть, что действие завершится к указанному моменту:
 
 - <img src="i\подлежащее.png"> <img src="i\will.png"> <img src="i\have_.png"> <img src="i\гл-в-СОВЕРШ-Й ф.png">
 - - <img src="i\we.png"> <img src="i\will.png"> <img src="i\have_.png"> <img src="i\movED.png"> to a new apartment **by Monday**
+- - > **К понедельнику**(подчеркнуто) мы переедем в новую квартиру
 - <img src="i\will.png"> <img src="i\подлежащее.png"> <img src="i\have_.png"> <img src="i\гл-в-СОВЕРШ-Й ф.png"> **?**
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) ![подлежащее](i\подлежащее.png) ![won](i\won.png) ![have_](i\have_.png) ![гл-в-СОВЕРШ-Й ф](i\гл-в-СОВЕРШ-Й ф.png)
+- <img src="i\подлежащее.png"> <img src="i\won't.png"> <img src="i\have_.png"> <img src="i\гл-в-СОВЕРШ-Й ф.png"> 
 
 
 

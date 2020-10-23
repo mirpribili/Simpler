@@ -166,6 +166,8 @@ base = [
 	("hadn't", "#FF521E", 0),#will
 
 	("mustn't","#FF521E", 0),#will
+	("'ve","#FF521E", 0),#will
+	("have-has_","#FF521E", 0),#will
 
 
 
@@ -176,6 +178,7 @@ base = [
 	("locked","#22a221", 0),#will
 	("try","#22a221", 0),
 	("turned on","#22a221", 0),
+	("eavesdropping","#22a221", 0),
 
 
 
@@ -216,6 +219,8 @@ base = [
 	("want","#22a221", 0),
 	("left","#22a221", 0), #GREEN
 	("movED","#22a221", 0), #GREEN
+	("глагол(-ing)","#22a221", 0), #GREEN
+	("callING","#22a221", 0), #GREEN
 
 	#RED
 	("not","#FF3030", 0),# not
@@ -237,6 +242,10 @@ base = [
 
 	# blye sky
 	("they're","#23FFF4", 0),
+
+	# yellow
+	("been","yellow", 0),
+
 
 
 ]
