@@ -79,7 +79,7 @@
 @@ lost @@
 
 ! find			! think
-@@ found @@		@@ thought @@
+@@ found 		 thought @@
 
 ! cut			! put
 @@ cut @@		@@ put @@
