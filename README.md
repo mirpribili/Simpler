@@ -106,7 +106,7 @@
 
 ```
 
-- <img src="i\I.png"><img src="i\'ve'.png"> <img src="i\lost.png"> my phone
+- <img src="i\I.png"><img src="i\'ve.png"> <img src="i\lost.png"> my phone
 - > Я потерял свой телефон
 
 
