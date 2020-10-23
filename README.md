@@ -87,7 +87,7 @@
 ### Have ??? - сделано к настоящему моменту:
 
 - <img src="i\подлежащее.png"> <img src="i\haven't-hasn't.png"> <img src="i\глагол(-ed).png">
-- <img src="i\I.png"> <img src="i\haven't.png"> chek**ED** this suitcase yet
+- - <img src="i\I.png"> <img src="i\haven't.png"> chek**ED** this suitcase yet
 
 ##### ----------------------------------------------------------------------------------------
 
