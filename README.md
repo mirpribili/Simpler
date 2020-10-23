@@ -86,6 +86,7 @@
 
 ### Наречия степени и вероятности
 #### Наречия степени:
+> Наречия степени обычно идут **перед клаголами**. Но ставятся **после be и модальных** глаголов.
 
 ```diff
 @@ barely @@
@@ -101,7 +102,13 @@
 ```
 
 - <img src="i\you.png"> <img src="i\barely.png"> <img src="i\touchED.png"> your breakfast
-
+- > Ты едва притронулся к своему завтраку!
+- - <img src="i\they're.png"> <img src="i\almost.png"> there
+- - > Они почти там
+- - <img src="i\they're.png"> <img src="i\almost.png"> there
+- - <img src="i\the hotel.png"> <img src="i\was.png"> <img src="i\pretty.png"> expensive
+- - > Отель был довольно-таки дорогой
+- - <img src="i\they.png"> <img src="i\didn't.png"> <img src="i\really.png"> <img src="i\known.png"> each other
 
 ##### ----------------------------------------------------------------------------------------
 
@@ -190,4 +197,4 @@
 #### STEP2
 - **cd $HOME/simpler;python generate_img_with_text.py**
 - **cd $HOME/selenium_course;sudo python os_mint.py**
-
+- **cd $HOME/simpler;python generate_img_with_text.py;git add .;git commit -m "replace generate img function from BAD to COOL";git push origin**

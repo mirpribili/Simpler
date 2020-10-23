@@ -118,6 +118,7 @@ base = [
 
 	# BLUE
 	('he',0,0),#подлежащее
+	('the hotel',0,0),#подлежащее
 	("I'd",0,0),#подлежащее
 
 	("she",0,0),#подлежащее
@@ -150,10 +151,11 @@ base = [
 
 
 
-	# GREEN - RED
+	# ORANGE - RED
 	("don't-doesn't","#FF521E", 0),#will
 	("called","#FF521E", 0),#will
 	("heard","#FF521E", 0),#will
+	("didn't","#FF521E", 0),#will
 
 	("haven't-hasn't","#FF521E", 0),#will
 
@@ -176,6 +178,7 @@ base = [
 
 	# GREEN
 	("call","#22a221", 0),#will
+	("known","#22a221", 0),#will
 
 	("eat","#22a221", 0),#will
 
@@ -217,6 +220,12 @@ base = [
 	("never","#C354FF", 0),# сказуемое
 	("ever","#C354FF", 0),# сказуемое
 	("barely","#C354FF", 0),# сказуемое
+	("almost","#C354FF", 0),# сказуемое
+	("pretty","#C354FF", 0),# сказуемое
+	("really","#C354FF", 0),# сказуемое
+
+	# blye sky
+	("they're","#23FFF4", 0),# сказуемое
 
 
 ]
