@@ -179,10 +179,7 @@ base = [
 	("try","#22a221", 0),
 	("turned on","#22a221", 0),
 	("eavesdropping","#22a221", 0),
-
-
-
-	# GREEN
+	("lost","#22a221", 0),
 	("call","#22a221", 0),#will
 	("known","#22a221", 0),#will
 

@@ -66,13 +66,63 @@
 
 ##### ----------------------------------------------------------------------------------------
 
+## Непрвильные глаголы в совершенном времени  ч. 3 - 4
+#### действие длится уже некоторе время **И** продолжается сейчас:
+> Соверенная форма неправильных глаголов:
+
+```diff
+! lose
+@@ lost @@
+
+! find
+@@ found @@
+! think
+@@ thought @@
+
+! cut
+@@ cut @@
+! put
+@@ put @@
+! read
+@@ read @@ (произносится red)
+
+! eat
+@@ eaten @@
+! take
+@@ taken @@
+! give
+@@ given @@
+! write
+@@ written @@
+
+! know
+@@ known @@
+
+! tell
+@@ told @@
+
+! say
+@@ said @@
+
+```
+
+- <img src="i\I.png"><img src="i\'ve'.png"> <img src="i\lost.png"> my phone
+- > Я потерял свой телефон
+
+
+##### ----------------------------------------------------------------------------------------
+
 ### Совершенное продолженное время
 #### действие длится уже некоторе время **И** продолжается сейчас:
 - <img src="i\подлежащее.png"> <img src="i\have-has_.png"> <img src="i\been.png"> <img src="i\have_.png"> <img src="i\глагол(-ing).png">
-- - <img src="i\.png"><img src="i\'ve.png"> <img src="i\been.png"> <img src="i\callING.png"> you all morning
+- - <img src="i\I.png"><img src="i\'ve.png"> <img src="i\been.png"> <img src="i\callING.png"> you all morning
 -- > Я звоню тебе все утро
 - <img src="i\have-has_.png"> <img src="i\подлежащее.png"> <img src="i\been.png"> <img src="i\глагол(-ing).png"> **?**
 - - <img src="i\have_.png"> <img src="i\you.png"> <img src="i\been.png"> <img src="i\have_.png"> <img src="i\eavesdropping.png"> **?**
+
+#### действие НЕ ВЫПОЛНЯЛОСЬ до настоящего момента:
+- <img src="i\подлежащее.png"> <img src="i\haven't-hasn't.png"> <img src="i\been.png"> <img src="i\глагол(-ing).png">
+- > Я не подслушивал
 
 ##### ----------------------------------------------------------------------------------------
 
