@@ -110,6 +110,26 @@
 - - > Отель был довольно-таки дорогой
 - - <img src="i\they.png"> <img src="i\didn't.png"> <img src="i\really.png"> <img src="i\known.png"> each other
 
+#### Наречия вероятности:
+> **Maybe** и **perhaps** ставятся **в начало предложения**. **Остальные** - **перед глаголом** или **после be**
+
+```diff
+@@ maybe @@
+! может быть
+@@ perhaps, probably @@
+! возмножно
+@@ definitely @@
+! определенно
+```
+
+- <img src="i\perhaps.png"> <img src="i\you.png"> <img src="i\droppedED.png"> it on the street
+- > Возможно, ты уронил его на улице
+- - <img src="i\maybe.png"> <img src="i\I.png"> <img src="i\don't.png"> <img src="i\want.png"> to go to college
+- - > Может быть, я не хочу идти в колледж
+- - <img src="i\I.png"> <img src="i\probably.png"> <img src="i\left.png"> <img src="i\want.png"> to go to college
+- - <img src="i\we'll.png"> <img src="i\definitely.png"> <img src="i\call.png"> you
+- - > мы определнно позвоним вам
+
 ##### ----------------------------------------------------------------------------------------
 
 ### Have ??? - сделано к настоящему моменту:
