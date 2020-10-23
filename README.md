@@ -63,9 +63,20 @@
 - <img src="i\подлежащее.png"> <img src="i\must.png"> <img src="i\not.png"> <img src="i\глагол_.png">
 - - <img src="i\подлежащее.png"> <img src="i\mustn't.png"> <img src="i\глагол_.png">
 
+
 ##### ----------------------------------------------------------------------------------------
 
-# *
+### Совершенное будущее время
+#### подчеркнуть, что действие завершится к указанному моменту:
+
+- <img src="i\подлежащее.png"> <img src="i\will.png"> <img src="i\have_.png"> <img src="i\гл-в-СОВЕРШ-Й ф.png">
+- - <img src="i\we.png"> <img src="i\will.png"> <img src="i\have_.png"> <img src="i\movED.png"> to a new apartment **by Monday**
+- <img src="i\will.png"> <img src="i\подлежащее.png"> <img src="i\have_.png"> <img src="i\гл-в-СОВЕРШ-Й ф.png"> **?**
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) [подлежащее](i\подлежащее.png) [won](i\won.png) [have_](i\have_.png) [гл-в-СОВЕРШ-Й ф](i\гл-в-СОВЕРШ-Й ф.png)
+
+
+
+##### ----------------------------------------------------------------------------------------
 
 ### Совершенное прошедшее время
 #### Действие завершилось РАНЕЕ другого события или времени в прошлом:
@@ -90,7 +101,7 @@
 
 ```diff
 @@ barely @@
-! едва
+! едва, (еле)
 @@ almost @@
 ! почти
 @@ pretty @@
@@ -98,17 +109,19 @@
 @@ extrmely @@
 ! крайне
 @@ really @@
-! очень, действительно
+! очень, действительно, (на самом деле)
 ```
 
 - <img src="i\you.png"> <img src="i\barely.png"> <img src="i\touchED.png"> your breakfast
 - > Ты едва притронулся к своему завтраку!
 - - <img src="i\they're.png"> <img src="i\almost.png"> there
 - - > Они почти там
-- - <img src="i\they're.png"> <img src="i\almost.png"> there
+- - <img src="i\we.png"> <img src="i\could.png"> <img src="i\barely.png"> get to the exit
 - - <img src="i\the hotel.png"> <img src="i\was.png"> <img src="i\pretty.png"> expensive
 - - > Отель был довольно-таки дорогой
 - - <img src="i\they.png"> <img src="i\didn't.png"> <img src="i\really.png"> <img src="i\known.png"> each other
+- <img src="i\you.png"> <img src="i\barely.png"> <img src="i\touchED.png"> your breakfast
+- > Ты едва притронулся к своему завтраку!
 
 #### Наречия вероятности:
 > **Maybe** и **perhaps** ставятся **в начало предложения**. **Остальные** - **перед глаголом** или **после be**
@@ -126,7 +139,7 @@
 - > Возможно, ты уронил его на улице
 - - <img src="i\maybe.png"> <img src="i\I.png"> <img src="i\don't.png"> <img src="i\want.png"> to go to college
 - - > Может быть, я не хочу идти в колледж
-- - <img src="i\I.png"> <img src="i\probably.png"> <img src="i\left.png"> <img src="i\want.png"> to go to college
+- - <img src="i\I.png"> <img src="i\probably.png"> <img src="i\left.png"> to go to college
 - - <img src="i\we'll.png"> <img src="i\definitely.png"> <img src="i\call.png"> you
 - - > мы определнно позвоним вам
 
@@ -157,6 +170,9 @@
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
 
 ```diff
+- next week
++ НА следующей неделе
+
 - from there
 + оттуда
 
@@ -218,3 +234,12 @@
 - **cd $HOME/simpler;python generate_img_with_text.py**
 - **cd $HOME/selenium_course;sudo python os_mint.py**
 - **cd $HOME/simpler;python generate_img_with_text.py;git add .;git commit -m "replace generate img function from BAD to COOL";git push origin**
+
+
+
+
+
+
+
+
+
