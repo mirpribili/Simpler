@@ -155,6 +155,7 @@ base = [
 	# ORANGE - RED
 	("don't-doesn't","#FF521E", 0),#will
 	("called","#FF521E", 0),#will
+	("don't","#FF521E", 0),#will
 	("heard","#FF521E", 0),#will
 	("didn't","#FF521E", 0),#will
 
@@ -230,6 +231,7 @@ base = [
 	("really","#C354FF", 0),# сказуемое
 	("probably","#C354FF", 0),# сказуемое
 	("definitely","#C354FF", 0),# сказуемое
+	("maybe","#C354FF", 0),# сказуемое
 
 	# blye sky
 	("they're","#23FFF4", 0),# сказуемое
