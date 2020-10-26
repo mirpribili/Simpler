@@ -150,6 +150,7 @@ base = [
 	("do-does","orange",0),#will
 	("won't","orange",0),#will
 	("have_","orange",0),#will
+	("have-has_","orange", 0),#will
 
 
 
@@ -167,7 +168,7 @@ base = [
 
 	("mustn't","#FF521E", 0),#will
 	("'ve","#FF521E", 0),#will
-	("have-has_","#FF521E", 0),#will
+
 
 
 
@@ -236,6 +237,8 @@ base = [
 	("probably","#C354FF", 0),
 	("definitely","#C354FF", 0),
 	("maybe","#C354FF", 0),
+	("already","#C354FF", 0),
+	("yet","#C354FF", 0),
 
 	# blye sky
 	("they're","#23FFF4", 0),

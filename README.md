@@ -1,5 +1,25 @@
 # Simpler
 
+
+# *
+## Совершенное или простое время?
+
+## Наречия для совершенного времени
+##### ----------------------------------------------------------------------------------------
+- <img src="i\already.png">(уже, перед -> ) <img src="i\глагол.png">
+- <img src="i\ever.png">(перед -> ) <img src="i\глагол.png">
+- <img src="i\never.png">(перед -> ) <img src="i\глагол.png">
+
+- **в конце предложения** <img src="i\yet.png">(еще)
+@@ for @@
+! в течение
+@@ since @@
+! с какого-то момента
+@@ never @@
+! никогда
+@@ so far @@
+! пока что, до сих пор(в конце или начале преддложения)
+
 ## УМЕНИЯ И ОБЯЗАННОСТИ
 ##### ----------------------------------------------------------------------------------------
 
@@ -66,35 +86,47 @@
 
 ##### ----------------------------------------------------------------------------------------
 
-## Непрвильные глаголы в совершенном времени  ч. 3 - 4
+## Непрвильные глаголы в совершенном времени  ч. 1 - 2 - 3 - 4
 #### действие длится уже некоторе время **И** продолжается сейчас:
 > Соверенная форма неправильных глаголов:
 
 ```diff
-! lose
-@@ lost @@
+!  lose			! be			! do			! go
+@@ lost 		  been			  done			! gone @@
 
-! find			! think
-@@ found 		  thought @@
+!  find			! think			! have
+@@ found 		  thought 		  had @@
 
-! cut			! put
-@@ cut  		  put @@
-! read
+!  see			! hear			! feel
+@@ seen 		  heard 		  felt @@
+
+!  cut			! put 			! come
+@@ cut  		  put 		      come @@
+!  read
 @@ read @@ (произносится red)
 
-! eat 			! take
+!  eat 			! take
 @@ eaten  		  taken @@
-! given 		! write
-@@ given 		  written @@
+!  given 		! write  		! wake 
+@@ given 		  written  		  woken @@
 
-! know
+!  know
 @@ known @@
 
-! tell
+!  tell
 @@ told @@
 
-! say
+!  say
 @@ said @@
+
+!  meet
+@@ met @@
+
+!  leave		! sleep
+@@ left 		  slept @@
+
+!  make
+@@ made @@		  
 
 ```
 
@@ -106,11 +138,11 @@
 
 ### Совершенное продолженное время
 #### действие длится уже некоторе время **И** продолжается сейчас:
-- <img src="i\подлежащее.png"> <img src="i\have-has_.png"> <img src="i\been.png"> <img src="i\have_.png"> <img src="i\глагол(-ing).png">
+- <img src="i\подлежащее.png"> <img src="i\have-has_.png"> <img src="i\been.png"> <img src="i\глагол(-ing).png">
 - - <img src="i\I.png"><img src="i\'ve.png"> <img src="i\been.png"> <img src="i\callING.png"> you all morning
 -- > Я звоню тебе все утро
 - <img src="i\have-has_.png"> <img src="i\подлежащее.png"> <img src="i\been.png"> <img src="i\глагол(-ing).png"> **?**
-- - <img src="i\have_.png"> <img src="i\you.png"> <img src="i\been.png"> <img src="i\have_.png"> <img src="i\eavesdropping.png"> **?**
+- - <img src="i\have_.png"> <img src="i\you.png"> <img src="i\been.png"> <img src="i\eavesdropping.png"> **?**
 
 #### действие НЕ ВЫПОЛНЯЛОСЬ до настоящего момента:
 - <img src="i\подлежащее.png"> <img src="i\haven't-hasn't.png"> <img src="i\been.png"> <img src="i\глагол(-ing).png">
