@@ -18,7 +18,7 @@
 
 - **Опишиите, что сделано к настоящему моменту, (не вадно когда):
 - <img src="i\подлежащее.png"> <img src="i\have-has_.png"> <img src="i\глагол(-ed).png">
-- - <img src="i\I.png"> <img src="i\have.png"> <img src="i\finishED.png"> the renovation
+- - <img src="i\I.png"> <img src="i\have_.png"> <img src="i\finishED.png"> the renovation
 - <img src="i\have-has_.png"> <img src="i\подлежащее.png"> <img src="i\глагол(-ed).png"> **?**
 - <img src="i\подлежащее.png"> <img src="i\haven't-hasn't.png"> <img src="i\глагол(-ed).png">
 
