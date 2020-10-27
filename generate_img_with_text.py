@@ -219,6 +219,8 @@ base = [
 	("movED","#22a221", 0), #GREEN
 	("глагол(-ing)","#22a221", 0), #GREEN
 	("callING","#22a221", 0), #GREEN
+	("watchED","#22a221", 0), #GREEN
+	("finishED","#22a221", 0), #GREEN
 
 	#RED
 	("not","#FF3030", 0),# not
