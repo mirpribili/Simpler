@@ -134,6 +134,7 @@ base = [
 	("had","orange",0),#will
 
 	("will","orange",0),#will
+	("did","orange",0),#will
 
 	("must","orange",0),#will
 
@@ -160,6 +161,8 @@ base = [
 	("don't","#FF521E", 0),#will
 	("heard","#FF521E", 0),#will
 	("didn't","#FF521E", 0),#will
+	("'m","#FF521E", 0),#will
+	("'ll","#FF521E", 0),#will
 
 	("haven't-hasn't","#FF521E", 0),#will
 
@@ -173,6 +176,7 @@ base = [
 
 
 	# GREEN
+	("buy","#22a221", 0),
 	("disappeared","#22a221", 0),
 
 	("гл-в-СОВЕРШ-Й ф","#22a221", 0),
@@ -207,6 +211,7 @@ base = [
 	("was","#22a221", 0),
 
 	("be","#22a221", 0),
+	("get","#22a221", 0),
 
 	("wasn't","#22a221", 0),
 
@@ -241,6 +246,7 @@ base = [
 	("maybe","#C354FF", 0),
 	("already","#C354FF", 0),
 	("yet","#C354FF", 0),
+	("usually","#C354FF", 0),
 
 	# blye sky
 	("they're","#23FFF4", 0),
