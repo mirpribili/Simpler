@@ -108,6 +108,7 @@ base = [
 	#"+","white","black"),
 
 	("what","#D8D8D8","black"),
+	("how","#D8D8D8","black"),
 
 	("why","#D8D8D8","black"),
 
