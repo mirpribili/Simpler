@@ -119,6 +119,7 @@ base = [
 
 	# BLUE
 	('he',0,0),#подлежащее
+	('if it',0,0),#подлежащее
 	('the hotel',0,0),#подлежащее
 	("I'd",0,0),#подлежащее
 
@@ -133,6 +134,8 @@ base = [
 
 	# ORANGE
 	("had","orange",0),#will
+	("would","orange",0),#will
+	("'d'","orange",0),#will
 
 	("will","orange",0),#will
 	("did","orange",0),#will
@@ -163,6 +166,7 @@ base = [
 	("heard","#FF521E", 0),#will
 	("didn't","#FF521E", 0),#will
 	("'m","#FF521E", 0),#will
+	("wouldn't","#FF521E", 0),#will
 	("'ll","#FF521E", 0),#will
 
 	("haven't-hasn't","#FF521E", 0),#will
@@ -179,6 +183,8 @@ base = [
 	# GREEN
 	("buy","#22a221", 0),
 	("disappeared","#22a221", 0),
+	("do","#22a221", 0),
+	("hear","#22a221", 0),
 
 	("гл-в-СОВЕРШ-Й ф","#22a221", 0),
 	("locked","#22a221", 0),#will
@@ -227,6 +233,7 @@ base = [
 	("callING","#22a221", 0), #GREEN
 	("watchED","#22a221", 0), #GREEN
 	("finishED","#22a221", 0), #GREEN
+	("give","#22a221", 0), #GREEN
 
 	#RED
 	("not","#FF3030", 0),# not

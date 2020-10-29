@@ -386,11 +386,35 @@
 
 ##### ----------------------------------------------------------------------------------------
 
-### Have ??? - сделано к настоящему моменту:
+### Сослагательное наклонение = Would ( + бы):
+- <img src="i\подлежащее.png"> <img src="i\would.png"> <img src="i\глагол.png">
+- - <img src="i\I.png"> <img src="i\would.png"> <img src="i\do.png"> anything for pizza
+- - > Я БЫ сделал что угодно для пиццы
+- **Рядом с местоименеием сокращается до 'd**
+- <img src="i\he.png"><img src="i\'d.png"> <img src="i\sleep.png"> till lunchtime
+- > Он спал БЫ до обеда
+- <img src="i\would.png"> <img src="i\подлежащее.png"> <img src="i\глагол.png"> **?**
+- - Would you like more cake?
+- - > Вы бы хотели еще пирога?
+- <img src="i\подлежащее.png"> <img src="i\wouldn't.png"> <img src="i\глагол.png">
 
-- <img src="i\подлежащее.png"> <img src="i\haven't-hasn't.png"> <img src="i\глагол(-ed).png">
-- - <img src="i\I.png"> <img src="i\haven't.png"> chek**ED** this suitcase yet
+##### ----------------------------------------------------------------------------------------
 
+### Условные предложения о настоящем:
+##### При каком условии **сейчас наступило БЫ** указанное событие:
+###### IF + условие в прошедшем времени + событие с WOULD
+
+- **IF** <img src="i\I.png"> **won** the lottery <img src="i\I.png"><img src="i\'d.png"> **spend**
+the money on myself
+- > если бы я выйграл в лотерею, я бы потратил деньги на себя
+- <img src="i\I.png"><img src="i\'d.png"> **do** everything differentLY **if** <img src="i\I.png"> **HAD** another chance
+
+###### в условиях с глаголом BE он с любым подлежащим стоит в форме WERE
+- **IF** <img src="i\I.png"> <img src="i\were.png"> you <img src="i\I.png"><img src="i\'d.png"> <img src="i\give.png"> this money to charity
+- > если бы я был тобой, я бы отдал эти деньги на благотворительность
+- <img src="i\if it.png"> <img src="i\were.png"> raining outside <img src="i\we.png"><img src="i\'d.png"> <img src="i\hear.png"> it
+- - We'd stay longer if we **didn't have** go to work tomorrow
+- - > мы бы остались подольше, если бы не должны были идти на работу завтра
 
 ##### ----------------------------------------------------------------------------------------
 
