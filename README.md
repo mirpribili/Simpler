@@ -310,10 +310,14 @@
 
 ### Нречия образа действия - конец предложения:
 - **Образуются так: прилагательное(+LY)**
+
 ```diff
-! quick 				 @@ loudly @@ @@ quietly   @@ тихо
-@@ quickly @@ быстро	 @@ slowly @@ @@ carefully @@ @@ happyly @@ 
+! quick 			
+@@ quickly @@ быстро
+@@ quietly @@ тихо
+@@ slowly carefully happyly loudly @@
 ```
+
 - She closed the door quietly
 - - > Она тихо закрыла дверь
 
@@ -372,9 +376,9 @@
 > твой кот стал толще
 
 #### Степени сравнения - ИСКЛЮЧЕНИЯ:
-good - BETTER - **THE BEST**
-bad - WORSE - **THE WORST**
-far - FURTHER / FARTHER - **THE FURTHEST / THE FARTHEST**
+- good - BETTER - **THE BEST**
+- bad - WORSE - **THE WORST**
+- far - FURTHER / FARTHER - **THE FURTHEST / THE FARTHEST**
 > далекий - ДАЛЬШЕ - **САМЫЙ ДАЛЬНИЙ**
 
 
@@ -447,6 +451,7 @@ far - FURTHER / FARTHER - **THE FURTHEST / THE FARTHEST**
 - git status
 - git add .;git commit -m "add readme";git push origin
 - **git add .;git commit -m "replace readme";git push origin**
+- **git push origin 201029_hendlers_filters**
 
 [git-formatting-syntax](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax)
 
