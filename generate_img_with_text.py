@@ -135,7 +135,7 @@ base = [
 	# ORANGE
 	("had","orange",0),#will
 	("would","orange",0),#will
-	("'d'","orange",0),#will
+	("'d","orange",0),#will
 
 	("will","orange",0),#will
 	("did","orange",0),#will
@@ -183,6 +183,7 @@ base = [
 	# GREEN
 	("buy","#22a221", 0),
 	("disappeared","#22a221", 0),
+	("sleep","#22a221", 0),
 
 	("hear","#22a221", 0),
 
