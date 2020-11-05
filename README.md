@@ -249,7 +249,7 @@
 - - <img src="i\I'd.png"> <img src="i\locked.png"> all the windows before I left
 - - > Я запер все окна перед тем, как ушел!
 - <img src="i\had.png"> <img src="i\подлежащее.png"> <img src="i\гл-в-СОВЕРШ-Й ф.png"> **?**
-- - <img src="i\had.png"> <img src="i\you.png"> <img src="i\heard.png">  the news before he told you**?**
+- - <img src="i\had.png"> <img src="i\you.png"> <img src="i\heard.png">  the news before he told**?**
 - - > Ты услышал новости до того, как он сообщил тебе?
 - - <img src="i\had.png"> <img src="i\you.png"> <img src="i\ever.png"> <img src="i\called.png"> the police until yesterday **?**
 - <img src="i\подлежащее.png"> <img src="i\hadn't.png"> <img src="i\гл-в-СОВЕРШ-Й ф.png">
@@ -382,7 +382,13 @@
 > далекий - ДАЛЬШЕ - **САМЫЙ ДАЛЬНИЙ**
 
 
-
+#### Примеры
+- really bad
+> очень плохо
+- worst idea
+> худшая
+- much better
+> гораздо лучше
 
 ##### ----------------------------------------------------------------------------------------
 
@@ -418,11 +424,25 @@ the money on myself
 
 ##### ----------------------------------------------------------------------------------------
 
+### Вероятность событий
+- Если событие **вполне** **может быть** (?be?), то используются **may, might, could**
+- <img src="i\подлежащее.png"> <img src="i\may_might_could.png"> <img src="i\глагол_.png">
+- - <img src="i\it.png"> <img src="i\might.png"> <img src="i\rain.png"> tomorrow
+- - > Завтра может пойти дождь
+- Слова, обозначающие уверенность: **should, must** - должны, **can't** - не может
+- <img src="i\подлежащее.png"> <img src="i\should_must_can't.png"> <img src="i\глагол_.png">
+
 ##### ----------------------------------------------------------------------------------------
 
 ### постараюсь:
 
 - <img src="i\I.png"> <img src="i\try.png"> <img src="i\to.png"> come back on Wendsday
+
+##### прямо передо мной
+- right **in front of** me
+
+##### прямо за углом
+- right around the corner
 
 ##### ----------------------------------------------------------------------------------------
 
