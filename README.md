@@ -1,13 +1,83 @@
 # Simpler
 
 # Pre-intermediate
-# 15
+# 11
+
+##### ----------------------------------------------------------------------------------------
+
+### Безличные предложения
+- если нельзя определить, кто выполняет действие, используется связка **it + be**:
+- <img src="i\it.png"> <img src="i\is_was.png"> **...**
+- - <img src="i\it.png"> <img src="i\is.png"> cold
+- <img src="i\it.png"> <img src="i\will.png"> <img src="i\be.png"> **...**
+- <img src="i\it.png"> <img src="i\will.png"> <img src="i\be.png"> hot there
+
+- конструкция вопроса без явного объекта, выполняющего действие:
+- <img src="i\will.png"> <img src="i\it.png"> <img src="i\be.png"> **...**
+- - will it be cold there?
+- - > Там будет холодно?
+- <img src="i\is_was.png"> <img src="i\it.png"> **...**
+- - was it hot?
+- - > Было жарко?
+
+- Отрицание без явного объекта, выполняющего действие:
+- <img src="i\it.png"> <img src="i\won't.png"> <img src="i\be.png"> **...**
+- <img src="i\it.png"> <img src="i\is_was.png"> <img src="i\not.png"> **...**
+
+
+- Безличные предложения с глаголом:
+```diff
+@@ get @@ - становиться
+@@ rain @@ - идет дождь
+@@ snow @@ - идет снег
+
+```
+- it's raining
+- - > идет дождь
+
+##### ----------------------------------------------------------------------------------------
+
+### Оборот There is
+
+- Если ВАЖНО не где находится предмет, а **что находится** в указанном месте:
+- <img src="i\There.png"> <img src="i\is_was.png">  <img src="i\подлежащее.png">  <img src="i\место.png"> 
+- - <img src="i\There.png"> <img src="i\is.png">  <img src="i\spider.png">  on the wall
+- <img src="i\is_was.png"> <img src="i\There.png">  <img src="i\подлежащее.png">  <img src="i\место.png"> **?**
+- <img src="i\There.png"> <img src="i\is_was.png"> <img src="i\not.png">  <img src="i\подлежащее.png">  <img src="i\место.png"> 
+
+#### Оборот There is в будующем времени
+- <img src="i\There.png"> <img src="i\will.png">  <img src="i\be.png">  <img src="i\подлежащее.png">
+- <img src="i\will.png"> <img src="i\There.png"> <img src="i\be.png">  <img src="i\подлежащее.png"> **?**
+- <img src="i\There.png"> <img src="i\won't.png">  <img src="i\be.png">  <img src="i\подлежащее.png">
+
+
+##### ----------------------------------------------------------------------------------------
+
+### Связки глаголов - Инфинитив
+- <img src="i\основной_глагол.png">  <img src="i\to+глагол.png">(= инфинитив [нач форма])
+-  <img src="i\I.png">  <img src="i\want.png"> **to sleep**
+- He did it to get your attention
+- > Он сделала это **чтобы** привлечь твое внимание
+
+##### ----------------------------------------------------------------------------------------
+
+### Перенаправление действия
+- Если между **глаголом** и **инфинитивом** поставить объект, **ТО** он начнет выполнять действие в **инфинитиве**
+- <img src="i\глагол_.png"> <img src="i\объект.png"> <img src="i\to+глагол.png">
+- - <img src="i\I.png"> <img src="i\want.png"> **you** *to help* me
+- - > я хочу что бы ТЫ помог мне
+
+- инфинити может стоять также после прилагательных и существительных
+- - it's easy to say
+- - > это легко сказать
+- - it's good to be here again
+- - > Хорошо быть здесь снова
 
 ##### ----------------------------------------------------------------------------------------
 
 ### Связки глаголов - Герундий (может принимать роль существительного)
 
-- <img src="i\осталисьновной_глагол.png"> <img src="i\глагол+ING.png">(= герундий)
+- <img src="i\основной_глагол.png"> <img src="i\глагол+ING.png">(= герундий)
 - - <img src="i\I.png"> <img src="i\enjoy.png"> cook**ing**
 - <img src="i\learning_English.png"> <img src="i\is.png"> easy
 
