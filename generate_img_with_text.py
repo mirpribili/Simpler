@@ -111,6 +111,8 @@ base = [
 
 	("глагол+ING","#D8D8D8","black"),
 	("There","#D8D8D8","black"),
+	("Could you","#D8D8D8","black"),
+	("Please","#D8D8D8","black"),
 	("объект","#D8D8D8","black"),
 	("to+глагол","#D8D8D8","black"),
 	("what","#D8D8D8","black"),
@@ -176,6 +178,8 @@ base = [
 	# ORANGE - RED
 	("don't-doesn't","#FF521E", 0),#will
 	("called","#FF521E", 0),#will
+	("cannot","#FF521E", 0),#will
+	("can't","#FF521E", 0),#will
 	("don't","#FF521E", 0),#will
 	("heard","#FF521E", 0),#will
 	("didn't","#FF521E", 0),#will
