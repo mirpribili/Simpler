@@ -110,7 +110,9 @@ base = [
 	#"+","white","black"),
 
 	("глагол+ING","#D8D8D8","black"),
+	("прилагательное","#D8D8D8","black"),
 	("There","#D8D8D8","black"),
+	("вопросительное _слово","#D8D8D8","black"),
 	("Could you","#D8D8D8","black"),
 	("Please","#D8D8D8","black"),
 	("объект","#D8D8D8","black"),
@@ -200,6 +202,7 @@ base = [
 
 	# GREEN
 	("buy","#22a221", 0),
+	("do-does_","#22a221", 0),
 	("is_was","#22a221", 0),
 	("место","#22a221", 0),
 	("is","#22a221", 0),
@@ -281,6 +284,7 @@ base = [
 	("maybe","#C354FF", 0),
 	("already","#C354FF", 0),
 	("yet","#C354FF", 0),
+	("наречие","#C354FF", 0),
 	("usually","#C354FF", 0),
 
 	# blye sky
