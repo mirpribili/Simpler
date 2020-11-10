@@ -161,6 +161,7 @@ base = [
 	("must","orange",0),#will
 
 	("could","orange",0),#will
+	("can","orange",0),#will
 
 	("couldn't","orange",0),#will
 
