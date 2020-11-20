@@ -93,11 +93,6 @@ class Singleton_BD(object):
         pass
 
     @print_all_rules_with_comment
-    def print_all_rules_yeld(self):
-        for rule in self.rules:
-            yield ["ПРАВИЛО: " + rule, "ПРИМЕРЫ:"]
-
-    @print_all_rules_with_comment
     def print_rules(self, rules="all"):
         if rules is "all":
             rules = self.general_rules
