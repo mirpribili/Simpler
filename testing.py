@@ -6,11 +6,16 @@ def print_all_rules_with_comment(method_to_decorate):
 		print("="*30)
 		print("Загружаю все правила")
 		print("-"*30)
+		text = [
+			"ПРАВИЛО: ",
+			"ПРИМЕРЫ: ",
+			"ТЕГИ: ",
+			"МАРКЕР: "]
 		for i, rules_examples_and_outher in enumerate(method_to_decorate(*args, **kwargs)):#self, rules=rules
 			if i % 5 == 0 and i > 0:
 				input()
-			for element in rules_examples_and_outher:
-				print("\t" + element)
+			for j, element in enumerate(rules_examples_and_outher):
+				print("\t" + text[j] + element)
 			print("\t. "*15)	
 		print("-"*30)
 		print("Правила закончились")
@@ -109,10 +114,10 @@ class Singleton_BD(object):
 			#print(ids["ids_tags"])
 			#res_list = [test_list[i] for i in index_list] 
 			yield [ 
-				"ПРАВИЛО: " + self.rules[ids["id_rule"]], 
-				"ПРИМЕРЫ: "+" | ".join([self.examples[i] for i in ids["ids_examples"]] ),
-				"ТЕГИ: "+" | ".join([self.tags[i] for i in ids["ids_tags"]] ),
-				"МАРКЕР: "+ self.marks[ids["id_mark"]], 
+				self.rules[ids["id_rule"]], 
+				" | ".join([self.examples[i] for i in ids["ids_examples"]] ),
+				" | ".join([self.tags[i] for i in ids["ids_tags"]] ),
+				self.marks[ids["id_mark"]], 
 				]
 			
 	def print_tagged_rules(self, tag):
