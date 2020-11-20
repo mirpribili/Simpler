@@ -30,8 +30,8 @@ def print_all_rules_with_comment(method_to_decorate):
         text = [
             "ПРАВИЛО: ",
             "ПРИМЕРЫ: ",
-            "ТЕГИ: ",
-            "МАРКЕР: "]
+            "Т Е Г И: ",
+            "МАРКЕРЫ: "]
         for i, rules_examples_and_outher in enumerate(method_to_decorate(*args, **kwargs)):  # self, rules=rules
             if i % 5 == 0 and i > 0:
                 input()
