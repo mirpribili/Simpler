@@ -166,7 +166,7 @@ s.add_rule(
          "{прилагательное = глагол + ING} " +
          "звук РАЗДРАЖАЕТ вас = раздражающий annoyING",
     examples=["what an embrassing situation?", "who's dating who?"],
-    tags=["отглагольные прилагательные", "глагол + ING", "V + ING", "Up.Interm.V.ing"],
+    tags=["отглагольные прилагательные", "глагол + ING", "V + ING", "#Up.Interm.V.ing"],
     mark="#Up.Interm.V.ing"
 )
 s.add_rule(
@@ -174,7 +174,7 @@ s.add_rule(
          "{прилагательное = глагол + ED (3ф.)} " +
          "вас РАЗДРАЖАЕТ звук = вы раздражены annoyED",
     examples=["brokEN", "relaxED"],
-    tags=["отглагольные прилагательные", "глагол + ED", "V + ED", "Up.Interm.V.ed"],
+    tags=["отглагольные прилагательные", "глагол + ED", "V + ED", "#Up.Interm.V.ed"],
     mark="#Up.Interm.V.ed"
 )
 s.print_rules()
