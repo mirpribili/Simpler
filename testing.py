@@ -19,9 +19,9 @@
 		- - всех
 		- - по определенному тегу
 """
+
 import random
 from random import randrange
-
 
 def print_all_rules_with_comment(method_to_decorate):
     def wrapper(*args, **kwargs):  # self, rules=rules
