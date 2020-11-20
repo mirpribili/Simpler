@@ -19,7 +19,6 @@
 		- - всех
 		- - по определенному тегу
 """
-
 import random
 from random import randrange
 
