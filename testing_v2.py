@@ -19,10 +19,83 @@
 		- - всех
 		- - по определенному тегу
 """
+# preposition
+
 import random
 from random import randrange
 import json
 import time
+import os
+
+def print_special_for_test_decoration_v2(method_to_decorate):
+	def wrapper(*args, **kwargs):  # self, rules=rules
+		print("=" * 30)
+		print("Загружаю все тесты по 1")
+		print("-" * 30)
+		text = [
+			"Вопрос: ",
+			"Ответ: ",
+			"Т Е Г И: ",
+			"МАРКЕРЫ: "]
+
+		key = True
+		errors = set()
+
+		while key:
+			length_of_generator = 0
+			all_tests = method_to_decorate(*args, **kwargs)
+
+			for i, tests in enumerate(all_tests):  # self, rules=rules
+				length_of_generator += 1
+
+				#print(tests)
+				if i not in errors:
+					for j, test in enumerate(tests):
+						#print("*",test)
+						if len(test):
+							if j == 0: 
+								print(">", i+1, end="")
+								print("\t" + text[j] + test.replace(";;", "\n\t\t"))
+							if j == 1:
+								attempt = input("Жду ответ на вопрос теста:\n" + text[j]).strip().lower()
+								time.sleep(random.choice(tuple(
+									[0.1, 0.2, 0.3]
+									)))
+								if attempt == str(test).strip().lower():
+									errors.add(i)
+									print("\t",
+										random.choice(tuple(
+											["Отлично", "Так держать", "И еще разок", "Можешь же если хочешь", "Верно", "Латум", "За Императора!!!"]
+											))
+										)
+									time.sleep(random.choice(tuple(
+										[1, 2, 3]
+										)))
+								else:
+									print("Ответ:", test)
+									input("Я запомню")# I'll be back
+									os.system('cls') #
+									#os.popen('clear') #
+									#lambda: os.system('cls')
+
+									print("Попробуй еще", " "*30) #\r
+									time.sleep(random.choice(tuple(
+										[1, 2, 3]
+										)))
+
+						else:
+							errors.add(i)
+			if length_of_generator == len(errors): key = False
+
+			print("\t. " * 16)
+		print("-" * 30)
+		print("Поздравляю ты все решил!!!") # 26 11 2020 
+		print("=" * 30)
+
+	return wrapper
+
+
+
 
 def print_all_rules_with_comment(method_to_decorate):
 	def wrapper(*args, **kwargs):  # self, rules=rules
@@ -69,16 +142,17 @@ def print_special_for_test_decoration(method_to_decorate):
 					if j == 1:
 						next_ = True
 						while next_:
-							attempt = input("Жду ответ на вопрос теста: *(quit)\n" + text[j])
+							attempt = input("Жду ответ на вопрос теста: *(quit)\n" + text[j]).strip()
 
 							time.sleep(random.choice(tuple(
 								[0.1, 0.2, 0.3]
 								)))
 
-							if attempt == str(test) or attempt == 'quit': 
+							if attempt == str(test).strip() or attempt == 'quit': 
 								next_ = False
 							else:
-								print("Попробуй еще:")
+								print("\rПопробуй еще:")
+
 						else:
 							print(
 								random.choice(tuple(
@@ -96,7 +170,6 @@ def print_special_for_test_decoration(method_to_decorate):
 		print("=" * 30)
 
 	return wrapper
-
 
 
 
@@ -303,7 +376,7 @@ class Singleton_BD_new_prints(Singleton_BD):
 	def print_any_from_db(self, main_db, db,  db_itog, vektor_db, query="ALL", deep=0,):
 		return super().print_any_from_db(main_db=main_db, db=db,  db_itog=db_itog, vektor_db=vektor_db, query=query, deep=deep)
 
-	@print_special_for_test_decoration
+	@print_special_for_test_decoration_v2
 	def print_special_for_test(self, main_db, db, db_itog, vektor_db):
 		return super().print_any_from_db(main_db=main_db, db=db, db_itog=db_itog, vektor_db=vektor_db)
 	'''
@@ -320,18 +393,26 @@ class Singleton_BD_new_prints(Singleton_BD):
 	'''
 
 
-s = Singleton_BD_new_prints(rules=["rule","examples","tags","mark"], tests=["test","answer","tags","mark"]) # "tests", "examples", "tags", "mark", "answer", 
+s = Singleton_BD_new_prints(
+	rules=["rule","examples","tags","mark"], 
+	tests=["test","answer","tags","mark"],
+	tests_thems=["thems"],
+	) # "tests", "examples", "tags", "mark", "answer", 
 '''
 				"id_rule": id_rule,
 				"ids_examples": ids_examples,
 				"ids_tags": ids_tags,
 				"id_mark": id_mark
 '''
+s.add_in_id_dict(
+	main_db="tests_thems",
+	thems="№1 - отглагольные прилагательные",
+	)
 
 
 s.add_in_id_dict(
 	main_db="rules",
-	rule="если объект САМ СОВЕРШАЕТ действие;; " +
+	rule="выражает признак | если объект САМ СОВЕРШАЕТ действие;; " +
 		 "{прилагательное = глагол + ing};; " +
 		 "звук РАЗДРАЖАЕТ вас = раздражающий annoying",
 	examples=["what an embrassing situation?", "who's dating who?"],
@@ -340,7 +421,7 @@ s.add_in_id_dict(
 )
 s.add_in_id_dict(
 	main_db="rules",
-	rule="если объект ПОДВЕРГАЕТСЯ воздействию;; " +
+	rule="выражает чувство | если объект ПОДВЕРГАЕТСЯ воздействию;; " +
 		 "{прилагательное = глагол + ed (3ф.)};; " +
 		 "вас РАЗДРАЖАЕТ звук = вы раздражены annoyed",
 	examples=["brokEN", "relaxed"],
@@ -366,7 +447,7 @@ s.add_in_id_dict(
 		 "{подлеж. + may | might | could  + глагол} ",
 	examples=["it might rain tomorrow - завтра может пойти дождь"],
 	tags=["Вероятность событий", "событие ВПОЛНЕ может быть", "may might could", "may", "might", "could",  "#Interm.may.might.could"],
-	mark="#Interm.may.might.could"
+	mark="#Up.Interm.may.might.could"
 )
 
 s.add_in_id_dict(
@@ -376,7 +457,7 @@ s.add_in_id_dict(
 		 "Вопрос: {should подлеж. + глагол} ",
 	examples=[""],
 	tags=["Вероятность событий", "Слова, обозначающие уверенность", "should must can't", "should", "must", "can't",  "#Interm.should.must.can't"],
-	mark="#Interm.should.must.can't"
+	mark="#Up.Interm.should.must.can't"
 )
 
 # Tenses------------------------
@@ -519,7 +600,7 @@ s.add_in_id_dict(
 		 "{+:_ will be V ing; -:_ won't be V ing };;" +
 		 "{+:Will there be _ ?; }",
 	examples=[""],
-	tags=["F.C", "V ing", "will be V ing", "will V ing", "be V ing", "ing"],
+	tags=["F.C", "V ing", "will be V ing", "will V ing", "be V ing", "ing", "F.C.", "F.C"],
 	mark="#Elem.F.C"
 )
 
@@ -528,7 +609,7 @@ s.add_in_id_dict(
 	rule="Pr.P. (не было) сделано к настоящему моменту (не важно когда!);;" +
 		 "{+: _ have|has V ed; -:_ have|has not V ed }",
 	examples=[""],
-	tags=["have V ed", "has V ed", "have ed", "ed", "V ed"],
+	tags=["have V ed", "has V ed", "have ed", "ed", "V ed", "Pr.P", "Pr.P."],
 	mark="#Interm.Pr.P"
 )
 
@@ -537,7 +618,7 @@ s.add_in_id_dict(
 	rule="Pr.P.C. Действие длится неколторое время и продолжается сейчас;;" +
 		 "{+: _ have|has been V ing; -:_ have|has been not V ing }",
 	examples=[""],
-	tags=["have been V ing", "have been V ing"],
+	tags=["have been V ing", "have been V ing", "Pr.P.C.", "Pr.P.C"],
 	mark="#Interm.Pr.P.C."
 )
 
@@ -547,7 +628,7 @@ s.add_in_id_dict(
 	rule="P.P. Действие завершилось РАНЕЕ другого события в прошлом;;" +
 		 "{+: _ had V ed; -:_ hadn't V ed }",
 	examples=[""],
-	tags=["had V ed", "hadn't V ed"],
+	tags=["had V ed", "hadn't V ed", "P.P.", "P.P"],
 	mark="#Interm.P.P."
 )
 
@@ -557,7 +638,7 @@ s.add_in_id_dict(
 		 "{+: _ will have V ed; -:_ won't have V ed };;" +
 		 "{by the time }",
 	examples=[""],
-	tags=["will have V ed",],
+	tags=["will have V ed", "F.P.", "F.P"],
 	mark="#Interm.F.P."
 )
 
@@ -566,26 +647,133 @@ s.add_in_id_dict(
 	rule="it be. Нельзя определить кто выполняет действие;;" +
 		 "{it is|was ...; it will be ...}",
 	examples=[""],
-	tags=["it be", "it.be"],
+	tags=["it be", "it.be", "it was", "is was"],
 	mark="#Elem.it.be"
 )
 
 
+
+###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+###################################### 15 #####\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
 s.add_in_id_dict(
 	main_db="tests",
-	test="test 1",
-	answer=["1"],
-	tags=["#Up.Interm.V.ing"],
-	mark="#Up.Interm.V.ing"
+	test="Мне скучно",
+	answer=["I'm bored"],
+	tags=["#Up.Interm.ed.ing", "ed", "ing", "№1 - отглагольные прилагательные"],
+	mark="#Up.Interm.ed.ing"
 )
 s.add_in_id_dict(
 	main_db="tests",
-	test="test 2",
-	answer=["1"],
-	tags=["#Up.Interm.V.ing"],
-	mark="#Up.Interm.V.ing"
+	test="Я скучаю",
+	answer=["I'm boring"],
+	tags=["#Up.Interm.ed.ing", "ed", "ing", "№1 - отглагольные прилагательные"],
+	mark="#Up.Interm.ed.ing"
 )
 
+s.add_in_id_dict(
+	main_db="tests",
+	test="Он думает, что театр это скучно",
+	answer=["He thinks theatre is boring"],
+	tags=["#Up.Interm.ed.ing", "ed", "ing", "№1 - отглагольные прилагательные"],
+	mark="#Up.Interm.ed.ing"
+)
+s.add_in_id_dict(
+	main_db="tests",
+	test="Я думаю, что этот фильм очень вдохновляющий",
+	answer=["I think this movie is very inspiring"],
+	tags=["#Up.Interm.ed.ing", "ed", "ing", "№1 - отглагольные прилагательные"],
+	mark="#Up.Interm.ed.ing"
+)
+s.add_in_id_dict(
+	main_db="tests",
+	test="У него есть несколько интересных идей",
+	answer=["He has a few interesting ideas"],
+	tags=["#Up.Interm.ed.ing", "ed", "ing", "№1 - отглагольные прилагательные"],
+	mark="#Up.Interm.ed.ing"
+)
+s.add_in_id_dict(
+	main_db="tests",
+	test="Вы видели тот сюжет о потерянной девочке сегодня утром?*",
+	answer=["Have you seen that story about the losed girl this morning?"],
+	tags=["#Up.Interm.ed.ing", "ed", "ing", "№1 - отглагольные прилагательные"],
+	mark="#Up.Interm.ed.ing"
+)
+s.add_in_id_dict(
+	main_db="tests",
+	test="Я не заинтересован современным исскуством",
+	answer=["I'm not interested in modern art"],
+	tags=["#Up.Interm.ed.ing", "ed", "ing", "№1 - отглагольные прилагательные"],
+	mark="#Up.Interm.ed.ing"
+)
+s.add_in_id_dict(
+	main_db="tests",
+	test="Он был так вдохновлен той выставкой",
+	answer=["He was so inspired by that exhibition"],
+	tags=["#Up.Interm.ed.ing", "ed", "ing", "preposition", "№1 - отглагольные прилагательные"],
+	mark="#Up.Interm.ed.ing"
+)
+s.add_in_id_dict(
+	main_db="tests",
+	test="Они заинтересованы в покупке вашей квартиры",
+	answer=["They're interesting in buying your apartment"],
+	tags=["#Up.Interm.ed.ing", "ed", "ing", "№1 - отглагольные прилагательные"],
+	mark="#Up.Interm.ed.ing"
+)
+s.add_in_id_dict(
+	main_db="tests",
+	test="У меня очень воодушевляющие новости",
+	answer=["I have very encouraging news"],
+	tags=["#Up.Interm.ed.ing", "ed", "ing", "№1 - отглагольные прилагательные"],
+	mark="#Up.Interm.ed.ing"
+)
+s.add_in_id_dict(
+	main_db="tests",
+	test="Эта музыка такая раздражающая",
+	answer=["This music is so annoyed"],
+	tags=["#Up.Interm.ed.ing", "ed", "ing", "№1 - отглагольные прилагательные"],
+	mark="#Up.Interm.ed.ing"
+)
+s.add_in_id_dict(
+	main_db="tests",
+	test="Я никогда не чувствовал себя так расслабленно*",
+	answer=["I've never felt so relaxed"],
+	tags=["#Up.Interm.ed.ing", "ed", "ing", "№1 - отглагольные прилагательные"],
+	mark="#Up.Interm.ed.ing"
+)
+s.add_in_id_dict(
+	main_db="tests",
+	test="Это была очень неловкая ситуация",
+	answer=["It was a very embarrassing situation"],
+	tags=["#Up.Interm.ed.ing", "ed", "ing", "№1 - отглагольные прилагательные"],
+	mark="#Up.Interm.ed.ing"
+)
+s.add_in_id_dict(
+	main_db="tests",
+	test="Я не считаю, что театр - это скучно",
+	answer=["I don't think theatre is boring"],
+	tags=["#Up.Interm.ed.ing", "ed", "ing", "№1 - отглагольные прилагательные"],
+	mark="#Up.Interm.ed.ing"
+)
+s.add_in_id_dict(
+	main_db="tests",
+	test="Я никогда не чувствовал себя таким смущенным",
+	answer=["I've never felt so embarrassing"],
+	tags=["#Up.Interm.ed.ing", "ed", "ing", "№1 - отглагольные прилагательные"],
+	mark="#Up.Interm.ed.ing"
+)
+
+###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+###################################### 15 #####\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 #s.print_rules()
 
