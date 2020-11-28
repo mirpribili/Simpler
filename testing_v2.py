@@ -18,6 +18,18 @@
 		- вывод правил
 		- - всех
 		- - по определенному тегу
+
+
+w ;ljk,n0mkoin+R CMD
+cd /d e:/[git]/
+git clone https://github.com/mirpribili/Simpler.git
+e:\[git]\Simpler>python testing_v2.py
+git add .
+git commit -m "Add to help"
+git config --global user.email "mirpribili@ya.ru"
+git config --global user.name "mirpribili"
+git push origin
+mirpribili@ya.ru
 """
 # preposition
 
@@ -404,10 +416,7 @@ s = Singleton_BD_new_prints(
 				"ids_tags": ids_tags,
 				"id_mark": id_mark
 '''
-s.add_in_id_dict(
-	main_db="tests_thems",
-	thems="№1 - отглагольные прилагательные",
-	)
+
 
 
 s.add_in_id_dict(
@@ -653,7 +662,227 @@ s.add_in_id_dict(
 
 
 
+
+
 ###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+s.add_in_id_dict(
+	main_db="tests_thems",
+	thems="№1 - отглагольные прилагательные",
+	)
+s.add_in_id_dict(
+	main_db="tests_thems",
+	thems="№2 - 21 комбинация времен",
+	)
+###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+tests = list()
+mark = list()
+temp = {
+	"Simple.1":"[Момент](действие происх. единожды, неск. раз. или никогда)",
+	"Simple.2":"[Момент](действие происх. друг за другом)",
+	"Simple.condition":"[Момент](состояние)",
+	}
+#--------------------------- P.S.
+mark = ["#Tenses", "P.S.", "ed", "№2 - 21 комбинация времен"]
+
+tests.append({
+	"main_db":"tests",
+	"test":mark[1] + "Он играл в футбол каждый вторник" + temp["Simple.1"],
+	"answer":["He played football every Tuesday"],
+	"tags":[].extend(mark),
+	"mark":mark[0]
+	})
+tests.append({
+	"main_db":"tests",
+	"test":mark[1] + "Он играл в футбол, а потом пошел домой" + temp["Simple.2"],
+	"answer":["He played football and then he went home"],
+	"tags":[].extend(mark),
+	"mark":mark[0]
+	})
+tests.append({
+	"main_db":"tests",
+	"test":mark[1] + "Он любил футбол" + temp["Simple.condition"],
+	"answer":["He loved football"],
+	"tags":[].extend(mark),
+	"mark":mark[0]
+	})
+#--------------------------- Pr.S.
+mark = ["#Tenses", "Pr.S.", "Vs", "№2 - 21 комбинация времен"]
+tests.append({
+	"main_db":"tests",
+	"test":mark[1] + "Он играет в футбол каждый вторник" + temp["Simple.1"],
+	"answer":["He plays football every Tuesday"],
+	"tags":[].extend(mark),
+	"mark":mark[0]
+	})
+tests.append({
+	"main_db":"tests",
+	"test":mark[1] + "Он играет в футбол, а потом идет домой" + temp["Simple.2"],
+	"answer":["He plays football and then he goes home"],
+	"tags":[].extend(mark),
+	"mark":mark[0]
+	})
+tests.append({
+	"main_db":"tests",
+	"test":mark[1] + "Он любит футбол" + temp["Simple.condition"],
+	"answer":["He loves football"],
+	"tags":[].extend(mark),
+	"mark":mark[0]
+	})
+#--------------------------- F.S.
+mark = ["#Tenses", "F.S.", "will", "№2 - 21 комбинация времен"]
+tests.append({
+	"main_db":"tests",
+	"test":mark[1] + "Он будет играть в футбол каждый вторник" + temp["Simple.1"],
+	"answer":["He will play football every Tuesday"],
+	"tags":[].extend(mark),
+	"mark":mark[0]
+	})
+tests.append({
+	"main_db":"tests",
+	"test":mark[1] + "Он будет играть в футбол, а потом пойдет домой" + temp["Simple.2"],
+	"answer":["He will play football and then he will go home"],
+	"tags":[].extend(mark),
+	"mark":mark[0]
+	})
+tests.append({
+	"main_db":"tests",
+	"test":mark[1] + "Он будет любить футбол" + temp["Simple.condition"],
+	"answer":["He will love football"],
+	"tags":[].extend(mark),
+	"mark":mark[0]
+	})
+#--------------------------- P.C.
+temp = {
+	"Continuous.1":"[Период](длительное действие, происх. в данный момент)",
+	"Continuous.2":"[Период](действия, происх. одновременно)",
+	}
+mark = ["#Tenses", "P.C.", "ing", "№2 - 21 комбинация времен"]
+tests.append({
+	"main_db":"tests",
+	"test":mark[1] + "Он играл в футбол (в тот момент)" + temp["Continuous.1"],
+	"answer":["He was playing football"],
+	"tags":[].extend(mark),
+	"mark":mark[0]
+	})
+tests.append({
+	"main_db":"tests",
+	"test":mark[1] + "Он играл в футбол а она смотрела (в тот момент)" + temp["Continuous.2"],
+	"answer":["He was playing football and she was watching"],
+	"tags":[].extend(mark),
+	"mark":mark[0]
+	})
+
+#--------------------------- Pr.C.
+mark = ["#Tenses", "Pr.C.", "ing", "№2 - 21 комбинация времен"]
+tests.append({
+	"main_db":"tests",
+	"test":mark[1] + "Он игрет в футбол (в наст. момент)" + temp["Continuous.1"],
+	"answer":["He is playing football"],
+	"tags":[].extend(mark),
+	"mark":mark[0]
+	})
+tests.append({
+	"main_db":"tests",
+	"test":mark[1] + "Он игрет в футбол, а она смотрит" + temp["Continuous.2"],
+	"answer":["He is playing football and she is watching"],
+	"tags":[].extend(mark),
+	"mark":mark[0]
+	})
+#--------------------------- F.C.
+mark = ["#Tenses", "F.C.", "ing", "№2 - 21 комбинация времен"]
+tests.append({
+	"main_db":"tests",
+	"test":mark[1] + "Он будет играть в футбол (в этот момент)" + temp["Continuous.1"],
+	"answer":["He will be playing football"],
+	"tags":[].extend(mark),
+	"mark":mark[0]
+	})
+tests.append({
+	"main_db":"tests",
+	"test":mark[1] + "Он будет играть в футбол, а она будет смотреть" + temp["Continuous.2"],
+	"answer":["He will be playing football and she will be watching"],
+	"tags":[].extend(mark),
+	"mark":mark[0]
+	})
+#--------------------------- P.P.
+temp = {
+	"Perfect.1":"[Результат](действие происходит до определенного момета. Подчеркивая результат)",
+	}
+mark = ["#Tenses", "P.P.", "ed", "№2 - 21 комбинация времен"]
+
+tests.append({
+	"main_db":"tests",
+	"test":mark[1] + "Он выйграл пять матчей до того дня" + temp["Perfect.1"],
+	"answer":["He had won five matches untill that day"],
+	"tags":[].extend(mark),
+	"mark":mark[0]
+	})
+#--------------------------- Pr.P.
+mark = ["#Tenses", "Pr.P.", "ed", "№2 - 21 комбинация времен"]
+tests.append({
+	"main_db":"tests",
+	"test":mark[1] + "Пока что он выйграл пять матчей" + temp["Perfect.1"],
+	"answer":["He has won five matches so far"],
+	"tags":[].extend(mark),
+	"mark":mark[0]
+	})
+#--------------------------- F.P.
+mark = ["#Tenses", "F.P.", "ed", "№2 - 21 комбинация времен"]
+tests.append({
+	"main_db":"tests",
+	"test":mark[1] + "Он выйграет пять матчей к тому моменту" + temp["Perfect.1"],
+	"answer":["He will have won five matches by then"],
+	"tags":[].extend(mark),
+	"mark":mark[0]
+	})
+#--------------------------- P.P.C.
+temp = {
+	"Past.Perfect.Continuous.1":"[Длительность](действие происходит до определенного момета. Подчеркивая результат)",
+	}
+mark = ["#Tenses", "P.P.C.", "ing", "№2 - 21 комбинация времен"]
+
+tests.append({
+	"main_db":"tests",
+	"test":mark[1] + " Он  играл в футбол 10 лет(и продолжил играть)" + temp["Past.Perfect.Continuous.1"],
+	"answer":["He had been playing football for ten years"],
+	"tags":[].extend(mark),
+	"mark":mark[0]
+	})
+#--------------------------- Pr.P.C.
+mark = ["#Tenses", "Pr.P.C.", "ing", "№2 - 21 комбинация времен"]
+
+tests.append({
+	"main_db":"tests",
+	"test":mark[1] + " Он  играет в футбол 10 лет(и продолжает играть)" + temp["Past.Perfect.Continuous.1"],
+	"answer":["He has been playing football for ten years"],
+	"tags":[].extend(mark),
+	"mark":mark[0]
+	})
+#--------------------------- F.P.C.
+mark = ["#Tenses", "F.P.C.", "ing", "№2 - 21 комбинация времен"]
+
+tests.append({
+	"main_db":"tests",
+	"test":mark[1] + " Он будет играть в футбол 10 лет(и будет продолжать играть)" + temp["Past.Perfect.Continuous.1"],
+	"answer":["He will have been playing football for ten years"],
+	"tags":[].extend(mark),
+	"mark":mark[0]
+	})
+
+for test in tests:
+	s.add_in_id_dict(
+		main_db=test["main_db"],
+		test=test["test"],
+		answer=test["answer"],
+		tags=test["tags"],
+		mark=test["mark"]
+	)
+
+
 ###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 ###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 ###################################### 15 #####\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
