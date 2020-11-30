@@ -39,6 +39,8 @@ import json
 import time
 import os
 
+import migrate
+
 def print_special_for_test_decoration_v2(method_to_decorate):
 	def wrapper(*args, **kwargs):  # self, rules=rules
 		print("=" * 30)
@@ -73,7 +75,15 @@ def print_special_for_test_decoration_v2(method_to_decorate):
 								time.sleep(random.choice(tuple(
 									[0.1, 0.2, 0.3]
 									)))
-								if attempt == str(test).strip().lower():
+
+								answer = str(test).strip().lower()
+								["I", "He", "She", "We", "You", "They"]
+								[" has ", "'s ",
+								 " have ", "'ve ", 
+								 " will ", "'ll "]
+								for replace in ["I am ", "I'm ", "He has ", "He's "]:
+									pass
+								if attempt == answer:
 									errors.add(i)
 									print("\t",
 										random.choice(tuple(
@@ -123,8 +133,8 @@ def print_all_rules_with_comment(method_to_decorate):
 			for j, element in enumerate(rules_examples_and_outher):
 				if len(element):
 					print("\t" + text[j] + element.replace(";;", "\n\t\t"))
-			print("\t. " * 16)
-			print("\t. " * 16)
+			print("\t. " * 14)
+			print("\t. " * 14)
 		print("-" * 30)
 		print("Правила закончились")
 		print("=" * 30)
@@ -194,8 +204,8 @@ def print_special_for_test_decoration(method_to_decorate):
 								[1, 2, 3]
 								)))
 
-			print("\t. " * 16)
-			print("\t. " * 16)
+			print("\t. " * 14)
+			print("\t. " * 14)
 		print("-" * 30)
 		print("Поздравляю ты все решил!!!") # 26 11 2020 
 		print("=" * 30)
@@ -235,7 +245,7 @@ class Singleton_BD(object):
 				temp = self.__insert_in_table(dbs[i], self.db_dict[main_db][i])
 				self.id_dict[main_db][i].append(temp)
 
-	def print_any_from_db(self, main_db, db,  db_itog, vektor_db, query="ALL", deep=0,):
+	def print_any_from_db(self, main_db, db,  db_itog, vektor_db, query="ALL", deep=0, rand=False):
 		# задекорируй меня
 		print(f"Ищу \"{query}\"")
 		# get "some tag" return "some id tags"
@@ -282,14 +292,22 @@ class Singleton_BD(object):
 			step = int(len(itog_list)/len(vektor_db))
 			#print(step)
 
+			# @BUG вот тут если бы это была БД + генератор то былабы в память добавленна 1 строчка
+
+			result = list()
 			for x in range(0, step):
 				temp_list.clear()
 				for i,k in enumerate( itog_list[x::step] ):
 					#print(i, k)
 					temp_list.append(k)
 				#print(temp_list)
-				yield temp_list
+				#yield temp_list
+				result.append(temp_list[:])
 			#input()
+			if rand: random.shuffle(result)
+			for res in result:
+				#print(res)
+				yield res
 		else:
 			# задекорируй меня
 			print( f"\tТег \"{tag}\" не найден" )
@@ -410,7 +428,7 @@ class Singleton_BD_new_prints(Singleton_BD):
 
 	@print_special_for_test_decoration_v2
 	def print_special_for_test(self, main_db, db, db_itog, vektor_db, query="ALL"):
-		return super().print_any_from_db(main_db=main_db, db=db, db_itog=db_itog, vektor_db=vektor_db, query=query, deep=0)
+		return super().print_any_from_db(main_db=main_db, db=db, db_itog=db_itog, vektor_db=vektor_db, query=query, deep=0, rand=True)
 
 	@print_selection_tests
 	def print_selection_test(self, main_db, db,  db_itog, vektor_db, query="ALL"):
@@ -457,7 +475,7 @@ s.add_in_id_dict(
 	)
 
 
-import migrate
+
 
 tests = migrate.tests
 
