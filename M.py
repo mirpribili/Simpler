@@ -66,5 +66,5 @@ for i in otvet:
             #print(parent)
             child = classi[parent]
             if i[1] in child:
-                print("Yes")
+                print("new answer Yes")
 #print(classi)
