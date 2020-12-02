@@ -1,6 +1,12 @@
 ###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 ###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 ###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+# https://www.youtube.com/watch?v=sUR_fRgqk9Q&feature=youtu.be
+#	факт		ходил					хожу			буду ходить
+#	процесс		шел						иду				буду идти
+#	результат 	сходил(уже вчера)		сходил(уже)		схожу
+#	долго		проходил(вчера пол дня)	проходил(3часа)	прохожу
+
 tests = list()
 mark = list()
 temp = {
@@ -10,24 +16,25 @@ temp = {
 	}
 #--------------------------- P.S.
 mark = ["#Tenses", "P.S.", "ed", "№2 - 21 комбинация времен"]
-
+#:"-= " +
+#:mark[1] +
 tests.append({
 	"main_db":"tests",
-	"test":mark[1] + "Он играл в футбол каждый вторник" + temp["Simple.1"],
+	"test":"-= " + "Он играл в футбол каждый вторник" ,#+ temp["Simple.1"],
 	"answer":["He played football every Tuesday"],
 	"tags":mark,
 	"mark":mark[0]
 	})
 tests.append({
 	"main_db":"tests",
-	"test":mark[1] + "Он играл в футбол, а потом пошел домой" + temp["Simple.2"],
+	"test":"-= " + "Он играл в футбол, а потом пошел домой" ,#+ temp["Simple.2"],
 	"answer":["He played football and then he went home"],
 	"tags":mark,
 	"mark":mark[0]
 	})
 tests.append({
 	"main_db":"tests",
-	"test":mark[1] + "Он любил футбол" + temp["Simple.condition"],
+	"test":"-= " + "Он любил футбол" ,#+ temp["Simple.condition"],
 	"answer":["He loved football"],
 	"tags":mark,
 	"mark":mark[0]
@@ -36,21 +43,21 @@ tests.append({
 mark = ["#Tenses", "Pr.S.", "Vs", "№2 - 21 комбинация времен"]
 tests.append({
 	"main_db":"tests",
-	"test":mark[1] + "Он играет в футбол каждый вторник" + temp["Simple.1"],
+	"test":"-= " + "Он играет в футбол каждый вторник" ,#+ temp["Simple.1"],
 	"answer":["He plays football every Tuesday"],
 	"tags":mark,
 	"mark":mark[0]
 	})
 tests.append({
 	"main_db":"tests",
-	"test":mark[1] + "Он играет в футбол, а потом идет домой" + temp["Simple.2"],
+	"test":"-= " + "Он играет в футбол, а потом идет домой" ,#+ temp["Simple.2"],
 	"answer":["He plays football and then he goes home"],
 	"tags":mark,
 	"mark":mark[0]
 	})
 tests.append({
 	"main_db":"tests",
-	"test":mark[1] + "Он любит футбол" + temp["Simple.condition"],
+	"test":"-= " + "Он любит футбол" ,#+ temp["Simple.condition"],
 	"answer":["He loves football"],
 	"tags":mark,
 	"mark":mark[0]
@@ -59,21 +66,21 @@ tests.append({
 mark = ["#Tenses", "F.S.", "will", "№2 - 21 комбинация времен"]
 tests.append({
 	"main_db":"tests",
-	"test":mark[1] + "Он будет играть в футбол каждый вторник" + temp["Simple.1"],
+	"test":"-= " + "Он будет играть в футбол каждый вторник" ,#+ temp["Simple.1"],
 	"answer":["He will play football every Tuesday"],
 	"tags":mark,
 	"mark":mark[0]
 	})
 tests.append({
 	"main_db":"tests",
-	"test":mark[1] + "Он будет играть в футбол, а потом пойдет домой" + temp["Simple.2"],
+	"test":"-= " + "Он будет играть в футбол, а потом пойдет домой" ,#+ temp["Simple.2"],
 	"answer":["He will play football and then he will go home"],
 	"tags":mark,
 	"mark":mark[0]
 	})
 tests.append({
 	"main_db":"tests",
-	"test":mark[1] + "Он будет любить футбол" + temp["Simple.condition"],
+	"test":"-= " + "Он будет любить футбол" ,#+ temp["Simple.condition"],
 	"answer":["He will love football"],
 	"tags":mark,
 	"mark":mark[0]
@@ -86,14 +93,14 @@ temp = {
 mark = ["#Tenses", "P.C.", "ing", "№2 - 21 комбинация времен"]
 tests.append({
 	"main_db":"tests",
-	"test":mark[1] + "Он играл в футбол (в тот момент)" + temp["Continuous.1"],
+	"test":"-= " + "Он играл в футбол (в тот момент)" ,#+ temp["Continuous.1"],
 	"answer":["He was playing football"],
 	"tags":mark,
 	"mark":mark[0]
 	})
 tests.append({
 	"main_db":"tests",
-	"test":mark[1] + "Он играл в футбол а она смотрела (в тот момент)" + temp["Continuous.2"],
+	"test":"-= " + "Он играл в футбол а она смотрела (в тот момент)" ,#+ temp["Continuous.2"],
 	"answer":["He was playing football and she was watching"],
 	"tags":mark,
 	"mark":mark[0]
@@ -103,14 +110,14 @@ tests.append({
 mark = ["#Tenses", "Pr.C.", "ing", "№2 - 21 комбинация времен"]
 tests.append({
 	"main_db":"tests",
-	"test":mark[1] + "Он игрет в футбол (в наст. момент)" + temp["Continuous.1"],
+	"test":"-= " + "Он играет в футбол (в наст. момент)" ,#+ temp["Continuous.1"],
 	"answer":["He is playing football"],
 	"tags":mark,
 	"mark":mark[0]
 	})
 tests.append({
 	"main_db":"tests",
-	"test":mark[1] + "Он игрет в футбол, а она смотрит" + temp["Continuous.2"],
+	"test":"-= " + "Он играет в футбол, а она смотрит" ,#+ temp["Continuous.2"],
 	"answer":["He is playing football and she is watching"],
 	"tags":mark,
 	"mark":mark[0]
@@ -119,14 +126,14 @@ tests.append({
 mark = ["#Tenses", "F.C.", "ing", "№2 - 21 комбинация времен"]
 tests.append({
 	"main_db":"tests",
-	"test":mark[1] + "Он будет играть в футбол (в этот момент)" + temp["Continuous.1"],
+	"test":"-= " + "Он будет играть в футбол (в этот момент)" ,#+ temp["Continuous.1"],
 	"answer":["He will be playing football"],
 	"tags":mark,
 	"mark":mark[0]
 	})
 tests.append({
 	"main_db":"tests",
-	"test":mark[1] + "Он будет играть в футбол, а она будет смотреть" + temp["Continuous.2"],
+	"test":"-= " + "Он будет играть в футбол, а она будет смотреть" ,#+ temp["Continuous.2"],
 	"answer":["He will be playing football and she will be watching"],
 	"tags":mark,
 	"mark":mark[0]
@@ -139,7 +146,7 @@ mark = ["#Tenses", "P.P.", "ed", "№2 - 21 комбинация времен"]
 
 tests.append({
 	"main_db":"tests",
-	"test":mark[1] + "Он выйграл пять матчей до того дня" + temp["Perfect.1"],
+	"test":"-= " + "Он выйграл пять матчей до того дня" ,#+ temp["Perfect.1"],
 	"answer":["He had won five matches untill that day"],
 	"tags":mark,
 	"mark":mark[0]
@@ -148,7 +155,7 @@ tests.append({
 mark = ["#Tenses", "Pr.P.", "ed", "№2 - 21 комбинация времен"]
 tests.append({
 	"main_db":"tests",
-	"test":mark[1] + "Пока что он выйграл пять матчей" + temp["Perfect.1"],
+	"test":"-= " + "Пока что он выйграл пять матчей" ,#+ temp["Perfect.1"],
 	"answer":["He has won five matches so far"],
 	"tags":mark,
 	"mark":mark[0]
@@ -157,7 +164,7 @@ tests.append({
 mark = ["#Tenses", "F.P.", "ed", "№2 - 21 комбинация времен"]
 tests.append({
 	"main_db":"tests",
-	"test":mark[1] + "Он выйграет пять матчей к тому моменту" + temp["Perfect.1"],
+	"test":"-= " + "Он выйграет пять матчей к тому моменту" ,#+ temp["Perfect.1"],
 	"answer":["He will have won five matches by then"],
 	"tags":mark,
 	"mark":mark[0]
@@ -170,7 +177,7 @@ mark = ["#Tenses", "P.P.C.", "ing", "№2 - 21 комбинация времен
 
 tests.append({
 	"main_db":"tests",
-	"test":mark[1] + " Он  играл в футбол 10 лет(и продолжил играть)" + temp["Past.Perfect.Continuous.1"],
+	"test":"-= " + " Он  играл в футбол 10 лет(и продолжил играть)" ,#+ temp["Past.Perfect.Continuous.1"],
 	"answer":["He had been playing football for ten years"],
 	"tags":mark,
 	"mark":mark[0]
@@ -180,7 +187,7 @@ mark = ["#Tenses", "Pr.P.C.", "ing", "№2 - 21 комбинация време�
 
 tests.append({
 	"main_db":"tests",
-	"test":mark[1] + " Он  играет в футбол 10 лет(и продолжает играть)" + temp["Past.Perfect.Continuous.1"],
+	"test":"-= " + " Он  играет в футбол 10 лет(и продолжает играть)" ,#+ temp["Past.Perfect.Continuous.1"],
 	"answer":["He has been playing football for ten years"],
 	"tags":mark,
 	"mark":mark[0]
@@ -190,7 +197,7 @@ mark = ["#Tenses", "F.P.C.", "ing", "№2 - 21 комбинация времен
 
 tests.append({
 	"main_db":"tests",
-	"test":mark[1] + " Он будет играть в футбол 10 лет(и будет продолжать играть)" + temp["Past.Perfect.Continuous.1"],
+	"test":"-= " + " Он будет играть в футбол 10 лет(и будет продолжать играть)" ,#+ temp["Past.Perfect.Continuous.1"],
 	"answer":["He will have been playing football for ten years"],
 	"tags":mark,
 	"mark":mark[0]
@@ -669,3 +676,133 @@ wear	wore	worn	носить (одежду)
 win	won	won	победить, выиграть
 write	wrote	written	писать, записывать
 '''
+
+
+if __name__ == '__main__':
+	import sqlite3
+	# https://habr.com/en/post/321510/
+
+	#import pypyodbc
+
+	#connection = pypyodbc.connect('Chinook_Sqlite.sqlite')
+	connection = sqlite3.connect('Chinook_Sqlite.sqlite')
+	"""
+	(
+		'Driver={SQL Server};'
+		'Server=MANOWAR\SQLEXPRESS;' 127.0.0.1
+		'Database=nortwind;'
+		'uid=username;'
+		'pwd=pass'
+		)
+	"""
+	#cursor = connection.cursor()
+	cursor = connection.cursor()
+
+	#mySQLquery = ("""
+	#            SELECT *
+	#""")
+
+
+
+	#--------------------------------------------Чтение из базы
+
+
+
+
+
+	try:
+	    # Делаем SELECT запрос к базе данных, используя обычный SQL-синтаксис
+	    cursor.execute("SELECT Name FROM Artist ORDER BY Name LIMIT 3")
+	    # Получаем результат сделанного запроса
+	    results = cursor.fetchall()
+	    results2 = cursor.fetchall()
+	except sqlite3.DatabaseError as err:
+	    print("Error: ", err)
+	else:
+	    connection.commit()
+
+
+	#print(results[0])   # [('A Cor Do Som',), ('Aaron Copland & London Symphony Orchestra',), ('Aaron Goldberg',)]
+	print(results2)  # []
+
+	#--------------------------------------------Запись в базу
+
+	# Делаем INSERT запрос к базе данных, используя обычный SQL-синтаксис
+	cursor.execute("insert into Artist values (Null, 'A Aagrh!') ")
+
+	# Если мы не просто читаем, но и вносим изменения в базу данных - необходимо сохранить транзакцию
+	connection.commit()
+
+	# Проверяем результат
+	cursor.execute("SELECT Name FROM Artist ORDER BY Name LIMIT 3")
+	results = cursor.fetchall()
+	print(results)  # [('A Aagrh!',), ('A Cor Do Som',), ('Aaron Copland & London Symphony Orchestra',)]
+
+	#--------------------------------------------Разбиваем запрос на несколько строк в тройных кавычках
+	cursor.execute("""
+	  SELECT name
+	  FROM Artist
+	  ORDER BY Name LIMIT 31
+	""")
+	print("*", cursor.fetchall())
+	#--------------------------------------------Объединяем запросы к базе данных в один вызов метода
+	
+
+
+
+
+
+
+
+
+	#-------------------------------------------- delate
+	cursor.execute("DELETE FROM Artist WHERE TRUE")
+	connection.commit()
+	print("*", cursor.fetchall())
+	#-------------------------------------------- 
+
+
+	#Для решения такой задачи можно либо несколько раз вызывать метод курсора .execute()
+	'''
+	cursor.execute("""insert into Artist values (Null, 'A Aagrh!');""")
+	cursor.execute("""insert into Artist values (Null, 'A Aagrh-2!');""")
+
+
+	#Либо использовать метод курсора .executescript()
+
+	cursor.executescript("""
+	 insert into Artist values (Null, 'A Aagrh!');
+	 insert into Artist values (Null, 'A Aagrh-2!');
+	""")
+
+	'''
+	connection.close()
+
+	"""
+	1.Устанавливаем и обновляем библиотеки Пайтона:
+	sudo apt-get install --reinstall python-pkg-resources
+	sudo apt-get install build-essential python-dev
+
+	2.Качаем PyInstaller:
+	wget https://github.com/pyinstaller/pyinstaller/releases/download/v3.6/PyInstaller-3.6.tar.gz.asc
+
+	https://github.com/pyinstaller/pyinstaller
+
+	https://github.com/pyinstaller/pyinst...
+
+	3.Раcпаковываем PyInstaller:
+	tar -xvf PyInstaller-3.2.tar.gz
+
+	4.Заходим в распакованный PyInstaller:
+	cd PyInstaller-3.2
+
+	5.Устанавливаем PyInstaller:
+	./pyinstaller.py setup.py
+
+	6.Конвертим ваш .py файл:
+	./pyinstaller.py myscript.py
+
+
+	Ваш бинарный байл будет в /PyInstaller-3.2/myscript/dist
+	"""
+

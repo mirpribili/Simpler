@@ -30,6 +30,13 @@ git config --global user.email "mirpribili@ya.ru"
 git config --global user.name "mirpribili"
 git push origin
 mirpribili@ya.ru
+
+To do:
+- время тестов 
+- - время каждого вопроса
+- % ошибок
+- как же мощны твои ответы, как же хороши твои 
+- мммм мужик с тестом
 """
 # preposition
 
@@ -40,6 +47,9 @@ import time
 import os
 
 import migrate
+
+from datetime import datetime
+start_time = datetime.now()
 
 def print_special_for_test_decoration_v2(method_to_decorate):
 	def wrapper(*args, **kwargs):  # self, rules=rules
@@ -56,7 +66,8 @@ def print_special_for_test_decoration_v2(method_to_decorate):
 		errors = set()
 
 		while key:
-			length_of_generator = 0
+			length_of_generator, max_length_of_generator = 0, 0
+
 			all_tests = method_to_decorate(*args, **kwargs)
 
 			for i, tests in enumerate(all_tests):  # self, rules=rules
@@ -71,7 +82,10 @@ def print_special_for_test_decoration_v2(method_to_decorate):
 								print(">", i+1, end="")
 								print("\t" + text[j] + test.replace(";;", "\n\t\t"))
 							if j == 1:
-								attempt = input("Жду ответ на вопрос теста:\n" + text[j]).strip().lower()
+								#attempt = input("Жду ответ на вопрос теста:\n" + text[j]).strip().lower()
+								attempt = ""
+								while attempt == "":
+									attempt = input("Жду ответ на вопрос теста:\n" + text[j]).strip().lower()
 								time.sleep(random.choice(tuple(
 									[0.1, 0.2, 0.3]
 									)))
@@ -107,11 +121,17 @@ def print_special_for_test_decoration_v2(method_to_decorate):
 
 						else:
 							errors.add(i)
-			if length_of_generator == len(errors): key = False
+			max_length_of_generator = max(length_of_generator, max_length_of_generator)
+			if max_length_of_generator == len(errors): key = False
 
 			print("\t. " * 16)
 		print("-" * 30)
-		print("Поздравляю ты все решил!!!") # 26 11 2020 
+		print("Поздравляю ты все решил!!!") # 26 11 2020
+		time_taken = datetime.now() - start_time
+		print('Duration: {}'.format(time_taken))
+		hours, rest = divmod(time_taken,3600)
+		minutes, seconds = divmod(rest, 60)
+		print('Duration: {hours}:{minutes}:{seconds}'.format(hours=hours, minutes=minutes, seconds=seconds))
 		print("=" * 30)
 
 	return wrapper
@@ -516,7 +536,7 @@ print("Object created", s1, s.print_arg())
 ('Object created', <__main__.Singleton object at 0x10ba9db90>)
 '''
 
-
+os.system('cls') 
 while True:
 	#s.test1()
 	#s.test2()
@@ -545,7 +565,10 @@ while True:
 			print(e)
 			print("Давай-те я верну Вас в начальное меню")
 
-
+#import re
+#>>> s = "a b        c d    e                            f  "
+#>>> re.sub('\s{2,}', ' ', s)
+#'a b c d e f '
 
 
 
