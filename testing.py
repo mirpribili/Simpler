@@ -18,10 +18,127 @@
         - вывод правил
         - - всех
         - - по определенному тегу
+
+
+w ;ljk,n0mkoin+R CMD
+cd /d e:/[git]/
+git clone https://github.com/mirpribili/Simpler.git
+e:\[git]\Simpler>python testing_v2.py
+git add .
+git commit -m "Add to help"
+git config --global user.email "mirpribili@ya.ru"
+git config --global user.name "mirpribili"
+git push origin
+mirpribili@ya.ru
+
+To do:
+- время тестов 
+- - время каждого вопроса
+- % ошибок
+- как же мощны твои ответы, как же хороши твои 
+- мммм мужик с тестом
 """
+# preposition
+
 import random
 from random import randrange
+import json
+import time
+import os
 
+import migrate
+
+from datetime import datetime
+start_time = datetime.now()
+
+def print_special_for_test_decoration_v2(method_to_decorate):
+    def wrapper(*args, **kwargs):  # self, rules=rules
+        print("=" * 30)
+        print("Загружаю все тесты по 1")
+        print("-" * 30)
+        text = [
+            "Вопрос: ",
+            "Ответ: ",
+            "Т Е Г И: ",
+            "МАРКЕРЫ: "]
+
+        key = True
+        errors = set()
+
+        all_tests = list()
+        for test_new in method_to_decorate(*args, **kwargs):
+            all_tests.append(test_new)
+
+        while key:
+            length_of_generator, max_length_of_generator = 0, 0
+
+            for i, tests in enumerate(all_tests):  # self, rules=rules
+                length_of_generator += 1
+
+                #print(tests)
+                if i not in errors:
+                    for j, test in enumerate(tests):
+                        #print("*",test)
+                        if len(test):
+                            if j == 0: 
+                                print(">", i+1, end="")
+                                print("\t" + text[j] + test.replace(";;", "\n\t\t"))
+                            if j == 1:
+                                #attempt = input("Жду ответ на вопрос теста:\n" + text[j]).strip().lower()
+                                attempt = ""
+                                while attempt == "":
+                                    attempt = input("Жду ответ на вопрос теста:\n" + text[j]).strip().lower()
+                                time.sleep(random.choice(tuple(
+                                    [0.1, 0.2, 0.3]
+                                    )))
+
+                                answer = str(test).strip().lower()
+
+                                for replace in ["I am ", "I'm ", "He has ", "He's "]:
+                                    pass
+                                if attempt == answer:
+                                    errors.add(i)
+                                    print("\t",
+                                        random.choice(tuple(
+                                            ["Отлично", "Так держать", "И еще разок", "Можешь же если хочешь", "Верно", "Латум", "За Императора!!!"]
+                                            ))
+                                        )
+                                    time.sleep(random.choice(tuple(
+                                        [1, 2, 3]
+                                        )))
+                                else:
+                                    print("Ответ:", test)
+                                    input("Я запомню")# I'll be back
+                                    os.system('cls') #
+                                    #os.popen('clear') #
+                                    #lambda: os.system('cls')
+
+                                    print("Попробуй еще", " "*30) #\r
+                                    time.sleep(random.choice(tuple(
+                                        [1, 2, 3]
+                                        )))
+
+                        else:
+                            errors.add(i)
+            max_length_of_generator = max(length_of_generator, max_length_of_generator)
+            if max_length_of_generator == len(errors): 
+                key = False
+            else:
+                pass
+                #print(errors)
+                #print(all_tests)
+
+            print("\t. " * 16)
+        print("-" * 30)
+        print("Поздравляю ты все решил!!!") # 26 11 2020
+        time_taken = datetime.now() - start_time
+        print('Duration: {}'.format(time_taken))
+        #hours, rest = divmod(time_taken,3600)
+        #minutes, seconds = divmod(rest, 60)
+        #print('Duration: {hours}:{minutes}:{seconds}'.format(hours=hours, minutes=minutes, seconds=seconds))
+        print("=" * 30)
+
+    return wrapper
 
 def print_all_rules_with_comment(method_to_decorate):
     def wrapper(*args, **kwargs):  # self, rules=rules
@@ -35,10 +152,13 @@ def print_all_rules_with_comment(method_to_decorate):
             "МАРКЕРЫ: "]
         for i, rules_examples_and_outher in enumerate(method_to_decorate(*args, **kwargs)):  # self, rules=rules
             if i % 5 == 0 and i > 0:
-                input()
+                input("...continue")
+            print(">", i+1, end="")
             for j, element in enumerate(rules_examples_and_outher):
-                print("\t" + text[j] + element.replace(";;", "\n\t\t\t"))
-            print(">",i+1, "\t. " * 14)
+                if len(element):
+                    print("\t" + text[j] + element.replace(";;", "\n\t\t"))
+            print("\t. " * 14)
+            print("\t. " * 14)
         print("-" * 30)
         print("Правила закончились")
         print("=" * 30)
@@ -46,41 +166,183 @@ def print_all_rules_with_comment(method_to_decorate):
     return wrapper
 
 
+def print_selection_tests(method_to_decorate):
+    def wrapper(*args, **kwargs):  # self, rules=rules
+        print("=" * 30)
+        print("Загружаю все тесты")
+        print("-" * 30)
+        text = [
+            "ТЕМА ТЕСТА: ",]
+        all_tests = method_to_decorate(*args, **kwargs)
+        all_tests_result = []
+        for i, rules_examples_and_outher in enumerate(all_tests):  # self, rules=rules
+            for j, element in enumerate(rules_examples_and_outher):
+                if len(element):
+                    print("\t" + text[j] + element.replace(";;", "\n\t\t"))
+                    all_tests_result.append(element)
+        print("-" * 30)
+        print("Тесты закончились")
+        print("=" * 30)
+        return all_tests_result
+
+    return wrapper
+
+def print_special_for_test_decoration(method_to_decorate):
+    def wrapper(*args, **kwargs):  # self, rules=rules
+        print("=" * 30)
+        print("Загружаю все тесты по 1")
+        print("-" * 30)
+        text = [
+            "Вопрос: ",
+            "Ответ: ",
+            "Т Е Г И: ",
+            "МАРКЕРЫ: "]
+        for i, tests in enumerate(method_to_decorate(*args, **kwargs)):  # self, rules=rules
+            print(">", i+1, end="")
+            #print(tests)
+            for j, test in enumerate(tests):
+                #print("*",test)
+                if len(test):
+                    if j == 0: print("\t" + text[j] + test.replace(";;", "\n\t\t"))
+                    if j == 1:
+                        next_ = True
+                        while next_:
+                            attempt = input("Жду ответ на вопрос теста: *(quit)\n" + text[j]).strip()
+
+                            time.sleep(random.choice(tuple(
+                                [0.1, 0.2, 0.3]
+                                )))
+
+                            if attempt == str(test).strip() or attempt == 'quit': 
+                                next_ = False
+                            else:
+                                print("\rПопробуй еще:")
+
+                        else:
+                            print(
+                                random.choice(tuple(
+                                    ["Отлично", "Так держать", "И еще разок", "Можешь же если хочешь", "Верно", "Латум", "За Императора!!!"]
+                                    ))
+                                )
+                            time.sleep(random.choice(tuple(
+                                [1, 2, 3]
+                                )))
+
+            print("\t. " * 14)
+            print("\t. " * 14)
+        print("-" * 30)
+        print("Поздравляю ты все решил!!!") # 26 11 2020 
+        print("=" * 30)
+
+    return wrapper
+
+
+
 class Singleton_BD(object):
-    def __new__(cls):
+    def __new__(cls, *args, **kwargs):
         if not hasattr(cls, 'instance'):
             cls.instance = super(Singleton_BD, cls).__new__(cls)
         return cls.instance
 
-    def __init__(self):
-        self.arg = 1
-        # list to set? = NO! then id will del
-        self.tests = list()
-        self.tests_answers = list()
-        self.tags = list()
-        self.rules = list()
-        self.examples = list()
+    def __init__(self, *args, **kwargs):
+        self.id_dict = kwargs
+        self.db_dict = {}
 
-        self.marks = list()  # _for_test
+        for db in self.id_dict:
+            self.id_dict[db] = {item : [] for index, item in enumerate(self.id_dict[db])}
 
-        # only list
-        self.general_tests = list()
-        self.general_rules = list()
+        import copy
+        self.db_dict = copy.deepcopy(self.id_dict)
+        #print(json.dumps(self.id_dict, indent=4, sort_keys=False, ensure_ascii=False))
 
-    def add_rule(self, rule, examples, tags, mark):
-        id_rule = self.__insert_in_table(rule, self.rules)
-        ids_examples = self.__many_insert_in_table(examples, self.examples)
-        ids_tags = self.__many_insert_in_table(tags, self.tags)
-        id_mark = self.__insert_in_table(mark, self.marks)
-        # нужны ли проверки?
-        self.general_rules.append(
-            {
-                "id_rule": id_rule,
-                "ids_examples": ids_examples,
-                "ids_tags": ids_tags,
-                "id_mark": id_mark
-            }
-        )
+
+    def add_in_id_dict(self, main_db, *db, **dbs):
+
+        #FIX DUBLI?
+
+        for i in dbs:
+            if isinstance(dbs[i], list):
+                self.id_dict[main_db][i].append(
+                    self.__many_insert_in_table(dbs[i], self.db_dict[main_db][i])
+                )
+            else:
+                temp = self.__insert_in_table(dbs[i], self.db_dict[main_db][i])
+                self.id_dict[main_db][i].append(temp)
+
+    def print_any_from_db(self, main_db, db,  db_itog, vektor_db, query="ALL", deep=0, rand=False):
+        # задекорируй меня
+        print(f"Ищу \"{query}\"")
+        # get "some tag" return "some id tags"
+        if query != "ALL":
+            ids_tags = self.__search_any_from_db_by_query(main_db, db, query, deep)
+            # get "some id tags" return "some id main db"
+            ids_main = self.__search_any_from_db_by_id(ids_tags, main_db, db)
+        else:
+            ids_main = self.__get_all_ids_from_db(main_db, db)
+        
+
+        id_result = {}
+        #print(ids_tags, ids_main)
+        for index in self.id_dict[main_db]:
+            #print(index)
+            id_result[index] = list()
+            for k, item in enumerate( self.id_dict[main_db][index] ):
+                if k in ids_main:
+                    #print(item)
+                    id_result[index].append(item) 
+        #print(id_result)
+        #print(vektor_db)
+
+        itog_list = list()
+        temp_list = list()
+
+        if len(id_result):
+            for name_db in vektor_db:
+                #print(self.db_dict[main_db][name_db])
+                for single_result in id_result[name_db]:
+                    if isinstance(single_result, int):
+                        #print(self.db_dict[main_db][name_db][single_result])
+                        #
+                        itog_list.append(self.db_dict[main_db][name_db][single_result])
+                    else:
+                        temp_list.clear()
+                        for i in single_result:
+                            if len(self.db_dict[main_db][name_db][i]):
+                                #print("*", self.db_dict[main_db][name_db][i])
+                                #
+                                temp_list.append(self.db_dict[main_db][name_db][i])
+                        itog_list.append(" | ".join(temp_list))
+                #print(itog_list)
+            step = int(len(itog_list)/len(vektor_db))
+            #print(step)
+
+            # @BUG вот тут если бы это была БД + генератор то былабы в память добавленна 1 строчка
+
+            result = list()
+            for x in range(0, step):
+                temp_list.clear()
+                for i,k in enumerate( itog_list[x::step] ):
+                    #print(i, k)
+                    temp_list.append(k)
+                #print(temp_list)
+                #yield temp_list
+                result.append(temp_list[:])
+            #input()
+            if rand: random.shuffle(result)
+            for res in result:
+                #print(res)
+                yield res
+        else:
+            # задекорируй меня
+            print( f"\tТег \"{tag}\" не найден" )
+
+    def __for_deep_search(self, main_db, db, query):
+        true_querys = set()
+        for index, querys in enumerate(self.db_dict[main_db][db]):
+            if query in querys.split(' '):
+                true_querys.add(index)
+        return true_querys
+
 
     def __many_insert_in_table(self, array, table):
         self.__chek_list_is_list(array)
@@ -89,21 +351,6 @@ class Singleton_BD(object):
             ids_array.add(self.__insert_in_table(element, table))  # update
         return ids_array
 
-    def add_test(self, test, answer, marks):
-        pass
-
-    @print_all_rules_with_comment
-    def print_rules(self, rules="all"):
-        if rules == "all":
-            rules = self.general_rules
-        for ids in rules:
-            yield [
-                self.rules[ids["id_rule"]],
-                " | ".join([self.examples[i] for i in ids["ids_examples"]]),
-                " | ".join([self.tags[i] for i in ids["ids_tags"]]),
-                self.marks[ids["id_mark"]],
-            ]
-
     def __for_deep_search_tegged(self, s_tag):
         true_tags = set()
         for index, tag in enumerate(self.tags):
@@ -111,47 +358,55 @@ class Singleton_BD(object):
                 true_tags.add(index)
         return true_tags
 
-    def print_tagged_rules(self, tag, deep=0):
-        # задекорируй меня
-        print(f"Ищу по тегу \"{tag}\"")
-        id_tags = set()
-
-        if tag in self.tags:
-            id_tags.add(self.tags.index(tag))
+    def __search_any_from_db_by_query(self, main_db, db, query, deep=0):
+        ids_query = set()
+        #print(self.db_dict[main_db][db])
+        if query in self.db_dict[main_db][db]:
+            ids_query.add(self.db_dict[main_db][db].index(query))
         if deep: # глубокий но для односложных запросов
-            assert len(tag.split(' ')) < 2, "print_tagged_rules -> deep_search_teged"
+            assert len(query.split(' ')) < 2, "print_tagged_rules -> deep_search_teged"
             #  а как will be ------ WILL + be
-            id_tags.update(self.__for_deep_search_tegged(tag))
-        
+            ids_query.update(self.__for_deep_search(main_db=main_db, db=db, query=query))
+        return ids_query
 
+    def __search_any_from_db_by_id(self, ids, main_db, db0):
+        itog = set()
+        for id1 in ids:
+            for index, result in enumerate(self.id_dict[main_db][db0]):
+                if id1 in result:
+                    itog.add(index)
+        return itog
 
-        if len(id_tags):
-            rules = list()
-            for rule in self.general_rules:
-                for id_tag in id_tags:
-                    if id_tag in rule["ids_tags"] and rule not in rules:
-                        rules.append(rule)
-            self.print_rules(rules)
-        else:
-            # задекорируй меня
-            print( f"\tТег \"{tag}\" не найден" )
+    def __get_all_ids_from_db(self, main_db, db, rand=False):
+        itog = list()
+        for index, result in enumerate(self.id_dict[main_db][db]):
+            itog.append(index)
+        return itog
 
-    def print_all_tags_yeld():
+    def _print_all_tags_yeld():
         pass
 
-    def deep_search_teged():
+    def _deep_search_teged():
         pass
         #"would + if + be" -> as "be"
 
-    def print_tag_rules():
+    def _print_tag_rules():
         pass
 
-    def rand_shuffle_list(array):
+    def _rand_shuffle_list(array):
+        pass
         shuffle_array = array[:]
         random.shuffle(shuffle_array)
         return shuffle_array
 
-    def get_rand_test(self):
+    def test1(self):
+        pass
+        #print(json.dumps(self.db_dict, indent=4, sort_keys=False, ensure_ascii=False))
+    def __test1(self):
+        pass
+
+    def _get_rand_test(self):
+        pass
         print("!!!!!")
 
         tests_temp = Singleton_BD.rand_shuffle_list(self.tests)
@@ -161,8 +416,9 @@ class Singleton_BD(object):
             print("\t Enter you answer:")
             new_answer = input().strip()
 
-    def print_arg(self):
-        return self.arg
+    def _print_arg(self):
+        pass
+
 
     def __check_element_not_in_list(element, array):
         if element in array:
@@ -184,215 +440,91 @@ class Singleton_BD(object):
             return id
 
 
-s = Singleton_BD()
+class Singleton_BD_new_prints(Singleton_BD):
+    """docstring for Singleton_BD_new_prints"""
+    def __init__(self, *args, **kwargs):
+        super(Singleton_BD_new_prints, self).__init__(*args, **kwargs)
 
-s.add_rule(
-    rule="если объект САМ СОВЕРШАЕТ действие;; " +
-         "{прилагательное = глагол + ing};; " +
-         "звук РАЗДРАЖАЕТ вас = раздражающий annoying",
-    examples=["what an embrassing situation?", "who's dating who?"],
-    tags=["отглагольные прилагательные", "глагол + ing", "V + ing", "#Up.Interm.V.ing"],
-    mark="#Up.Interm.V.ing"
-)
-s.add_rule(
-    rule="если объект ПОДВЕРГАЕТСЯ воздействию;; " +
-         "{прилагательное = глагол + ed (3ф.)};; " +
-         "вас РАЗДРАЖАЕТ звук = вы раздражены annoyed",
-    examples=["brokEN", "relaxed"],
-    tags=["отглагольные прилагательные", "глагол + ed", "V + ed", "#Up.Interm.V.ed"],
-    mark="#Up.Interm.V.ed"
-)
+    #python decorate function parent class???
+    @print_all_rules_with_comment
+    def print_any_from_db(self, main_db, db,  db_itog, vektor_db, query="ALL", deep=0,):
+        return super().print_any_from_db(main_db=main_db, db=db,  db_itog=db_itog, vektor_db=vektor_db, query=query, deep=deep)
 
-s.add_rule(
-    rule="Сослагательное наклонение образ. с пом. {would - БЫ};; " +
-         "{вопрос: Wh. would + подлеж. + глагол? Отриц: wouldn't};; " +
-         "C мест-ем сокращ до {'d};;" +
-         "{ if } условие при котором СЕЙСЧАС НАСТУПИЛО БЫ событ.;;" +
-         "{if + усл. в прош. вр. +[be -> were] + событие с would}",
-    examples=["I would do it for you - я !с!делаю это для тебя"],
-    tags=["Сослагательное наклонение", "would", "would + if", "would + if + be", "Present.would",  "#Interm.would"],
-    mark="#Interm.would"
-)
+    @print_special_for_test_decoration_v2
+    def print_special_for_test(self, main_db, db, db_itog, vektor_db, query="ALL"):
+        return super().print_any_from_db(main_db=main_db, db=db, db_itog=db_itog, vektor_db=vektor_db, query=query, deep=0, rand=True)
 
-s.add_rule(
-    rule="Вероятность событий. Если событие ВПОЛНЕ может быть, то may | might | could;;" +
-         "{подлеж. + may | might | could  + глагол} ",
-    examples=["it might rain tomorrow - завтра может пойти дождь"],
-    tags=["Вероятность событий", "событие ВПОЛНЕ может быть", "may might could", "may", "might", "could",  "#Interm.may.might.could"],
-    mark="#Interm.may.might.could"
-)
+    @print_selection_tests
+    def print_selection_test(self, main_db, db,  db_itog, vektor_db, query="ALL"):
+        return super().print_any_from_db(main_db=main_db, db=db,  db_itog=db_itog, vektor_db=vektor_db, query=query, deep=0)
 
-s.add_rule(
-    rule="Вероятность событий. Слова, обозначающие уверенность: should | must - должны, can't - не может;;" +
-         "{подлеж. + should (shouldn't) | must | can't  + глагол} ;;" +
-         "Вопрос: {should подлеж. + глагол} ",
-    examples=[""],
-    tags=["Вероятность событий", "Слова, обозначающие уверенность", "should must can't", "should", "must", "can't",  "#Interm.should.must.can't"],
-    mark="#Interm.should.must.can't"
-)
+    '''
+        self.test()
 
-# Tenses------------------------
+    def test(self):
+        self._test()
+        super().test1()
+        super()._print_arg()
+        super().__test1()
+
+    def _test(self):
+        print("ok")
+    '''
+
+
+s = Singleton_BD_new_prints(
+    rules=["rule","examples","tags","mark"], 
+    tests=["test","answer","tags","mark"],
+    tests_thems=["thems"],
+    ) # "tests", "examples", "tags", "mark", "answer", 
 '''
-s.add_rule(
-    rule="Pr.S. действие происходит обычно / в принципе;;" +
-         "{+:_ V,(he)V s; -:_ don't(he)doesn't V};;" +
-         "{+:_ have|has; -:_ don't(he)doesn't have };;" +
-         "{+:_ am|is|are|can; -:_ am|is|are|can not };;" +
-         "Собираться что-то делать;;" +
-         "{+:Wh. am|is|are _ going to V};;" +
-         "Следует, стоит;;" +
-         "{+:_ should V; -:_ shouldn't V};;" +
-         "Обязан;;" +
-         "{+:_ have|has to V; -:_ don't|doesn't have|has to V};;";
-    examples=["I work. She has a work*. We don't work. He doesn't work"],
-    tags=["Pr.S", "V s", "does", "do", "have", "has", "am are is", "can", "am going to", "am going to", "ing", "should V", "have to V", ],
-    mark="#Elem.Pr.S.do.does.Vs.have.am.are.is.can.going.to"
-)
+                "id_rule": id_rule,
+                "ids_examples": ids_examples,
+                "ids_tags": ids_tags,
+                "id_mark": id_mark
 '''
-s.add_rule(
-    rule="Pr.S. действие происходит обычно / в принципе;;" +
-         "{+:_ V,(he)V s; -:_ don't(he)doesn't V};;" +
-         "{+:_ have|has; -:_ don't(he)doesn't have };;" +
-         "{+:_ am|is|are|can; -:_ am|is|are|can not };;",
-    examples=["I work. She has a work*. We don't work. He doesn't work"],
-    tags=["Pr.S", "V s", "does", "do", "have", "has", "am are is", "can",],
-    mark="#Elem.Pr.S.do.does.Vs"
-)
-
-s.add_rule(
-    rule="Собираться что-то делать;;" +
-         "{+:Wh. am|is|are _ going to V};;" ,
-    examples=[""],
-    tags=["am going to", "am going to", "ing",  ],
-    mark="#Elem.going.to"
-)
-
-s.add_rule(
-    rule="Следует, стоит;;" +
-         "{+:_ should V; -:_ shouldn't V};;",
-    examples=[""],
-    tags=["should V", ],
-    mark="#Elem.should"
-)
-s.add_rule(
-         "Обязан;;" +
-         "{+:_ have|has to V; -:_ don't|doesn't have|has to V};;",
-    examples=[""],
-    tags=["have to V", ],
-    mark="#Elem.have.to"
-)
-
-s.add_rule(
-    rule="Должен сделать;;" +
-         "{+:_ must V; -:_ mustn't V};;" ,
-    examples=[""],
-    tags=["must V"],
-    mark="#Elem.must"
-)
 
 
-s.add_rule(
-    rule="P.S. действие произошло в завершенный промежуток времени;;" +
-         "{+:_ V ed; -:_ did not V };;" +
-         "{+:_ was|were|could; -:_ was|were|could not };;" +
-         "{  ? string ? [yesterday | last week | once | two days ago] };;" +
-         "Действие было в планах;;" +
-         "{+:Wh. was|were _ going to V };;" +
-         "Способности, возможности в прошлом;;" +
-         "{ could V, couldn't V };;"  +
-         "Я мог мне удолось;;"  +
-         "{ _ was|were able to V};;" ,
-    examples=["It was cold. We didn't buy tea. We bought tea. We washed the window.*"],
-    tags=["P.S", "was", "were", "yesterday", "ing", "V ed", "V ed", "could V", "was were able to V"],
-    mark="#Elem.P.S.was.were.could"
-)
-s.add_rule(
-    rule="F.S. действие случится в будущем;;" +
-         "{+:_ will V; -:_ won't V };;" +
-         "При каком условии наступит событ. в будущем;;" +
-         "{if + усл. в наст. вр. + событие в будущем};;" +
-         " Я смогу, я буду уметь ;;" +
-         "{+:_ will be able to; -:_ won't be able to}",
-    examples=[""],
-    tags=["F.S", "will", "will if", "will br able to"],
-    mark="#Elem.F.S.will"
-)
 
-s.add_rule(
-    rule="Pr.C. Совершается прямо сейчас и еще не завершилось;;" +
-         "{+:_ am|is|are V ing; -:_ am|is|are not V ing };;" ,
-    examples=[""],
-    tags=["Pr.C", "V ing", "was V ing", "ing"],
-    mark="#Elem.Pr.C"
-)
-
-s.add_rule(
-    rule="P.C. одно действие было прервано другим;;" +
-         "{+:_ was|were V ing; -:_ was|were not V ing };;" ,
-    examples=[""],
-    tags=["P.C", "V ing", "was V ing", "were V ing", "ing"],
-    mark="#Elem.P.C"
-)
-
-s.add_rule(
-    rule="F.C. будет происходить и в указанный момент не завершится;;" +
-         "{+:_ will be V ing; -:_ won't be V ing };;" +
-         "{+:Will there be _ ?; };;" ,
-    examples=[""],
-    tags=["F.C", "V ing", "will be V ing", "will V ing", "be V ing", "ing"],
-    mark="#Elem.F.C"
-)
-
-s.add_rule(
-    rule="Pr.P. (не было) сделано к настоящему моменту (не важно когда!);;" +
-         "{+: _ have|has V ed; -:_ have|has not V ed };;" ,
-    examples=[""],
-    tags=["have V ed", "has V ed", "have ed", "ed", "V ed"],
-    mark="#Interm.Pr.P"
-)
-
-s.add_rule(
-    rule="Pr.P.C. Действие длится неколторое время и продолжается сейчас;;" +
-         "{+: _ have|has been V ing; -:_ have|has been not V ing };;" ,
-    examples=[""],
-    tags=["have been V ing", "have been V ing"],
-    mark="#Interm.Pr.P.C."
-)
+###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
-s.add_rule(
-    rule="P.P. Действие завершилось РАНЕЕ другого события в прошлом;;" +
-         "{+: _ had V ed; -:_ hadn't V ed };;" ,
-    examples=[""],
-    tags=["had V ed", "hadn't V ed"],
-    mark="#Interm.P.P."
-)
+tests = migrate.tests
 
-s.add_rule(
-    rule="F.P. Действие завершится к указанному моменту;;" +
-         "{+: _ will have V ed; -:_ won't have V ed };;" +
-         "{by the time };;" ,
-    examples=[""],
-    tags=["will have V ed",],
-    mark="#Interm.F.P."
-)
-
-s.add_rule(
-    rule="it be. Нельзя определить кто выполняет действие;;" +
-         "{it is|was ...; it will be ...};;" ,
-    examples=[""],
-    tags=["it be", "it.be"],
-    mark="#Elem.it.be"
-)
+for test in tests:
+    s.add_in_id_dict(
+        main_db=test["main_db"],
+        test=test["test"],
+        answer=test["answer"],
+        tags=test["tags"],
+        mark=test["mark"]
+    )
 
 
+tests = migrate.rules
+
+for test in tests:
+    s.add_in_id_dict(
+        main_db=test["main_db"],
+        rule=test["rule"],
+        examples=test["examples"],
+        tags=test["tags"],
+        mark=test["mark"]
+    )
+
+for them in migrate.thems:
+    s.add_in_id_dict(
+        main_db=them["main_db"],
+        thems=them["thems"],
+    )
 
 #s.print_rules()
 
 #s.print_tagged_rules("have")
 #s.print_tagged_rules("ed",deep=1)
-while True:
-    s.print_tagged_rules(input("Enter you word:"),deep=1)
+
 
 '''
 print("Object created", s, s.print_arg())
@@ -404,3 +536,42 @@ print("Object created", s1, s.print_arg())
 ('Object created', <__main__.Singleton object at 0x10ba9db90>)
 ('Object created', <__main__.Singleton object at 0x10ba9db90>)
 '''
+
+os.system('cls') 
+while True:
+    #s.test1()
+    #s.test2()
+    try:
+        test_or_rule = int(input("1 - tests, 2 - rule\n"))
+    except Exception as e:
+        print(e)
+        test_or_rule = 0
+
+
+    if test_or_rule == 2:
+        s.print_any_from_db(main_db="rules", db="tags", query=input("Enter you query:"), db_itog="rule", deep=1, vektor_db=["rule", "examples", "tags", "mark"])
+    #if test_or_rule == 1:
+    #   s.print_special_for_test(main_db="tests", db="test", db_itog="test", vektor_db=["test", "answer", "tags", "mark"])      
+    if test_or_rule == 1:
+        #s.print_any_from_db(main_db="tests", db="test", db_itog="test", vektor_db=["test", "answer", "tags", "mark"])      
+        all_tests = s.print_selection_test(main_db="tests_thems", db="thems", db_itog="thems", vektor_db=["thems",])    
+        len_all_tests = len(all_tests)
+        #print(all_tests)
+        try:
+            test_number = int(input("Выбрали номер теста?\n"))
+            if test_number - 1 in [ i for i in range(0, len_all_tests) ]:
+                #s.print_special_for_test(main_db="tests", db="test", db_itog="test", vektor_db=["test", "answer", "tags", "mark"]) 
+                s.print_special_for_test(main_db="tests", db="tags", query=all_tests[test_number-1], db_itog="test", vektor_db=["test", "answer", "tags", "mark"])  
+        except Exception as e:
+            print(e)
+            print("Давай-те я верну Вас в начальное меню")
+
+#import re
+#>>> s = "a b        c d    e                            f  "
+#>>> re.sub('\s{2,}', ' ', s)
+#'a b c d e f '
+
+
+
+
+

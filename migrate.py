@@ -1,3 +1,22 @@
+
+rules = list()
+tests = list()
+mark = list()
+
+tests.append({
+	"main_db":"tests",
+	"test":"-= " + "2 Он играл в футбол каждый вторник" ,#+ temp["Simple.1"],
+	"answer":["He played football every Tuesday"],
+	"tags":["№3 - тест"],
+	"mark":"№3 - тест",
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"-= " + "1 Он играл в футбол каждый вторник" ,#+ temp["Simple.1"],
+	"answer":["He played football every Tuesday"],
+	"tags":["№3 - тест"],
+	"mark":"№3 - тест",
+	})
 ###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 ###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 ###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -7,8 +26,252 @@
 #	результат 	сходил(уже вчера)		сходил(уже)		схожу
 #	долго		проходил(вчера пол дня)	проходил(3часа)	прохожу
 
-tests = list()
-mark = list()
+thems = list()
+
+thems.append({
+	"main_db":"tests_thems",
+	"thems":"№1 - отглагольные прилагательные",
+	})
+thems.append({
+	"main_db":"tests_thems",
+	"thems":"№2 - 21 комбинация времен",
+	})
+thems.append({
+	"main_db":"tests_thems",
+	"thems":"№3 - тест",
+	})
+thems.append({
+	"main_db":"tests_thems",
+	"thems":"№4 - Пассивный залог",
+	})
+
+
+###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+mark.clear()
+mark=["№4 - Пассивный залог", "пассивный залог", "ed"]
+"""
+
+"""
+rules.append({
+	"main_db":"rules",
+	"rule":"Если подлежащее НЕ СОВЕРШАЕТ;;" +
+		"А ИСПЫТЫВАЕТ на себе действие;;"+
+		"{+:_ + be в нужной форме + ГЛ.ed;; -: _ + be в нужной форме + not + ГЛ.ed }",
+	"examples":[""],
+	"tags":mark,
+	"mark":mark[0],
+})
+#--------------------------- Пассивный залог
+
+tests.append({
+	"main_db":"tests",
+	"test":"Дверь заперта (кем-то)" ,
+	"answer":["The door is locked"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Я сбит с толку (чем-то)" ,
+	"answer":["I am confused"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Вы уволены" ,
+	"answer":["You are fired"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Он был уволен вчера" ,
+	"answer":["He was fired yesterday"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Окна были заперты" ,
+	"answer":["The windows were locked"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Дверь заперта?" ,
+	"answer":["Is the door locked?"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Я уволен?" ,
+	"answer":["Am I fired?"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Вы удивлены?" ,
+	"answer":["Are you surprised?"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Эта книга была написана вами?" ,
+	"answer":["Was the book written by you?"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Окна были заперты?" ,
+	"answer":["Were the windows closed?"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Дверь не заперта" ,
+	"answer":["The door is not locked"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Я не уволен" ,
+	"answer":["I am not surprised"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Ваши туфли не были украдены" ,
+	"answer":["Your shoes were not stolen"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Мой бургер был съеден кем-то" ,
+	"answer":["My burger was eaten by somebody"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Мои ответы не были скопированы" ,
+	"answer":["My answers were not copied"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Нам положено ждать здесь" ,
+	"answer":["We are supposed to wait here"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Почему он был уволен?" ,
+	"answer":["Why was he fired"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Мне не дали никаких инструкций" ,
+	"answer":["I was not given any instructions"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Вам будут даны инструкции на английском" ,
+	"answer":["You will be given instructions in English"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Ваши ответы были скопированы" ,
+	"answer":["Your answer were copied"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Здесь позволено курить?" ,
+	"answer":["Is it allowed to smoke here?"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Здесь не запрещено курить?*" ,
+	"answer":["Is it not prohibit to smoke here?"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Вам не положено быть здесь" ,
+	"answer":["You are not supposed to be here"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Когда они будут уволены?" ,
+	"answer":["When will they be fired?"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Галоны воды растрачиваются каждый день" ,
+	"answer":["Gallons of water are wasted every day"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Вас не забудут" ,
+	"answer":["You will not be forgotten"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Сюда не позволено приносить свою еду" ,
+	"answer":["It is not allowed to bring your food here"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Мне велели ждать здесь" ,
+	"answer":["I was told to wait here"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+tests.append({
+	"main_db":"tests",
+	"test":"Что то написано на стене" ,
+	"answer":["Something is written on the wall"],
+	"tags":mark,
+	"mark":mark[0],
+	})
+###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+mark.clear()
+
 temp = {
 	"Simple.1":"[Момент](действие происх. единожды, неск. раз. или никогда)",
 	"Simple.2":"[Момент](действие происх. друг за другом)",
@@ -213,14 +476,21 @@ tests.append({
 tests.append({
 	"main_db":"tests",
 	"test":"Мне скучно",
-	"answer":["I'm bored"],
+	"answer":["I am bored"],
+	"tags":["#Up.Interm.ed.ing", "ed", "ing", "№1 - отглагольные прилагательные"],
+	"mark":"#Up.Interm.ed.ing"
+})
+tests.append({
+	"main_db":"tests",
+	"test":"Это самый скучный фильм который я когда нибудь видел",
+	"answer":["This is the most bored movie I have ever seen"],
 	"tags":["#Up.Interm.ed.ing", "ed", "ing", "№1 - отглагольные прилагательные"],
 	"mark":"#Up.Interm.ed.ing"
 })
 tests.append({
 	"main_db":"tests",
 	"test":"Я скучаю",
-	"answer":["I'm boring"],
+	"answer":["I am boring"],
 	"tags":["#Up.Interm.ed.ing", "ed", "ing", "№1 - отглагольные прилагательные"],
 	"mark":"#Up.Interm.ed.ing"
 })
@@ -256,7 +526,7 @@ tests.append({
 tests.append({
 	"main_db":"tests",
 	"test":"Я не заинтересован современным исскуством",
-	"answer":["I'm not interested in modern art"],
+	"answer":["I am not interested in modern art"],
 	"tags":["#Up.Interm.ed.ing", "ed", "ing", "№1 - отглагольные прилагательные"],
 	"mark":"#Up.Interm.ed.ing"
 })
@@ -291,7 +561,7 @@ tests.append({
 tests.append({
 	"main_db":"tests",
 	"test":"Я никогда не чувствовал себя так расслабленно*",
-	"answer":["I've never felt so relaxed"],
+	"answer":["I have never felt so relaxed"],
 	"tags":["#Up.Interm.ed.ing", "ed", "ing", "№1 - отглагольные прилагательные"],
 	"mark":"#Up.Interm.ed.ing"
 })
@@ -305,14 +575,14 @@ tests.append({
 tests.append({
 	"main_db":"tests",
 	"test":"Я не считаю, что театр - это скучно",
-	"answer":["I don't think theatre is boring"],
+	"answer":["I do not think theatre is boring"],
 	"tags":["#Up.Interm.ed.ing", "ed", "ing", "№1 - отглагольные прилагательные"],
 	"mark":"#Up.Interm.ed.ing"
 })
 tests.append({
 	"main_db":"tests",
 	"test":"Я никогда не чувствовал себя таким смущенным",
-	"answer":["I've never felt so embarrassing"],
+	"answer":["I have never felt so embarrassing"],
 	"tags":["#Up.Interm.ed.ing", "ed", "ing", "№1 - отглагольные прилагательные"],
 	"mark":"#Up.Interm.ed.ing"
 })
@@ -325,7 +595,6 @@ tests.append({
 ###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
-rules = list()
 
 
 
@@ -711,15 +980,15 @@ if __name__ == '__main__':
 
 
 	try:
-	    # Делаем SELECT запрос к базе данных, используя обычный SQL-синтаксис
-	    cursor.execute("SELECT Name FROM Artist ORDER BY Name LIMIT 3")
-	    # Получаем результат сделанного запроса
-	    results = cursor.fetchall()
-	    results2 = cursor.fetchall()
+		# Делаем SELECT запрос к базе данных, используя обычный SQL-синтаксис
+		cursor.execute("SELECT Name FROM Artist ORDER BY Name LIMIT 3")
+		# Получаем результат сделанного запроса
+		results = cursor.fetchall()
+		results2 = cursor.fetchall()
 	except sqlite3.DatabaseError as err:
-	    print("Error: ", err)
+		print("Error: ", err)
 	else:
-	    connection.commit()
+		connection.commit()
 
 
 	#print(results[0])   # [('A Cor Do Som',), ('Aaron Copland & London Symphony Orchestra',), ('Aaron Goldberg',)]
@@ -805,4 +1074,24 @@ if __name__ == '__main__':
 
 	Ваш бинарный байл будет в /PyInstaller-3.2/myscript/dist
 	"""
+
+	a = ["I", "He", "She", "We", "You", "They"]
+	b = [
+	 " has ", "'s ",
+	 " have ", "'ve ", 
+	 " is ", "'s ", 
+	 " are ", "'re ", 
+	 " will ", "'ll "]
+	c1 = list()
+	c2 = list()
+	for a_i in a:
+		for index, b_i in enumerate(b):
+			if index%2:
+				c1.append(a_i + b[index-1]) 
+				c2.append(a_i + b[index])
+				c1.append(a_i + b[index])
+				c2.append(a_i + b[index-1])
+	print(c1)
+	print(c2)
+
 
