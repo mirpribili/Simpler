@@ -65,10 +65,12 @@ def print_special_for_test_decoration_v2(method_to_decorate):
 		key = True
 		errors = set()
 
+		all_tests = list()
+		for test_new in method_to_decorate(*args, **kwargs):
+			all_tests.append(test_new)
+
 		while key:
 			length_of_generator, max_length_of_generator = 0, 0
-
-			all_tests = method_to_decorate(*args, **kwargs)
 
 			for i, tests in enumerate(all_tests):  # self, rules=rules
 				length_of_generator += 1
@@ -91,10 +93,7 @@ def print_special_for_test_decoration_v2(method_to_decorate):
 									)))
 
 								answer = str(test).strip().lower()
-								["I", "He", "She", "We", "You", "They"]
-								[" has ", "'s ",
-								 " have ", "'ve ", 
-								 " will ", "'ll "]
+
 								for replace in ["I am ", "I'm ", "He has ", "He's "]:
 									pass
 								if attempt == answer:
@@ -122,16 +121,21 @@ def print_special_for_test_decoration_v2(method_to_decorate):
 						else:
 							errors.add(i)
 			max_length_of_generator = max(length_of_generator, max_length_of_generator)
-			if max_length_of_generator == len(errors): key = False
+			if max_length_of_generator == len(errors): 
+				key = False
+			else:
+				pass
+				#print(errors)
+				#print(all_tests)
 
 			print("\t. " * 16)
 		print("-" * 30)
 		print("Поздравляю ты все решил!!!") # 26 11 2020
 		time_taken = datetime.now() - start_time
 		print('Duration: {}'.format(time_taken))
-		hours, rest = divmod(time_taken,3600)
-		minutes, seconds = divmod(rest, 60)
-		print('Duration: {hours}:{minutes}:{seconds}'.format(hours=hours, minutes=minutes, seconds=seconds))
+		#hours, rest = divmod(time_taken,3600)
+		#minutes, seconds = divmod(rest, 60)
+		#print('Duration: {hours}:{minutes}:{seconds}'.format(hours=hours, minutes=minutes, seconds=seconds))
 		print("=" * 30)
 
 	return wrapper
@@ -485,18 +489,14 @@ s = Singleton_BD_new_prints(
 ###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 ###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 ###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-s.add_in_id_dict(
-	main_db="tests_thems",
-	thems="№1 - отглагольные прилагательные",
+
+
+for them in migrate.thems:
+	s.add_in_id_dict(
+		main_db=them["main_db"],
+		thems=them["thems"],
 	)
-s.add_in_id_dict(
-	main_db="tests_thems",
-	thems="№2 - 21 комбинация времен",
-	)
-
-
-
-
+	
 tests = migrate.tests
 
 for test in tests:
@@ -519,6 +519,8 @@ for test in tests:
 		tags=test["tags"],
 		mark=test["mark"]
 	)
+
+
 #s.print_rules()
 
 #s.print_tagged_rules("have")
