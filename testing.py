@@ -86,13 +86,19 @@ def print_special_for_test_decoration_v2(method_to_decorate):
                             if j == 1:
                                 #attempt = input("Жду ответ на вопрос теста:\n" + text[j]).strip().lower()
                                 attempt = ""
+                                answer = str(test).strip().lower()
+
                                 while attempt == "":
-                                    attempt = input("Жду ответ на вопрос теста:\n" + text[j]).strip().lower()
+                                    # подсказки
+                                    attempt = input("Жду ответ на вопрос теста:\t\t\t\t help: *len\n" + text[j] ).strip().lower()
+                                    if attempt == "*len":
+                                        print("\t\t\t\t\t" + str(len(answer.split(" "))))
+                                        attempt = ""
                                 time.sleep(random.choice(tuple(
                                     [0.1, 0.2, 0.3]
                                     )))
 
-                                answer = str(test).strip().lower()
+                                
 
                                 for replace in ["I am ", "I'm ", "He has ", "He's "]:
                                     pass
@@ -132,10 +138,11 @@ def print_special_for_test_decoration_v2(method_to_decorate):
         print("-" * 30)
         print("Поздравляю ты все решил!!!") # 26 11 2020
         time_taken = datetime.now() - start_time
-        print('Duration: {}'.format(time_taken))
-        #hours, rest = divmod(time_taken,3600)
-        #minutes, seconds = divmod(rest, 60)
-        #print('Duration: {hours}:{minutes}:{seconds}'.format(hours=hours, minutes=minutes, seconds=seconds))
+
+        minutes, seconds = divmod(time_taken.days * 86400 + time_taken.seconds, 60)
+        hours, hours2 = divmod(time_taken.days * 86400 + time_taken.seconds, 3600)
+
+        print('Duration: {hours}:{minutes}:{seconds}'.format(hours=hours, minutes=minutes, seconds=seconds))
         print("=" * 30)
 
     return wrapper
@@ -491,6 +498,12 @@ s = Singleton_BD_new_prints(
 ###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
+for them in migrate.thems:
+    s.add_in_id_dict(
+        main_db=them["main_db"],
+        thems=them["thems"],
+    )
+    
 tests = migrate.tests
 
 for test in tests:
@@ -514,11 +527,6 @@ for test in tests:
         mark=test["mark"]
     )
 
-for them in migrate.thems:
-    s.add_in_id_dict(
-        main_db=them["main_db"],
-        thems=them["thems"],
-    )
 
 #s.print_rules()
 
@@ -536,7 +544,7 @@ print("Object created", s1, s.print_arg())
 ('Object created', <__main__.Singleton object at 0x10ba9db90>)
 ('Object created', <__main__.Singleton object at 0x10ba9db90>)
 '''
-
+input("Press enter")
 os.system('cls') 
 while True:
     #s.test1()

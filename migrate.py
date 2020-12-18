@@ -3,20 +3,101 @@ rules = list()
 tests = list()
 mark = list()
 
-tests.append({
-	"main_db":"tests",
-	"test":"-= " + "2 Он играл в футбол каждый вторник" ,#+ temp["Simple.1"],
-	"answer":["He played football every Tuesday"],
-	"tags":["№3 - тест"],
-	"mark":"№3 - тест",
-	})
-tests.append({
-	"main_db":"tests",
-	"test":"-= " + "1 Он играл в футбол каждый вторник" ,#+ temp["Simple.1"],
-	"answer":["He played football every Tuesday"],
-	"tags":["№3 - тест"],
-	"mark":"№3 - тест",
-	})
+
+
+
+mark = ["№5 - Vocabulary"]
+words = {
+	"в сторонет от":["apart"],
+	"отбивная, рубить":["chop"],
+	"слезы, разрывы":["tears"],
+	"внедрять, представлять":["introduce"],
+	"Высоко ценить, благодарю":["apprecieat"],
+	"":[""],
+	"зажигают до вечера":["lit till evening"],
+	"Это не нужно! в предложении":["it is not needed in the sentence"],
+	"Она ранена?:":["Is she injured?"],
+	"это не отмечено на карте":["it is not marked upon the map"],
+	"Сделка совершена":["The deal is done"],
+	"приглашены":["invited"],
+	"рекламировалось":["advertised"],
+	"оскорблены":["offended"],
+	"соглассовано":["agreed"],
+	"ваш":["yours"],
+	"Мэри ездит в NY ежемесяно по работе":["Mary goes to NY montly because of her job"],
+	"гнались":["being chased"],
+	"":[""],
+	"способный":["able"],
+	"":[""],
+	"":[""],
+	"":[""],
+	"":[""],
+	"":[""],
+	"":[""],
+	"":[""],
+	"":[""],
+}
+
+for w in words:
+	if w != "":
+		print(w, "\n\t\t", *words[w])
+		tests.append({
+			"main_db":"tests",
+			"test":w,
+			"answer":words[w],
+			"tags":mark,
+			"mark":mark[0],
+			})
+
+
+
+
+
+mark = ["№3 - Слова для NEF-B_1A"]
+
+words = {
+	"Чтение помогает расширить ваш словарный запас":["Reading helps to broaden your vocabulary"],
+	"Правописание не определяет произношение":["Spelling does not determine pronunciation"],
+	"Три редактора управляли работой по корректировке статей для публикации":["Three editors handled the work of revising the articles for publication"],
+	'В "усталость" ударение падает на второй слог':['In "fatigue" the stress falls on the second syllable'],
+	"На парах практиковать диалог":["In pairs practise the dialogue"],
+	"Практиковать предложения":["Practise the sentences"],
+	"Упорядочте буквы чтобы сделать числа":["Order the letters to make numbers"],
+	"Две страны разделенные общим языком":["Two countries separated by a common language"],
+	"Ключи(сведения, улики) поперк(напротив) *про кроссворд":["Clues across"],
+	"Ключ к решению некоторых проблем можно найти случайно.":["A clue to some problems can be found by chance"],
+	"Полиция сделала вывод(от подвели итог*) на основании улик":["The police drew an inference from the clues"],
+	"Полка фиксируется стальным кронштейном(скобкой)":["The rack is held in place with a steel bracket"],
+	"":[""],
+	"Секретный код состоял* из четырёх цифр, но я угадал только три":["The secret code had four digits but I only guessed three"],
+	"Сопоставте(совпадите) вопросы с(к) ответами":["Match the questions to the answers"],
+	"Использовать сокращения(сужения)":["Use contractions"],
+	"Моя речь получила положительный отклик от зрителей":["My speech received a positive response from the audience"],
+	"Мне пришлось её поторопить чтобы* мы не опоздал":["I had to hurry her up so that we would not be late"],
+	"двойки":["twos"],
+	"Мы должны сконцентрироваться на самых срочных(о -ly) вопросах.":["We must focus on the most urgent issues"],
+	"Договор был одобрен с некоторыми оговорками(~бронь)":["The contract was approved with several reservations"],
+	"На приёме*(приемная) мой коллега представил меня послу":["My colleague presented me to the ambassador at the reception"],
+	"":[""],
+	"Каждый имеет право на собственное мнение":["Everyone's entitled to their own opinion"],
+	"":[""],
+	"":[""],
+	"":[""],
+	"":[""],
+	"":[""],
+	"":[""],
+}
+
+for w in words:
+	if w != "":
+		print(w, "\n\t\t", *words[w])
+		tests.append({
+			"main_db":"tests",
+			"test":w,
+			"answer":words[w],
+			"tags":mark,
+			"mark":mark[0],
+			})
 ###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 ###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 ###############################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -38,11 +119,15 @@ thems.append({
 	})
 thems.append({
 	"main_db":"tests_thems",
-	"thems":"№3 - тест",
+	"thems":"№3 - Слова для NEF-B_1A",
 	})
 thems.append({
 	"main_db":"tests_thems",
 	"thems":"№4 - Пассивный залог",
+	})
+thems.append({
+	"main_db":"tests_thems",
+	"thems":"№5 - Vocabulary",
 	})
 
 
@@ -626,6 +711,16 @@ rules.append({
 	"mark":"#Interm.would"
 })
 
+
+rules.append({
+	"main_db":"rules",
+	"rule":"Future in the Past. { would };; " +
+		 "{+: see example };; ",
+	"examples":["He thought it wold help"],
+	"tags":["would"],
+	"mark":"#Future.would"
+})
+
 rules.append({
 	"main_db":"rules",
 	"rule":"Вероятность событий. Если событие ВПОЛНЕ может быть, то may | might | could;;" +
@@ -942,6 +1037,7 @@ wear	wore	worn	носить (одежду)
 win	won	won	победить, выиграть
 write	wrote	written	писать, записывать
 '''
+
 
 
 if __name__ == '__main__':
