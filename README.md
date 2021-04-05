@@ -1119,3 +1119,59 @@ out of из
 
 
 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+swim
+lot
+OUPEN
+A_эй E_и: I_ай Y_ай  O_оу U_ю:
+CLOSED
+A_э* E_э I_и Y_и O_о U_а
+
+C_к=cat c_с=i,e,y nice cell cycle
+g_Г flag
+g_дж=i,e,y page
+---get,gift
+
+sh_ш ch_тш ph_ф ck_k=deck s_з=uSe
+
+ng_н 
+ long
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+rub
+swam
+and
+
+spill
+breed
+tear
+flee
+bet
+awaken
+arise
+rose
+swell
+cling
+wind
+sting
+swear
+bend
+forbid
+forgive 
+
+
+gesture ;tcn
+regal wfhcndtyysq
+volued wtybv
+envelope rjydthn
+deciding htifz
+offer ghtlkj;tybt
+generous otlhsq
+graucherie ytkjdrjcnm
+overloked buyjhbhjdfk
+prudently ghtlecvjnhbntkmyj
+squat ghbpbvbcnsq
+acknowledged jndtnbk
+polite dt;kbdsv
+
+
