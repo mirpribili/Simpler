@@ -1372,6 +1372,41 @@ forgive
 -				
 -	yet verily, the rose is whithin the thorn			Истинно, роза в терновнике.
 -	thorn			шип
+-
+-
+-	bean soup for the errant boy			фасолевый суп для сорванца
+-	yet			и все же
+-				
+-	ill-built			плохо построенный
+-	tremble mightily			сильно дрожать
+-	mightily			мощно
+-				
+-	nope			нет
+-				
+-	hissed			шипел
+-	relentlessly			безжалостно
+-	embarrassed silence			смущённое молчание
+-				
+-	caged whale			кит в клетке
+-	soaking			замачивание
+-	squeeze			сжать
+-	shelter			убежище
+-	dread			ужас
+-				
+-	might deeps			морские глубины
+-	if you must know			если ты должен знать
+-				
+-	elucidated			разъяснено
+-	brethren			братья
+-	ebon night			угольная ночь
+-				
+-	Ee			Ee
+-				
+-	Treacle street			Паточная улица
+-	after a while			спустя некоторое время
+-				
+-	fretwork club			клуб fretwork
+-	a bit of a mix-up			небольшая путаница
 
 
 
