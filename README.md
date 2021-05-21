@@ -1407,7 +1407,32 @@ forgive
 -				
 -	fretwork club			клуб fretwork
 -	a bit of a mix-up			небольшая путаница
-
+- =============
+-	education is important. is importanter		образование важно. важнее
+-			
+-	grabber the bars of the window		захватить решетку окна
+-	hissed		шипел
+-	soaked		промок
+-			
+-	on account of being		из-за того, что
+-	account		счёт
+-			
+-	cautiously		осторожно
+-			
+-	urgently		срочно
+-			
+-	you were perishing neophyte		вы были погибающим неофитом
+-	mighty		могучий
+-			
+-	bolts		болты
+-	giving it a push		давая толчок
+-	untutored		необученный
+-	sticks something wicked in the damp		засовывает что-то злое в сырость
+-			
+-	shoulder		плечо
+-	dirty look		нецензурный взгляд
+-	hurried		торопливый
+-			
 
 
 
