@@ -1160,18 +1160,219 @@ forbid
 forgive 
 
 
-gesture ;tcn
-regal wfhcndtyysq
-volued wtybv
-envelope rjydthn
-deciding htifz
-offer ghtlkj;tybt
-generous otlhsq
-graucherie ytkjdrjcnm
-overloked buyjhbhjdfk
-prudently ghtlecvjnhbntkmyj
-squat ghbpbvbcnsq
-acknowledged jndtnbk
-polite dt;kbdsv
+#### Words
+
+
+
+
+-	https://www.youtube.com/watch?v=IOUcX1GyElM&list=PLOheXwuTHHNSUVBSyz0Ix840ibfooNID4		
+-	My name is Leonardo. And right now my brother and I in a mess(беспорядок) of trouble. Our backs are up against the wall in some trash-thrown(посыпать) alley. Cornered by the toughest(самый жёсткий) street gang on the east side. Look at the freaks what's with the dweeby(отстойный*) costume. This ain't halloween. You going down freaks. Nobody messes(задироаться) with the purple dragons. Especially wearing a stupid turtle costumes. He is wrong. We are not wearing cosumes.		
+-			
+-			
+-	Remember to be a true ninja you must become one with the shadows. Darkness gives the ninja power. While light reveals(разоблачать\показывать) the ninja's presence(присутсвие). Now can you extinguis this flame without revelaing youselves.		
+-			
+-			
+-			
+-			
+-	owned принадлежало\в собственности		
+-	handsome привлекательный		
+-	excited в восторге		
+-	sneezing чихание		
+-			
+-			
+-			
+-	cruel жестокий		
+-	thought-out продуманный		
+-	hiding скрывающийся		
+-	take me to своди меня к		
+-	lead возглавлять		
+-	old well старый колодец		
+-			
+-			
+-	institutional		институционально. ведомственный
+-	traits		Черты.
+-	unusual		необычный.
+-	literally		буквально.
+-	defeat		Поражение.
+-	annual		Ежегодно.
+-			
+-			
+-			
+-	self-awareness самоанализ		
+-	cinematic grace кинематографической благодати		
+-	knowing wink умелое подмигивание 		
+-	particularly в частности		
+-	cheap дешёвый		
+-	some kind of suicide squad какой-то отряд самоубийц		
+-	suggests предлагает		
+-	it suggests that some creators recognize the limitations of narratives это говорит о том, что некоторые создатели признают ограничения повествований.		
+-			
+-	cinematic self-awareness кинематографическое сознание(само-)		
+-	Furious яростный		
+-	getting its audience used to ever-more-outlandish heists приучать свою аудиторию к все более и более странным ограблениям.		
+-	until до тех пор пока не будет		
+-	self-resilience and independence through самостоятельность и независимость посредством		
+-	unexpected affection неожиданная симпатия 		
+-	explaining away объясняя		
+-	Giddily satisfying Головокружительное удовлетворение 		
+-	new take on the universe новый взгляд на вселенную 		
+-	dagger кинжал		
+-	whizzing a person’s body apart разрывающий тело человека на части		
+-	yell кричит		
+-			
+-	Leaning Пристрастие		
+-	certain point определённый момент		
+-	another pale ещё один бледный		
+-	provide nearly the same thrill  доставлять почти такие же острые ощущения 		
+-	does well by avoiding хорошо справляется с задачей, избегая 		
+-	a beat-by-beat replication пошаговое копирование		
+-	initial исходный		
+-	whose violence so spooked чьё насилие так испугало		
+-	congressional hearings слушания в Конгрессе		
+-			
+-			
+-	beyond. cares. favour. one is more refreshing. caused. 		
+-	вне. заботы. благосклонности. один более освежающий. вызванный. 		
+-	to be fit as a fidle. быть в хорошей форме.		
+-	accusations  обвинения		
+-	colloquial разговорный		
+-	to do from scratch делать с нуля		
+-	when red tape causes long delays когда бюрократия приводит к длительным задержкам		
+-	a lot of hot air  явное преувелечение		
+-	well off  сотстоятельный		
+-	for instance например		
+-	thus таким образом		
+-	furthermore кроме того		
+-	according to согласно		
+-	eventually в конечном итоге		
+-	tually фактически		
+-	meanwhile. тем временем.		
+-	additionally. дополнительно		
+-			
+-	faint	слабый	
+-	lore	история	
+-	weighted its shelves	на своих полках.	
+-	since vast amounts of magic	поскольку огромное количество магии	
+-	distort mundane	искажают мирское	
+-	went in forever	ушли в вечность	
+-	wander	блуждать	
+-	distant	далекие	
+-	tribes	племена	
+-	reserch	исследовать	
+-	lurked	затаился	
+-	prey	добыча	
+-	nevertheless	тем не менее	
+-	ordinary	обычный	
+-	readily	охотно	
+-	proved	доказано	
+-	who has been around	кто был рядом	
+-	fashioned	мода	
+-	though they were designed	хотя они были разработаны	
+-	staircase	лестница	
+-	storeys	этажи	
+-	surely	конечно	
+-	wise	мудрый	
+-	took care	заботился	
+-	paella	паэлья	
+-	chalk	мел	
+-	roamed	бродить	
+-	fusty	пыльный	
+-	locked in	запертый	
+-			
+-	faint	слабый	
+-	lore	история	
+-	weighted its sshelves	на своих полках.	
+-	since vast amounts of magic	поскольку огромное количество магии	
+-	distort mundane	искажают мирское	
+-	went in forever	ушли в вечность	
+-	wander	блуждать	
+-	distant	далекие	
+-	tribes	племена	
+-	reserch	исследовать	
+-	lurked	затаился	
+-	prey	добыча	
+-	nevertheless	тем не менее	
+-	ordinary	обычный	
+-	readily	охотно	
+-	proved	доказано	
+-	who has been around	кто был рядом	
+-	fashioned	мода	
+-	though they were designed	хотя они были разработаны	
+-	staircase	лестница	
+-	storeys	этажи	
+-	surely	конечно	
+-	wise	мудрый	
+-	took care	заботился	
+-	paella	паэлья	
+-	chalk	мел	
+-	roamed	бродить	
+-	fusty	пыльный	
+-	locked in	запертый	
+- 
+-	loosely be bound.			свободно быть связанным.
+-	mere pulped			просто мятый
+-				
+-	rather good at			довольно хорошо
+-				
+-	reveal			раскрывать
+-	councill			совет
+-	somehow			как-то
+-	made sure			убедился
+-	matter			дело
+-				
+-	slept on			спал
+-	lulled			убаюкивать
+-				
+-	staggered			пошатывался
+-				
+-	embrace of his gutter			объятия его водостока
+-				
+-	cloak			плащ
+-				
+-	robed			одеяние
+-	scurried through midnight streets			пробирался по полуночным улицам
+-	through			через
+-	ducking from doorway			пригибаясь от дверного проема
+-	reached a grim and forbidding			достиг мрачного и запретного
+-				
+-	no mere doorway got that			ни один простой дверной проем не может быть таким
+-	got that			понял
+-	without effort, one felt			без усилий, человек чувствовал
+-				
+-	called in and given			позвали и дали
+-				
+-	eldritch in dark oak			эльдритч в темном дубе
+-	he'd been told			ему сказали
+-				
+-	unpleasant gargoyle			неприятная горгулья
+-	archway			арка
+-	slam like the footfall			захлопнулась, как от удара ноги
+-	in fact			на самом деле
+-				
+-	figure rapped a complex code			фигура набрала сложный код
+-	on the dark woodwork			на темном дереве
+-				
+-	barred hatch			зарешеченный люк
+-	suspicious			подозрительный
+-	peered			заглянул
+-				
+-	significant			значительный
+-	hoots			гудки
+-	wring			выжимать
+-				
+-	go sadly to the masterless men			грустно идти к бесхозным людям
+-	intoned a voice			интонировал голос
+-	grille			решётка
+-				
+-	hooray			ура
+-	spinster's sister's daughter			дочь сестры пряхи
+-				
+-	axeman			топорщик
+-	supplicants			просители
+-				
+-	yet verily, the rose is whithin the thorn			Истинно, роза в терновнике.
+-	thorn			шип
+
+
 
 
