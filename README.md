@@ -1408,6 +1408,7 @@ forgive
 -	fretwork club			клуб fretwork
 -	a bit of a mix-up			небольшая путаница
 - =============
+- 
 -	education is important. is importanter		образование важно. важнее
 -			
 -	grabber the bars of the window		захватить решетку окна
@@ -1432,7 +1433,57 @@ forgive
 -	shoulder		плечо
 -	dirty look		нецензурный взгляд
 -	hurried		торопливый
+-	=============================
+
+-	sheepish air of people		овечье настроение людей
+-	not normally 		обычно не 
+-	accustomed		привык
+-	sinister		зловещий
+-	hooded		капюшон
 -			
+-	nodded		кивнул
+-			
+-	might come from a colony		может быть из колонии
+-			
+-	pulled a package		вытащил пакет
+-			
+-	amongst		среди
+-			
+-	rapped his gavel for attention		стукнул молоточком для привлечения внимания
+-			
+-	shuffled 		перетасовал 
+-			
+-	lodge		ложа
+-			
+-	sealed fast against		запечатанный наглухо
+-	fast against		быстро против
+-			
+-	stack solid		стопка цельная
+-	plane		самолёт
+-	bring my plane		принести мой рубанок
+-			
+-	testily		испытательно
+-	said testily		сказал убедительно
+-			
+-	a yes would have done		Да не помешало бы
+-			
+-	triple		тройной
+-			
+-	trully traced		точно отследил
+-			
+-	Art all here who art here		Все здесь, кто здесь
+-	art		искусство
+-			
+-	gaskin slit		гаскинская щель
+-	moules shown to the four winds		мулы на все четыре ветра
+-			
+-	torn asunder		разорванный на части
+-	hook		крючок
+-	spike		шип
+-			
+-	glared		взгляд
+-	solitary		одиночка
+
 
 
 
