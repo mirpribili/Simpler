@@ -1278,37 +1278,7 @@ forgive
 -	chalk	мел	
 -	roamed	бродить	
 -	fusty	пыльный	
--	locked in	запертый	
--			
--	faint	слабый	
--	lore	история	
--	weighted its sshelves	на своих полках.	
--	since vast amounts of magic	поскольку огромное количество магии	
--	distort mundane	искажают мирское	
--	went in forever	ушли в вечность	
--	wander	блуждать	
--	distant	далекие	
--	tribes	племена	
--	reserch	исследовать	
--	lurked	затаился	
--	prey	добыча	
--	nevertheless	тем не менее	
--	ordinary	обычный	
--	readily	охотно	
--	proved	доказано	
--	who has been around	кто был рядом	
--	fashioned	мода	
--	though they were designed	хотя они были разработаны	
--	staircase	лестница	
--	storeys	этажи	
--	surely	конечно	
--	wise	мудрый	
--	took care	заботился	
--	paella	паэлья	
--	chalk	мел	
--	roamed	бродить	
--	fusty	пыльный	
--	locked in	запертый	
+-	locked in	запертый		
 - 
 -	loosely be bound.			свободно быть связанным.
 -	mere pulped			просто мятый
@@ -1536,6 +1506,32 @@ forgive
 -	have respect to		уважать
 - ====================
 - 
+-	he had never really got the hang of things		он так и не смог понять, что к чему
+-	hang of things.		держаться за дела.
+-	hang of .		быть в курсе
+-	helpfully		полезно
+-			
+-	society		общество
+-	Must have taken a wrong turning		Должно быть, свернул не туда
+-			
+-	quite.		вполне.
+-	quiet.		тихо.
+-	pointedly.		остро.
+-	suppose.		предположить.
+-	Trouser of Sanctity		Брюки святости
+-	shrive it		отряхнуть \ освятить
+-	Properly		надлежащим образом
+-			
+-	prescription		рецепт
+-	fastened		застёгнутый
+-	cords		шнуры
+-			
+-	splash		брызги
+-	further		далее
+-	robed		в одежде
+-			
+-	apologize		извиниться
+
 
 
 
