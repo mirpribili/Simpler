@@ -1111,6 +1111,7 @@ the money on myself
 - **cd $HOME/simpler;python generate_img_with_text.py**
 - **cd $HOME/selenium_course;sudo python os_mint.py**
 - **cd $HOME/simpler;python generate_img_with_text.py;git add .;git commit -m "replace generate img function from BAD to COOL";git push origin**
+- **conda deactivate;cd $HOME/enviroments;source simpler_env/bin/activate;cd $HOME/simpler;git pull**
 
 to 	к \ в
 into 	внутрь
@@ -1483,6 +1484,58 @@ forgive
 -			
 -	glared		взгляд
 -	solitary		одиночка
+- ==================================
+-	plenty		много
+-	proposed		предложение
+-	admiration		восхищение
+-	inspiration		вдохновение
+-	cause 		повод 
+-	today 		сегодня 
+-	is yesterday's tomorrow		это вчерашнее завтра
+-			
+-	nor immesed		и не скоро
+-	run into		столкнуться
+-			
+-	enjoyably		с удовольствием
+-	immersed		погруженный
+-	gradually		постепенно
+-	hurry up		поторопиться
+-			
+-	watching from above		наблюдение сверху
+-	attractive		привлекательный
+-	it slipped my attention		она ускользнула от моего внимания
+-	escaped		сбежал
+-	affair		роман
+-	probably quite compatible		вероятно, вполне совместимы
+-	care		забота
+-	climb		забраться
+-	carry		нести
+-	merge		сливаться
+-			
+-	I dreamed you dreamed of me calling out my name		Мне снилось, что тебе снилось, как я зову тебя по имени.
+-			
+-	splendid		великолепный
+-	as well		а также
+-	solemn Changing of the Guard		торжественная смена караула
+-	purchased		куплено
+-	foreign states are received		прием иностранных государств
+-	reception		приём
+-	palace		дворец
+-	precise movements		точные движения
+-	generations		поколения
+-	attractiveness		привлекательность
+-	reside		проживать
+-			
+-	church for at least a minute		церковь не менее минуты
+-	for a while		некоторое время
+-	abbey keeps not only the remains		аббатство хранит не только останки
+-	tombs		гробницы
+-	Churchill		Черчилль
+-	contributed		вклад
+-	crowned		коронованный
+-	have respect to		уважать
+- ====================
+- 
 
 
 
