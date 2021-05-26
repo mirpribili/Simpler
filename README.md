@@ -1531,6 +1531,72 @@ forgive
 -	robed		в одежде
 -			
 -	apologize		извиниться
+- 
+- ================================
+-	constraint			ограничение
+-	anxiety			беспокойство
+-	tightness			стеснение
+-				
+-	irrefutable			неопровержимый
+-	inferior			неполноценный
+-	certain			определённый
+-				
+-	catalyst			катализатор
+-	cause of a process			причина какого-либо процесса
+-	bright			яркий
+-	guarantee			гарантия
+-	ancestor			предок
+-				
+-	refusal			отказ
+-	her bus seat acted			ее место в автобусе действовало
+-	setting into			запуск
+-	motion			движение
+-				
+-	slightly miffed daughter			слегка обиженная дочь
+-	law			закон
+-	top shelf			верхняя полка
+-	sparkling			искрящийся
+-				
+-	bunch			куча
+-	incompetents no other			некомпетентных людей.
+-	would touch			не тронет
+-	sceptre of authority			скипетр власти
+-				
+-	drizzle			моросить
+-	dripped			капало
+-	coiled			намотанный
+-				
+-	the sort 			вид 
+-	dislocate			вывихнуть
+-	dislocate			дислоцироваться
+-	handshake			рукопожатие
+-				
+-	possibilities			возможности
+-				
+-	entirely			полностью \ cовсем
+-				
+-	hopefuls			надежды
+-	self-confident			уверенные в себе
+-	take the skilled			брать опытных
+-				
+-	whining resentful ones			ноющие обидчивые
+-	bellyful of spite and bile			полное брюхо злобы и желчи
+-	could make it big			могут добиться больших успехов
+-				
+-	feature			особенность
+-	giggles			хихиканье
+-	get to see			увидеть
+-	from the inside out			изнутри наружу
+-	nods			кивает
+-	mindfulness			внимательность
+-				
+-	feature			особенность
+-	giggles			хихиканье
+-	get to see			увидеть
+-	from the inside out			изнутри наружу
+-	nods			кивает
+-	mindfulness			внимательность
+-	hurry			спешить
 
 
 
