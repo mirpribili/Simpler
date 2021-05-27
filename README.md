@@ -1590,13 +1590,79 @@ forgive
 -	nods			кивает
 -	mindfulness			внимательность
 -				
--	feature			особенность
--	giggles			хихиканье
--	get to see			увидеть
--	from the inside out			изнутри наружу
--	nods			кивает
--	mindfulness			внимательность
 -	hurry			спешить
+- ==================
+-	adjective			прилагательное
+-	easily persuaded			легко убедить
+-	Even though she did like outdoors			Несмотря на то, что она любила прогулки на свежем воздухе
+-	generally 			в целом 
+-	amenable			поддающийся
+-				
+-				
+-	recklessly			безрассудно
+-	wastefully			расточительно
+-	limited salary			ограниченная зарплата
+-	line			выстроить
+-	as to line all the walls of his 			чтобы обшить все стены своего 
+-	pure silk			чистый шёлк
+-	noun			существительное
+-	go from being conservative			переходить от консерватизма
+-	frugal types			экономные типы
+-	outright			откровенно
+-	blow			дуть
+-	lavish homes			роскошные дома
+-	profligate			расточительные
+-				
+-				
+-	lacking			отсутствует
+-	vocabulary was wanting			словарный запас был недостаточен
+-	yet there 			однако 
+-	inevitably			неизбежно
+-	she found a few she did not know			она нашла несколько незнакомых ей слов.
+-	wanit			wanit
+-				
+-	norm			норма
+-	making headlines			заголовки газет
+-	abberation			сокращение
+-				
+-	unbiased			объективный
+-	biased			предвзятый
+-	potential 			потенциальный 
+-	juror			присяжный
+-	defendant			обвиняемый
+-	therefore			поэтому
+-	consist			состоять
+-	disinterested			незаинтересованный
+-				
+-	in any one of seven test prep books			в любой из семи книг по подготовке к тестам
+-				
+-	to be likely to socialize			быть склонным к общению
+-	middle			средний
+-	yet			однако
+-	gregarious			общительный
+-				
+-	to sap energy from			извлекать энергию из
+-	preferred to avoid equatorial			предпочитают избегать экваториальной зоны
+-	sightseeing			осмотр достопримечательностей
+-	enervate			изнурять
+-				
+-	rashly			необдуманно
+-	wastefully extravagant			расточительно экстравагантный
+-	seem			казаться
+-	exception			исключение
+-	decadent lives			декадентская жизнь
+-				
+-	to make less severe			сделать менее суровым
+-	severe			строгий
+-	statement			заявление
+-	adding			добавление
+-	qualify			квалифицировать
+-	qualified			квалифицированный
+-				
+-	ought			должен
+-	I happen to be a world fisherman			Я - мировой рыбак.
+-				
+-	nocturnal occasions			ночные события
 
 
 
