@@ -1663,6 +1663,43 @@ forgive
 -	I happen to be a world fisherman			Я - мировой рыбак.
 -				
 -	nocturnal occasions			ночные события
+-
+-	Give him the ones			Дай ему те.
+-	floods of venom			потоки яда
+-	vindictiveness were dammed 			мстительность была заблокирована 
+-	dammed up behind thin walls			заперты за тонкими стенами
+-	ineptitude			неумелость
+-	lowgrade paranoia			паранойя низкого уровня
+-				
+-	sworn the oath			принести присягу
+-	thought			мысль
+-	not a man jack of 'em			ни один человек не был валетом
+-	jack			разъём
+-	'em			их
+-				
+-	dedication			посвящение
+-	palace			дворец
+-	purpose			цель
+-	in any work			в любой работе
+-	slaughtered			зарезанный
+-	paperback			мягкая обложка
+-				
+-	profound			глубокий
+-	governance			управление
+-	nay			не
+-	the very future			само будущее
+-				
+-	felt the beginnings			почувствовал зачатки
+-	old thrill of power			старый трепет силы
+-				
+-	hanging on his words			зависеть от его слов
+-				
+-	mighty			могущественный
+-	matters 			вопросы 
+-				
+-	this was a feeling worth dressing up			это чувство стоило того, чтобы нарядиться
+-	in bloody silly robes for			в чертовски глупые халаты ради
+-	worth			стоит
 
 
 
