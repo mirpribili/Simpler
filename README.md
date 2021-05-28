@@ -1700,6 +1700,65 @@ forgive
 -	this was a feeling worth dressing up			это чувство стоило того, чтобы нарядиться
 -	in bloody silly robes for			в чертовски глупые халаты ради
 -	worth			стоит
+- =======================
+-	thrall			раб
+-	wax			воск
+-	wax fat			восковой жир
+-	ill-gotten gains			незаконно нажитое имущество
+-	gains			доходы
+-	held back			сдерживаемый
+-	virtual servitude			виртуальное рабство
+-				
+-	vehemently			решительно
+-	mentally			психически
+-				
+-	presumably			предположительно
+-				
+-	crawled			прополз
+-	papery			бумажный
+-	roost			насест
+-	starlings			скворцы
+-				
+-	blanket			одеяло
+-	tattered			рваный
+-	underneath			под
+-	snoring			храп
+-				
+-	spines			корешки \ позвоночники
+-				
+-	shrouded			окутанный
+-	silence			тишина
+-	by dint			благодаря
+-	sheer			просто
+-	otraged silence			возмущённого молчания
+-	managed to			сумел
+-				
+-	a time no man way wot of			время, о котором никто не знает
+-				
+-	thus			таким образом \ так
+-				
+-	shrouded			окутанный
+-	venerable			почтенный
+-	premier college			ведущий колледж
+-				
+-	worthy command			достойное командование
+-	respect were justly rewarded			уважение было справедливо вознаграждено
+-				
+-	chivalry			рыцарство
+-				
+-	bulky robed figure 			массивная фигура в одеянии 
+-	lowered its hand			опустил руку
+-				
+-	strung			струна \ натягивать
+-				
+-	slightly			немного
+-	annoyed			раздраженный
+-	unusual evidence intelligence			необычное доказательство интеллект
+-				
+-	was all sorted out hundreds of years			все было решено за сотни лет
+-	sorted			улаживать
+-				
+-	one felt			чувствовалось
 
 
 
