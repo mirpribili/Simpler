@@ -1858,7 +1858,9 @@ forgive
 -	got a point			попал в точку
 -				
 -	and bob's your uncle			а Боб - твой дядя
-
+-				
+-	increased charges			увеличение расходов
+-	will be in place			будут введены
 
 
 
