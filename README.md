@@ -1730,7 +1730,7 @@ forgive
 -	silence			тишина
 -	by dint			благодаря
 -	sheer			просто
--	otraged silence			возмущённого молчания
+-	outraged silence			возмущённого молчания
 -	managed to			сумел
 -				
 -	a time no man way wot of			время, о котором никто не знает
@@ -1759,6 +1759,106 @@ forgive
 -	sorted			улаживать
 -				
 -	one felt			чувствовалось
+- =======================
+- 	Supply		Поставка
+-	Average		Среднее
+-	locked & loaded		закрыто и загружено
+-	BUSY		ЗАНЯТ
+-	beyond		за пределами
+-			
+-	Clue. 		Разгадка. 
+-	Air of one. 		Воздух одного. 
+-	Used to have. 		Раньше был. 
+-	Sharply. 		Резко. 
+-	Defunct. 		Исчезнувший. 
+-	Hitherto imagined. 		До сих пор воображаемый. 
+-	Hitherto. 		До сих пор. 
+-	Progeny. 		Потомство. 
+-	Indicate. 		Указать. 
+-	Expectantly. 		Ожидаемо. 
+-	Stood back. 		Остановиться. 
+-	Manage. 		Управлять. 
+-	Claim. 		C laim. 
+-	Assert. 		Утверждать. 
+-	Case. 		Дело. 
+-	Providing. 		Обеспечение. 
+-	Cloud. 		Облако. 
+-	Clap. 		Хлопать. 
+-	Ought. 		Должен. 
+-	Suggest. 		Предлагать. 
+-	Wishes. 		Желания. 
+- ==============================
+-	Supply		Поставка	
+-	Average		Среднее	
+-	locked & loaded		закрыто и загружено	
+-	BUSY		ЗАНЯТ	
+-	beyond		за пределами	
+-				
+-	Clue. 		Разгадка. 	
+-	Air of one. 		Воздух одного. 	
+-	Used to have. 		Раньше был. 	
+-	Sharply. 		Резко. 	
+-	Defunct. 		Исчезнувший. 	
+-	Hitherto imagined. 		До сих пор воображаемый. 	
+-	Hitherto. 		До сих пор. 	
+-	Progeny. 		Потомство. 	
+-	Indicate. 		Указать. 	
+-	Expectantly. 		Ожидаемо. 	
+-	Stood back. 		Остановиться. 	
+-	Manage. 		Управлять. 	
+-	Claim. 		C laim. 	
+-	Assert. 		Утверждать. 	
+-	Case. 		Дело. 	
+-	Providing. 		Обеспечение. 	
+-	Cloud. 		Облако. 	
+-	Clap. 		Хлопать. 	
+-	Ought. 		Должен. 	
+-	Suggest. 		Предлагать. 	
+-	Wishes. 		Желания. 	
+-				
+-	sort of heir		своего рода наследник	
+-	heir		наследник	
+-	hanging around		слоняющийся без дела	
+-	hang		висеть	
+-				
+-	case		дело	
+-				
+-	knowledgeably		со знанием дела	
+-				
+-	skions		лыжи \ отбрыски?	
+-				
+-	wildernesses			дикие земли
+-	hading down			изнуряющий
+-	birthmark			родинка
+-	forth			вперёд
+-				
+-	turn up			подняться
+-	truf out			выкидывать
+-	usurpers			узурпаторы
+-				
+-	rejoicing			ликование
+-				
+-	plasterer			штукатур
+-				
+-	what ho			что хо
+-	as per spec			согласно спецификации
+-	bugger of			жук
+-				
+-	threatened			угроза
+-				
+-	he gets carried off			его уносят
+-	carry			унести
+-	palace			дворец
+-	cures			лечит
+-	announces			объявляет
+-	hands round a bit of treasure			раздает по кругу сокровище
+-				
+-	swineherd			свинопас
+-				
+-	got a point			попал в точку
+-				
+-	and bob's your uncle			а Боб - твой дядя
+
 
 
 
