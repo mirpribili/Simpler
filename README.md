@@ -1861,8 +1861,73 @@ forgive
 -				
 -	increased charges			увеличение расходов
 -	will be in place			будут введены
-
-
+- =================================================
+-	increased charges			повышенные сборы
+-	will be in place			будут введены
+-				
+-	come true			сбываться
+-	true			правда
+-				
+-	pickle			огурец
+-				
+-	Attend. 			Присутствовать. 
+-	2 competition. 			2 соревнование. 
+-	3 ranked. 			3 ранжированный. 
+-	4 as superior. 			4 как превосходный. 
+-	5 amusement. 			5 развлечение. 
+-	6 rode. 			6 кататься. 
+-	7 ride there. 			7 кататься на нем. 
+-	8 Just about.			8 вот-вот.
+-				
+-	wossname			What's his name
+-				
+-	origin			происхождение
+-	humble			скромный
+-				
+-	perambulatory			передвижной
+-	halitosis			неприятный запах изо рта галитоз
+-				
+-	posh			шикарный
+-	lots			много
+-				
+-	dunnykin			дунькин
+-				
+-	sulkily			угрюмо
+-				
+-	we might of			мы могли бы
+-				
+-	grudgingly			нехотя
+-				
+-	fair			справедливый
+-	essential			существенный
+-	genuine			подлинный
+-	cloak			плащ
+-	Lo!			Ло!
+-	kingnessness			царственность
+-	shines			сияет
+-	through			через
+-				
+-	appear			появляться
+-				
+-	exactly			точно
+-				
+-	mutter			бормотать
+-				
+-	padded 			мягкая 
+-				
+-	have got			получил
+-				
+-	heavily			сильно
+-				
+-	sudden			внезапно
+-	authority			авторитет
+-	royalty			королевская власть
+-	shook			потряс
+-				
+-	dunno			не знаю
+-	threat			угроза
+-				
+-	oppress			угнетать
 
 
 
