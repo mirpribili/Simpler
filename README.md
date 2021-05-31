@@ -1430,6 +1430,7 @@ forgive
 -	fast against		быстро против
 -			
 -	stack solid		стопка цельная
+-   stuck solid		прочно застрял
 -	plane		самолёт
 -	bring my plane		принести мой рубанок
 -			
@@ -1520,7 +1521,7 @@ forgive
 -	suppose.		предположить.
 -	Trouser of Sanctity		Брюки святости
 -	shrive it		отряхнуть \ освятить
--	Properly		надлежащим образом
+-	Properly		надлежащим образом / Правильно
 -			
 -	prescription		рецепт
 -	fastened		застёгнутый
@@ -1759,34 +1760,6 @@ forgive
 -	sorted			улаживать
 -				
 -	one felt			чувствовалось
-- =======================
-- 	Supply		Поставка
--	Average		Среднее
--	locked & loaded		закрыто и загружено
--	BUSY		ЗАНЯТ
--	beyond		за пределами
--			
--	Clue. 		Разгадка. 
--	Air of one. 		Воздух одного. 
--	Used to have. 		Раньше был. 
--	Sharply. 		Резко. 
--	Defunct. 		Исчезнувший. 
--	Hitherto imagined. 		До сих пор воображаемый. 
--	Hitherto. 		До сих пор. 
--	Progeny. 		Потомство. 
--	Indicate. 		Указать. 
--	Expectantly. 		Ожидаемо. 
--	Stood back. 		Остановиться. 
--	Manage. 		Управлять. 
--	Claim. 		C laim. 
--	Assert. 		Утверждать. 
--	Case. 		Дело. 
--	Providing. 		Обеспечение. 
--	Cloud. 		Облако. 
--	Clap. 		Хлопать. 
--	Ought. 		Должен. 
--	Suggest. 		Предлагать. 
--	Wishes. 		Желания. 
 - ==============================
 -	Supply		Поставка	
 -	Average		Среднее	
@@ -1928,6 +1901,125 @@ forgive
 -	threat			угроза
 -				
 -	oppress			угнетать
+- ===================================
+-	peaceful			мирный
+-	nods			кивает
+-	Snuggle			Прижимайтесь
+-	reaching			достижение
+-	cute			милый
+-				
+-	you back			спина
+-	lean			наклониться
+-	deeply			глубоко
+-				
+-	whatever			что угодно
+-				
+-	grins			ухмылки
+-	blushed			покраснел
+-	looked away			отворачиваться
+-				
+-	chucked			усмехался
+-	sick			больной
+-				
+-	I was actually just getting a little sick of it			На самом деле мне это просто надоело.
+-				
+-	I guess			Я думаю
+-	guess			догадаться
+-				
+-	banging			стук
+-	going on			продолжающийся
+-	allegedly			предположительно
+-	owe			задолжать
+-				
+-	a man's go to have some time to learn			мужчина должен иметь время, чтобы научиться
+-				
+-	heel			каблук
+-				
+-	put			размещать
+-	put like that			ставить так
+-	reckon			считаться
+-	buggy			коляска
+-	with having this new			с этим новым
+-	justice			правосудие
+-	I mean			Я имею в виду
+-	bet			ставьте
+-	go on			продолжать
+-	wives			жены
+-	coach			тренер / карета!
+-				
+-	light-headed			легкое головокружение
+-	avalanches			лавины
+-	astonishing			удивительный
+-	He was hardly having to egg them on at all			Вряд ли ему вообще приходилось их подстрекать.
+-	He was hardly having to			Ему почти не приходилось
+-	egg them on at all			подбадривать их
+-	having to egg them			приходилось их подначивать
+-	egg			яйцо
+-				
+-	outlaw			вне закона
+-	showy			показушный
+-	coaches			карет
+-				
+-	tweaking			настройка
+-	wise			мудрый
+-	undeserving			незаслуженный
+-				
+-	thoughtful			продуманный
+-	conversation			разговор
+-	as the asssembled			в собранном виде
+-	divided			разделённый
+-	appropriate			подходящий
+-				
+-	manifesting			проявление
+-	destiny			судьба
+-	she keeps giving him funny looks			Она продолжает смотреть на него смешными глазами
+-				
+-	offence			обида
+-				
+-	eventually			в конце концов
+-				
+-	And bloody short weight			И чертовски маленький вес
+-				
+-				
+-	they have got to save			они должны спасти
+-	have got			должен
+-	got to			должен
+-				
+-	truly			действительно
+-	right-thinking			правильно мыслящий
+-	folk			народ
+-	beneath			под
+-				
+-	they have got to save			они должны спасти
+-	have got			должен
+-	got to			должен
+-				
+-	generally reveals			обычно показывает
+-	circumstances			обстоятельства
+-				
+-	surely			конечно
+-	self-centred			эгоцентризм
+-	stupidity			глупость
+-	suggestion			предложение
+-	bright 			яркий 
+-	bright			хороший
+-	enough			достаточно
+-				
+-	prophecy			пророчество
+-				
+-	things were going well			все шло хорошо
+-				
+-	surely			конечно
+-	self-centred			эгоцентризм
+-	stupidity			глупость
+-	suggestion			предложение
+-	bright 			яркий 
+-	bright			хороший
+-	enough			достаточно
+-				
+-	prophecy			пророчество
+-				
+-	used to be			раньше
 
 
 
