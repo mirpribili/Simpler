@@ -1990,10 +1990,6 @@ forgive
 -	folk			народ
 -	beneath			под
 -				
--	they have got to save			они должны спасти
--	have got			должен
--	got to			должен
--				
 -	generally reveals			обычно показывает
 -	circumstances			обстоятельства
 -				
@@ -2020,6 +2016,74 @@ forgive
 -	prophecy			пророчество
 -				
 -	used to be			раньше
+- ================================
+-	His eyes glazed with the effort			Его глаза остекленели от усилий.
+-	glazed			остекленевшие
+-	dramatic recall			драматическое воспоминание
+-	recall			отзыв
+-				
+-	And a fat lot good that'd be			И это было бы очень хорошо.
+-				
+-	ride in			ехать в
+-	on like			как
+-	squeaked			скрип
+-	watering his horse			водя свою лошадь
+-				
+-	make it up			придумать
+-				
+-	trust			доверие
+-				
+-	peeved			раздраженный
+-				
+-	cos they are			потому что они
+-				
+-	em up			проснуться
+-	wake em			разбудить их
+-				
+-	daft			глупый
+-	severely			серьёзно
+-				
+-	stands to reason			логично
+-	stands			стоит
+-	reason			разум \ причина
+-				
+-	clapped			прохлопал
+-	prayer			молитва
+-				
+-	rambling			бессвязный
+-				
+-	he trilled			он пропел
+-				
+-	dourly			уныло
+-				
+-	medium-rare			средней прожарки
+-				
+-	Had your sandwich seasoned?			Приправлен ли ваш сэндвич?
+-	embracing you			обнимаю тебя
+-				
+-	cracked his knuckles			треснул костяшками пальцев
+-				
+-	depths			глубины
+-	cowl			капот \ капюшон \ кашне
+-				
+-	you get that			вы получите это
+-	resident			местный житель
+-   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
