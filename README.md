@@ -2068,7 +2068,70 @@ forgive
 -				
 -	you get that			вы получите это
 -	resident			местный житель
--   
+- ========================
+-	breath			дыхание
+-	blast			взрыв
+-	furnance			печь
+-				
+-	claw			коготь
+-				
+-	Talon			талон \ коготь
+-				
+-	hesitate			колебаться
+-				
+-	weaselly			проныра
+-	lump			кусок
+-	in a dog pound			в собачьем загоне
+-				
+-	privacy of 			уединение 
+-				
+-	swamp			болото
+-	genuine article			подлинный изделие
+-				
+-	Both a wave and a particle			И волна, и частица
+-				
+-	undergoing			проходящий
+-	tuition			обучение
+-				
+-	venerable			почтенные
+-	sages			мудрецы
+-	secretly			тайно
+-	taught			учил
+-	fires			костры
+-				
+-	fancies			капризы \ увлечен
+-				
+-	That's the way it is untill			Так будет до тех пор, пока
+-				
+-	stand by for Extra			приготовиться к Экстра
+-	cushion			подушка
+-	haven't we			разве мы не
+-	parcel			посылка
+-	darling			дорогой
+-	penpals			друзья по переписке
+-	But, erm, she			Но, эм, она
+-	laundry			прачечная
+-	borrowed			одолжил
+-	Tough guy			Крутой парень
+-	Fascinating			Очаровательный
+-	goodness			доброта
+-	luggage			багаж
+-	downstaris			даунстарис
+-	pulled			тянуть
+-	butler			дворецкий
+-	opposite			напротив
+-	acting agency			актёрское агентство
+-	oven			духовка
+-	spare			запасной
+-	I don't care!			Мне все равно!
+-	awful			ужасно
+-	poor			бедный
+-	soul			душевный
+-	funk			фанк
+-	landlady			хозяйка
+-	tarantula			тарантул
+-	flatmates			соседи по квартире
+
 
 
 
