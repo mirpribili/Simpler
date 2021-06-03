@@ -2131,14 +2131,76 @@ forgive
 -	landlady			хозяйка
 -	tarantula			тарантул
 -	flatmates			соседи по квартире
-
-
-
-
-
-
-
-
+- ==============================
+-	obsequiously			подобострастно
+-	mystic			мистика
+-				
+-	there is going to be none of this			ничего этого не будет
+-				
+-	I shall form			Я сформирую
+-	keen-minded			острый ум
+-				
+-				
+-	overthrow			свергнуть
+-	usher in new age			провозглашу новую эру
+-	enlightenment			просвещение
+-	fraternity			братство
+-	humanism			гуманизм
+-	roasted			жареный
+-	if I have any say in the matter			если у меня есть право голоса в этом вопросе
+-	any say			любое слово
+-				
+-	Dictionary Eye-Watering words			Словарь Глазомерные слова
+-	crush 			раздавить 
+-	pasty			пастообразный
+-	raisins			изюм
+-	invaluable			бесценный
+-	thought up			придуманный
+-	oath			клятва
+-	includes welchet			включает вельш
+-	waistcoat worn			жилет, который носят
+-	certain			определенный
+-	by certain clock-makers			некоторыми часовщиками
+-	shy			застенчивый
+-	coot family			семейство куканов
+-	involving			с участием
+-	tortoise			черепаха
+-				
+-	rice paper			рисовая бумага
+-	said conversationally			сказал в разговоре
+-				
+-	got on			взялся
+-				
+-	saving it off			экономия
+-	of my macaroons 			моих макарон. 
+-	ever since			с тех пор
+-				
+-	proper			правильный
+-				
+-	griddle			гриль
+-	lonely			одинокий
+-				
+-	approvingly			одобрительно
+-				
+-	noble			благородный
+-				
+-	belief			вера
+-	died out			вымерла
+-	quite wrong			совершенно неправильно
+-	quite			совсем
+-				
+-	niche			ниша
+-				
+-	flourished			процветал \ жестикулировать
+-				
+-	Heart of Being			сердце сущего
+-				
+-	only copy			единственный экземпляр
+-				
+-	awkward			неловко
+-				
+-	habits			привычки
+-	assure			гарантировать
 
 
 
