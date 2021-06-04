@@ -2201,6 +2201,72 @@ forgive
 -				
 -	habits			привычки
 -	assure			гарантировать
+- ============================
+-	spotted which cup of pea is hidden under			заметил, под какой чашкой спрятан горох
+-	doesn't like to say			не хочет говорить
+-				
+-	wisdomship			мудреность
+-	wisdom			мудрость
+-				
+-	trail			след
+-	trailed off			застрял
+-				
+-	dint			не
+-	banged up			помятый
+-	bang			удариться
+-	herbets			травы
+-	ton of bricks			тонна кирпичей
+-				
+-	demarcation			разделение
+-	fiddle fiddle			скрипка\ мошенничество
+-	interleaved			чередование
+-	wossnames of causality			имена причинности
+-				
+-	I fail to see the problem			Я не вижу проблемы
+-				
+-	hurdle			препятствие
+-				
+-	palm			ладонь \ пальма
+-				
+-	stupefyingly			ошеломляюще
+-				
+-	tiny			крошечный
+-				
+-	shuffled uneasily			неуверенно шаркал
+-				
+-	The air of mean-minded resentfulness thickened noticeably			Воздух подлой обиды заметно сгустился.
+-	mean-minded			подлый
+-	minded of			умысел
+-	resentfulness			негодование
+-	noticeably			заметно
+-	thickened			сгустился
+-	thick			толстый
+-				
+-	let him down so far			подвели его до сих пор
+-				
+-	backsides a mile wide			задницы в милю шириной
+-	honest toil			честный труд
+-				
+-	noses in the air			зазнаваться
+-				
+-	thieving			воровство
+-				
+-	go round doin			ходить вокруг да около
+-	magic on account			волшебство за счёт
+-	them knowin			они знают
+-	about not disturbin			о том, что нельзя мешать
+-	and whatnot			и всё такое
+-	load of rubbish			куча мусора
+-	load			груз
+-	went on			продолжался
+-				
+-	get the mix wrong			неправильно подобрать смесь
+-				
+-	get a bit wrong			немного ошибаться
+-	ghastly			отвратительно
+-	comes out			выходит
+-	woodwork			дерево
+-	stitches you right up			зашивает тебя
 
 
 
