@@ -2005,16 +2005,6 @@ forgive
 -				
 -	things were going well			все шло хорошо
 -				
--	surely			конечно
--	self-centred			эгоцентризм
--	stupidity			глупость
--	suggestion			предложение
--	bright 			яркий 
--	bright			хороший
--	enough			достаточно
--				
--	prophecy			пророчество
--				
 -	used to be			раньше
 - ================================
 -	His eyes glazed with the effort			Его глаза остекленели от усилий.
@@ -2267,6 +2257,59 @@ forgive
 -	comes out			выходит
 -	woodwork			дерево
 -	stitches you right up			зашивает тебя
+- ==========================================
+-	Never could stand them myself, to tell you the truth.			Сам никогда их не переносил, по правде говоря.
+-	don't want to rest of us to find out			не хотят, чтобы остальные узнали.
+-	want to rest of us			хочу, чтобы мы остались
+-	don't want to rest of us			не хочу отдыхать от нас
+-	don't want to rest of us to			не хотим отдыхать от нас
+-	don't want to rest of us to find out			не хочу, чтобы мы все узнали.
+-	rest			отдых \ остаток
+-	to rest of us to find out			don't want to rest of us to find out
+-				
+-	chanting			скандирование
+-				
+-	plausible			правдоподобный
+-				
+-	muscling in			втягивание/ привлечение / мышечная работа
+-				
+-	conside			рассмотреть
+-				
+-	ripe			спелый
+-	time was ripe			время пришло
+-				
+-	relived			пережитое \ повторно
+-				
+-	I don't mind practising			Я не против практиковаться
+-	mind			возражать \ ум
+-				
+-	thumped			бросил
+-				
+-	carry out			выполнять
+-				
+-	rightful			законный
+-				
+-	solid			твердый
+-				
+-	gnomic workings of fate			ювилирная / гномическая работа судьбы
+-				
+-	vaguely			смутно
+-				
+-	get out of hand			выходить из-под контроля
+-				
+-	smoothly			плавно
+-				
+-	reluctant			неохотно
+-				
+-	again			повторюсь
+-				
+-	initially			первоначально
+-				
+-	charred lump			обугленный комок
+-				
+-	not up to it			не справляется
+-				
+-	rejected			отклонено
 
 
 
