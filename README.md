@@ -2310,9 +2310,75 @@ forgive
 -	not up to it			не справляется
 -				
 -	rejected			отклонено
-
-
-
+- =====================================
+-	thunder rolled			раскаты грома
+-	rolled			прокатился
+-				
+-	identities			личности
+-	actual			действительность
+-	pawns			пешки
+-				
+-	sighed			вздохнул
+-				
+-	speculate			спекулировать
+-	best not to speculate			лучше не рассуждать
+-				
+-	handing down			передача
+-				
+-	put like that			так сказать
+-				
+-	pull back briefly			отступить на короткое время
+-	pan across the morning			панорама утра
+-	pan			просмотреть
+-	pan			сковороду
+-	Disc			Диск
+-	heading			направляться
+-	all the openness			вся открытость
+-	sincerity			искренность
+-	innocence of purpose			невинность намерений
+-	purpose			цель
+-	major			главная
+-	major shipping lane			основной судоходный путь
+-	lane			переулок
+-				
+-	carrot			морковь
+-	clipped			обрезанный
+-	Hygiene			Гигиена
+-				
+-	tapering			конусная \ сужающийся
+-	huge lungfuls			огромные легкие
+-	lungful			легкие
+-				
+-	flexes			сгибает
+-				
+-	bearing a sword			с мечом
+-	bear			нести
+-	bear			медведь
+-				
+-	surprisingly			удивительно
+-	therefore			следовательно
+-				
+-	wield			использовать
+-	blisters			волдыри
+-	ceased			перестал
+-	quintessential sword			квинтэссенция меча
+-	sharp			острый
+-				
+-	gurgled			булькал
+-	detritus of the night			остатки ночи
+-	was carried along			был унесен
+-	in some cases protesting 			в некоторых случаях протестуя 
+-	feebly			слабо
+-				
+-	recumbent			лежачий
+-	diverted			отклонённый
+-				
+-	shovel			лопата
+-	empty peace			пустой мир / покой
+-				
+-	funeral			похороны
+-				
+-	harmlessly			безвредно
 
 
 
