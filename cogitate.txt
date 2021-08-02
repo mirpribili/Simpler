@@ -1,0 +1,326 @@
+#___cogitate
+##__(about/on something) to think carefully about something
+###_I would prefer to cogitate the possibilities for a time.
+###_We need another one of these to cogitate on this clever idea.
+#___cogently
+##__in a way that is strongly and clearly expressed and that influences what people believe
+###_a cogently argued and well-researched book
+#___convincingly
+##__in a way that makes somebody believe that something is true
+###_Her case was convincingly argued.
+#___unconvincingly
+##__in a way that does not seem true or real; in a way that does not make you believe that something is true
+###_He laughed unconvincingly.
+#___cogent
+##__strongly and clearly expressed in a way that influences what people believe
+###_She put forward some cogent reasons for abandoning the plan.
+#___cogitation
+##__(about/on something) the act or process of thinking carefully about something
+###_Trained, in fact, in the arts of cogitation.
+#___ponder
+##__to think about something carefully for a period of time
+###_Perhaps you'd like a flagon to help you ponder.
+#___pondered
+##__[ed]
+###_She pondered over his words.
+#___ponderous
+##__(disapproving) (of speech and writing) too slow and careful; serious and boring
+###_He spoke in a slow ponderous voice.
+#___tedious
+##__lasting or taking too long and not interesting
+###_The journey soon became tedious.
+#___boring
+##__not interesting; making you feel tired and impatient
+###_The movie was dreadfully dull and incredibly boring.
+#___ponderously
+##__(disapproving) in a way that is too slow and careful; in a serious and boring way
+###_He thought for a long time before answering ponderously and at length.
+#___tediously
+##__in a way that lasts or takes too long and is not interesting
+###_He kept tediously repeating himself.
+#___reflected
+##__[transitive, usually passive] to show the image of somebody/something on the surface of something such as a mirror, water or glass
+###_His face was reflected in the mirror.
+#___reflect
+##__something to show or be a sign of the nature of something or of somebody’s attitude or feeling
+###_Our newspaper aims to reflect the views of the local community.
+##__[intransitive, transitive] to think carefully and deeply about something
+###_Before I decide, I need time to reflect.
+###_William had little time to reflect upon these episodes.
+###_She was left to reflect on the implications of her decision.
+#___reflects
+##__idiom
+###_This incident reflects badly on everyone involved.
+#___ruminate
+##__(on/over/about something) | + speech to think deeply about something
+###_And I have no office in which to ruminate.
+#___ruminative
+##__tending to think deeply and carefully about things
+###_in a ruminative mood
+#___thoughtful
+##__quiet, because you are thinking
+###_They sat in thoughtful silence.
+##__showing that you think about and care for other people
+###_The hotel manager was very kind and thoughtful.
+#___pensive
+##__thinking deeply about something, especially because you are sad or worried
+###_She sat with a pensive expression on her face.
+#___reason
+##__[countable] a cause or an explanation for something that has happened or that somebody has done
+###_I have no particular reason for doubting him.
+###_There were a number of reasons behind her departure.
+###_Sometimes I cry for no reason at all.
+###_people who, for whatever reason, are unable to support themselves
+##__[uncountable] a fact that makes it right or fair to do something
+###_You have no reason to accuse him of laziness.
+###_She has good reason to be concerned.
+##__[uncountable] the power of the mind to think in a logical way, to understand and have opinions, etc.
+###_the conflict between faith and reason
+###_to lose your reason (= become mentally ill)
+###_Only human beings are capable of reason (= of thinking in a logical way, etc.).
+##__[uncountable] what is possible, practical or right
+###_Why can't they see reason?
+###_Look, you're supposed to be the voice of reason here.
+##__Idioms it stands to ... (informal) it must be clear to any sensible person who thinks about it
+###_It stands to reason that they'll leave if you don't pay them enough.
+##__​if there is no rhyme or reason to something or it happens without rhyme or reason, it happens in a way that cannot be easily explained or understood
+###_Suddenly, without rhyme or reason, his mood changed.
+#___explanation
+##__[countable, uncountable] a statement, fact, or situation that tells you why something happened; a reason given for something
+###_I'm sure there's a perfectly simple explanation for this.
+###_It's the only explanation that makes any sense.
+##__[countable] a statement or piece of writing that tells you how something works or makes something easier to understand
+###_Other parts of the book contain unnecessarily lengthy explanations.
+#___reasonable
+##__fair, practical, and sensible
+###_As life expectancy increases, it is reasonable to expect that the retirement age will increase too.
+##__acceptable and appropriate in a particular situation
+###_The adviser must take reasonable care to ensure that the information is correct
+##__ not too expensive Synonyms cheap
+###_We sell good-quality food at reasonable prices.
+##__[usually before noun] fairly good, but not very good SYNONYM average
+###_Most people here have a reasonable standard of living.
+#___reasonableness
+##__the fact of being fair, practical and sensible
+###_The court must determine the reasonableness of the costs claimed.
+#___explanatory
+##__giving the reasons for something; intended to describe how something works or to make something easier to understand
+###_There are explanatory notes at the back of the book.
+#___regard
+##__(formal) to look at somebody/something, especially in a particular way
+###_He regarded us suspiciously.
+#___contemplate
+##__to think about whether you should do something, or how you should do something
+###_The leading statesmen of the Reich were not yet ready to contemplate such a monstrous possibility.
+###_We contemplate on the experience that is life each day.
+##__to think carefully about and accept the possibility of something happening
+###_How could you even contemplate such an idea?
+###_The thought of war is too awful to contemplate.
+##__(formal) to think deeply about something for a long time
+###_to contemplate your future
+#___contemplated
+##__to look at somebody/something in a careful way for a long time
+###_She contemplated him in silence.
+#___contemplation
+##__​(formal) being considered
+###_By 1613 even more desperate measures were in contemplation.
+#___contemplative
+##__thinking quietly and seriously about something
+###_He gave her a contemplative look.
+#___contemporaneous
+##__(with somebody/something) happening or existing at the same time
+###_How do we know that the signature is contemporaneous with the document?
+#___contemporaneously
+##__​in a way that happens or exists at the same time
+###_The later years are recorded contemporaneously with the events they describe.
+#___contemporary
+##__belonging to the same time
+###_The amphitheatre is roughly contemporary with the Colosseum in Rome.
+##__belonging to the present time SYNONYM modern
+###_The film paints a depressing picture of life in contemporary Britain.
+##__following modern ideas in style or design
+###_Try some contemporary colours on your kitchen walls.
+##__a person who lives or lived at the same time as somebody else, especially somebody who is about the same age
+###_He was a contemporary of Freud and may have known him.
+#___regarding 
+##__relating to somebody/something; about somebody/something
+###_Call me if you have any problems regarding your work.
+#___considerable
+##__great in amount, size, importance, etc.
+###_Considerable progress has been made in finding a cure for the disease.
+#___significant
+##__large or important enough to have an effect or to be noticed.
+###_There are no significant differences between the two groups of students.
+###_Asthma has a significant impact on the life and well-being of children affected by this disease.
+##__having a particular meaning
+###_It is significant that he changed his will only days before his death.
+###_The fact that her remarks were leaked to the media in advance is highly significant.
+##__[usually before noun] having a special or secret meaning that is not understood by everyone
+###_a significant look/smile
+#___insignificant
+##__not big or valuable enough to be considered important
+###_The levels of chemicals in the river are not insignificant.
+###_He made her feel insignificant and stupid.
+###_an event that was considered insignificant
+#___meaningful
+##__serious and important
+###_a meaningful relationship/discussion/experience
+##__having a meaning that is easy to understand
+###_These statistics are not very meaningful.
+##__(also less frequent meaning) intended to communicate or express something to somebody, without any words being spoken
+###_She gave me a meaningful look.
+#___considerably
+##__much; a lot
+###_The need for sleep varies considerably from person to person.
+###_Interest rates on bank loans have increased considerably in recent years.
+#___consider
+##__[intransitive, transitive] to think about something carefully, especially in order to make a decision
+###_Let us consider the facts.
+###_We need to consider how the law might be reformed.
+#___considering
+##__+ing
+###_She is considering her options.
+###_He was seriously considering an appeal.
+###_Have you considered starting your own business?
+##__[transitive] to think of somebody/something in a particular way
+###_The award is considered a great honour.
+#___considers
+##__+s
+###_She considers that it is too early to form a definite conclusion.
+###_He considers it his duty.
+#___considered
+##__idiom all things ...+ed. thinking carefully about all the facts, especially the problems or difficulties, of a situation
+###_Certain subjects were not considered appropriate for female artists.
+###_She's had a lot of problems since her husband died but she seems quite cheerful, all things considered.
+##__idiom your ...+ed opinion
+###_It is my considered opinion that you are wrong.
+#___regarded
+##__[often passive] to think about somebody/something in a particular way
+###_They regarded people outside their own town with suspicion.
+###_Capital punishment was regarded as inhuman and immoral.
+#___regards
+##__[s]
+###_He regards himself as a patriot.
+#___regard
+##__[often passive] to think about somebody/something in a particular way
+###_Further questions arose with regard to remedies.
+#___misleading
+##__-
+###_I was confused by his (LEAD) statement.
+#___studies
+##__ -
+###_How are your (STUDY) at the university, are you doing well?
+#___loser
+##__-
+###_The winner and the (LOSE) of the competition shook hands.
+#___mislead
+##__-
+###_He is hones and doesn't have an intention to (LEAD) people.
+#___dancer
+##__-
+###_She is a talent British balet (DANCE)
+#___driving
+##__-
+###_I love (DRIVE) my new car
+#___sunny
+##__-
+###_The day was hot and (SUN)
+#___juicy
+##__-
+###_This exotic fruit is very sweet and (JUICE)
+#___rainy
+##__-
+###_The weather was (RAIN) and warm.
+#___risky
+##__-
+###_I don't want to do it - it's too (RISK)
+#___weekly
+##__-
+###_My father always reads this (WEEK) newspaper.
+#___foggy
+##__-
+###_It was a cold, (FOG) day in October.
+#___daily
+##__-
+###_The museum is open (DAY) from 10 to 18.
+#___rocky
+##__-
+###_It is a small island with beatiful beaches and (ROCK) cliffs.
+#___monthly
+##__-
+###_This magazine is published (MONTLY)
+#___weekend
+##__-
+###_I'm going to Paris for a long (WEEK), I'll be back on Monday afternoon.
+#___sunshine
+##__-
+###_I love walking in the afternoon (SUN)
+#___noisy
+##__-
+###_Our neighbours are very (NOISE)
+#___icy
+##__-
+###_Please drive carefully, the road is (ICE) today.
+#___funny
+##__-
+###_Jim is so (FUN), he knows hundreds of anecdotes.
+#___muddy
+##__-
+###_The road was (MUD) adter the rain.
+#___sunset
+##__-
+###_Lots of people come to the beach every evening to see beatiful (SUN)
+#___noisily
+##__-
+###_Students were chatting (NOISE) in the cafeteria.
+#___yearly
+##__-
+###_This music festival is held (YEAR)
+#___sandy
+##__-
+###_I love these beatiful (SAND) beaches.
+#___weekdays
+##__-
+###_My (WEEK) are quite buse - after work I go to my English classes.
+#___messy
+##__-
+###_His room was very (MESS)
+#___windy
+##__-
+###_The weather was cold and (WIND)
+#___daily
+##__-
+###_There are (DAY) flights from Moscow to Barcelona.
+#___sunrise
+##__-
+###_Farmers start their work with (SUN)
+#___auscultation
+##__the process of listening to somebody’s breathing using a stethoscope
+###_And that is how stethoscope and auscultation was born.
+#___auspices
+##__Idioms under the ??? of somebody/something
+###_The community centre was set up under the auspices of a government initiative.
+#___auspicious
+##__showing signs that something is likely to be successful in the future
+###_We waited for an auspicious moment to make our request.
+###_It was not a very auspicious beginning to his new career.
+#___artful
+##__Exhibiting artistic skill. Clever in a cunning
+#___crafty
+##__clever at getting what you want, especially by indirect or dishonest methods
+###_There are times when the only way to win is by a crafty reinterpretation of the rules.
+#___cunning
+##__(disapproving) able to get what you want in a clever way, especially by tricking or cheating somebody
+###_That cunning old rogue is up to something, I'm sure.
+##__clever and showing skill
+###_It was a cunning piece of detective work.
+#___ingenious
+##__(of an object, a plan, an idea, etc.) very suitable for a particular purpose and resulting from clever new ideas
+###_His plots are always very ingenious.
+##__(of a person) having a lot of clever new ideas and good at inventing things
+###_She's very ingenious when it comes to finding excuses.
+#___wily
+##__clever at getting what you want, and willing to trick people
+###_He was outwitted by his wily opponent.
+###_The boss is a wily old fox.
+#___

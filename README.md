@@ -1212,7 +1212,7 @@ forgive
 -	Furious яростный		
 -	getting its audience used to ever-more-outlandish heists приучать свою аудиторию к все более и более странным ограблениям.		
 -	until до тех пор пока не будет		
--	self-resilience and independence through самостоятельность и независимость посредством		
+-	self-resilience and independence through самостоятельность и независимость посредством		пше
 -	unexpected affection неожиданная симпатия 		
 -	explaining away объясняя		
 -	Giddily satisfying Головокружительное удовлетворение 		
