@@ -306,6 +306,7 @@
 ###_It was not a very auspicious beginning to his new career.
 #___artful
 ##__Exhibiting artistic skill. Clever in a cunning
+###_He was artful and cunning, and I didn’t really trust him.
 #___crafty
 ##__clever at getting what you want, especially by indirect or dishonest methods
 ###_There are times when the only way to win is by a crafty reinterpretation of the rules.
