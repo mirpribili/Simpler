@@ -64,6 +64,22 @@ for counter, line in enumerate(lines):
 
 
 import random
+
+def func_list_rand_2_for_mix(list,list_numb_except):
+    while True:
+        rand = random.randint(0, len(list)-1)
+        if rand not in list_numb_except:
+            return rand
+
+def func_list_mix_2_elem(list,list_numbs):
+    if len(list_numbs) > 2:
+        exit("\nERROR in func_list_mix_2_elem()")
+    elem1 = list[list_numbs[0]]
+    elem2 = list[list_numbs[1]]
+    list[list_numbs[0]] = elem2
+    list[list_numbs[1]] = elem1
+    return list;
+
 def func(string):
     while True:
         if string.endswith('.'):
@@ -109,7 +125,24 @@ for i, word in enumerate(words):
     #----------
 
     result.append(texts[i])
-    result.append(replace_up(texts[i], word.split(":")[0], word.split(":")[1].upper() ) )
+    #print(word)
+    #print(str(len(word.split(":"))) + "!")
+
+    if len(word.split(":")) == 2:
+        result.append(replace_up(texts[i], word.split(":")[0], word.split(":")[1].upper() ) )
+    else:
+        temp_texts = texts[i].split(" ")
+        temp_rand = [0,len(temp_texts)-1]
+        temp_rand.append( func_list_rand_2_for_mix(temp_texts, temp_rand) )
+        temp_rand.append( func_list_rand_2_for_mix(temp_texts, temp_rand) )
+        #print(temp_rand)
+        #print(temp_rand[2:4])
+        result.append(replace_up(
+            #texts[i],
+            " ".join(func_list_mix_2_elem(temp_texts, temp_rand[2:4])),
+            word.split(":")[0], word.split(":")[1].upper() ) )
+        #print(texts[i])
+
     result.append(texts[i])
     result.append(exs[i])
     result = '"' + '";"'.join(result) + '"'
@@ -120,3 +153,4 @@ random.shuffle( results )
 with open(r"result.txt", "w", encoding="utf-8") as file:
     for  result in results:
         file.write(result + '\n')
+
