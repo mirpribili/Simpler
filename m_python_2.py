@@ -22,6 +22,15 @@ lines = file1.readlines()
 
 # закрываем файл
 file1.close
+new_i = 0
+for i, line in enumerate( lines ):
+    if '____' in line[0:4]:
+        #print(line)
+        new_i = i + 1
+        lines = lines[new_i:]
+        #print(i)
+        break
+    
 
 bufer = "###_"
 # итерация по строкам
@@ -34,7 +43,7 @@ for counter, line in enumerate(lines):
     if "#___" in line:
         #--------------------
         if "###_" not in bufer:
-            exit("\nERROR\n!! #1 sting №" + str(counter+1))
+            exit("\nERROR\n!! #1 sting №" + str(counter+1+new_i))
         #--------------------
         #print(line[4:])
         if len(line)>5:
@@ -43,14 +52,14 @@ for counter, line in enumerate(lines):
     if "##__" in line:
         #--------------------
         if "##__" in bufer:
-            exit("\nERROR\n!! #2 sting №" + str(counter+1))
+            exit("\nERROR\n!! #2 sting №" + str(counter+1+new_i))
         #--------------------
         texts.append(ends(line[4:]))
 
     if "###_" in line:
         #--------------------
         if "#___" in bufer:
-            exit("\nERROR\n!! #3 sting №" + str(counter+1))
+            exit("\nERROR\n!! #3 sting №" + str(counter+1+new_i))
         #--------------------
         #print(line)
         exs.append(ends(line[4:]))
@@ -60,7 +69,7 @@ for counter, line in enumerate(lines):
 
 
     if "#___" not in line and "##__" not in line and "###_" not in line:
-        exit("\nERROR !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! \n " + str(counter+1))
+        exit("\nERROR !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! \n " + str(counter+1+new_i))
 
 
 import random
@@ -149,7 +158,7 @@ for i, word in enumerate(words):
     results.append(result)
     #print(result)
 
-random.shuffle( results )
+#random.shuffle( results )
 with open(r"result.txt", "w", encoding="utf-8") as file:
     for  result in results:
         file.write(result + '\n')
