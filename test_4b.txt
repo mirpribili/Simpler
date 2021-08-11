@@ -68,7 +68,7 @@
 ##__ From beginning to end, the airlift was fraught with risks.
 ###_ От начала и до конца воздушный переход был сопряжен с риском.
 #___ covered:cover:
-##__ Spiny - havig or covered with many sharp, pointed parts.
+##__ Spiny - having or covered with many sharp, pointed parts.
 ###_ Колючий - имеющий или покрытый множеством острых, заостренных частей.
 #___ spines:spin:
 ##__ Large spines and some spiny catfish grow as large as a man are as effectiveas stilettos.
