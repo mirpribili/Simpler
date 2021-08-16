@@ -15,7 +15,7 @@ ex = []
 ex_str =""
 
 # получим объект файла
-file1 = open("test_4b.txt", "r")
+file1 = open("test_4b.txt", "r", encoding="utf-8")
 
 # считываем все строки
 lines = file1.readlines()
@@ -43,23 +43,23 @@ for counter, line in enumerate(lines):
     if "#___" in line:
         #--------------------
         if "###_" not in bufer:
-            exit("\nERROR\n!! #1 sting №" + str(counter+1+new_i))
+            exit("\nERROR\n!! #1 sting тДЦ" + str(counter+1+new_i))
         #--------------------
         #print(line[4:])
-        if len(line)>5:
+        if len(line)>6:
             words.append(ends(line[4:]))
 
     if "##__" in line:
         #--------------------
         if "##__" in bufer:
-            exit("\nERROR\n!! #2 sting №" + str(counter+1+new_i))
+            exit("\nERROR\n!! #2 sting тДЦ" + str(counter+1+new_i))
         #--------------------
         texts.append(ends(line[4:]))
 
     if "###_" in line:
         #--------------------
         if "#___" in bufer:
-            exit("\nERROR\n!! #3 sting №" + str(counter+1+new_i))
+            exit("\nERROR\n!! #3 sting тДЦ" + str(counter+1+new_i))
         #--------------------
         #print(line)
         exs.append(ends(line[4:]))
@@ -120,36 +120,51 @@ def replace_up(string, what, on_what):
 #print("--")
 #exit("\n-= OK =-\n")
 results = []
-
+#print(words)
 for i, word in enumerate(words):
     #print(i)
     result = temp =[]
 
     #result.append( word.split(":")[0] )
 
+
     #print(result)
     #----------
     #result.append(shuffl_string(texts[i]))
     #result.append(replace_up(texts[i], word.split(":")[0], word.split(":")[1]) )
     #----------
-
+    #print(texts[i])
     result.append(texts[i])
     #print(word)
     #print(str(len(word.split(":"))) + "!")
+    word_set = word.split(":")
+    #print(word_set)
 
-    if len(word.split(":")) == 2:
+    if len(texts[i]) > 120 and not 'any length' in word_set[2:]:
+        exit("\nERROR:\n" + texts[i])
+
+    if len(word_set) == 2 or 'do not mix' in word_set[2:]:
         result.append(replace_up(texts[i], word.split(":")[0], word.split(":")[1].upper() ) )
-    else:
+    elif word_set[2] == '':
         temp_texts = texts[i].split(" ")
         temp_rand = [0,len(temp_texts)-1]
         temp_rand.append( func_list_rand_2_for_mix(temp_texts, temp_rand) )
         temp_rand.append( func_list_rand_2_for_mix(temp_texts, temp_rand) )
+        temp_rand.append( func_list_rand_2_for_mix(temp_texts, temp_rand) )
         #print(temp_rand)
         #print(temp_rand[2:4])
-        result.append(replace_up(
-            #texts[i],
-            " ".join(func_list_mix_2_elem(temp_texts, temp_rand[2:4])),
-            word.split(":")[0], word.split(":")[1].upper() ) )
+        #print(temp_rand[3:5])
+        mix = func_list_mix_2_elem(temp_texts, temp_rand[2:4])
+        mix = func_list_mix_2_elem(mix, temp_rand[3:5])
+        result.append(
+            replace_up(
+                #" ".join(func_list_mix_2_elem(temp_texts, temp_rand[2:4])), 
+                " ".join(mix), 
+                word.split(":")[0], word.split(":")[1].upper() 
+                ) 
+            )
+    
+        #result.append(" ".join(func_list_mix_2_elem(temp_texts, temp_rand[2:4])) )
         #print(texts[i])
 
     result.append(texts[i])
@@ -159,7 +174,10 @@ for i, word in enumerate(words):
     #print(result)
 
 #random.shuffle( results )
-with open(r"result.txt", "w", encoding="utf-8") as file:
+with open(r"result.txt", "w", 
+    encoding="utf-8"
+    #encoding="windows-1251"
+    ) as file:
     for  result in results:
         file.write(result + '\n')
-
+print(len(results))
