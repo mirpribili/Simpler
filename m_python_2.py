@@ -159,11 +159,10 @@ for i, word in enumerate(words):
         result.append(
             replace_up(
                 #" ".join(func_list_mix_2_elem(temp_texts, temp_rand[2:4])), 
-                " ".join(mix), 
-                word.split(":")[0], word.split(":")[1].upper() 
+                " ".join(mix), word.split(":")[0], word.split(":")[1].upper() 
                 ) 
             )
-    
+
         #result.append(" ".join(func_list_mix_2_elem(temp_texts, temp_rand[2:4])) )
         #print(texts[i])
 
