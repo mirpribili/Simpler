@@ -59,7 +59,7 @@ for counter, line in enumerate(lines):
     if "###_" in line:
         #--------------------
         if "#___" in bufer:
-            exit("\nERROR\n!! #3 sting тДЦ" + str(counter+1+new_i))
+            exit("\nERROR\n!! #3 sting №" + str(counter+1+new_i))
         #--------------------
         #print(line)
         exs.append(ends(line[4:]))
@@ -143,6 +143,8 @@ for i, word in enumerate(words):
     if len(texts[i]) > 120 and not 'any length' in word_set[2:]:
         exit("\nERROR:\n" + texts[i])
 
+    if 'any length' in word_set[2:]:
+        result.append(texts[i])
     if len(word_set) == 2 or 'do not mix' in word_set[2:]:
         result.append(replace_up(texts[i], word.split(":")[0], word.split(":")[1].upper() ) )
     elif word_set[2] == '':

@@ -217,7 +217,6 @@
 #___ up:up:
 ##__ If you put up your share, father will put up the rest.
 ###_ Если вы внесете свою долю, отец внесет остальное.
-____ 
 #___ supplies:supply:
 ##__ How long will our supplies hold out?
 ###_ Как долго продержатся наши запасы?
@@ -312,6 +311,306 @@ ____
 ##__ There was a pause, broken only by the sound of the rain. Then the visitor said, "What?"
 ###_ Наступила пауза, нарушаемая только шумом дождя. Затем посетитель спросил "Что?".
 #___ -:-:any length
-##__ 
-###_ 
+##__ be unfaithful; reveal unconsciously or unwillingly. betray
+###_ быть неверным; раскрываться бессознательно или неохотно
+#___ -:-:any length
+##__ two-sided; mutual. bilateral
+###_ двусторонний; взаимный
+#___ -:-:any length
+##__ just; only; hardly; scarcely. barely
+###_ только; только; едва; едва ли; едва ли
+#___ -:-:any length
+##__ state of being unable to pay your debts. bankruptcy
+###_ состояние неспособности оплатить свои долги
+#___ -:-:any length
+##__ support; sustain; carry; jave; yield; give birth. bear
+###_ поддерживать; поддерживать; нести; иметь; давать; рожать
+#___ -:-:any length
+##__ official prohibition. ban
+###_ официальный запрет
+#___ -:-:any length
+##__ in state of anticipation; in advance; by way of preparation; beforehand
+###_ в состоянии ожидания; заранее; путем подготовки
+#___ -:-:any length
+##__ drive out; drive away; compel to depart; dispel; banish
+###_ изгонять; прогонять; заставлять уходить; рассеивать
+#___ -:-:any length
+##__ agreement between parties concerning the sale of property. bargain
+###_ соглашение между сторонами о продаже имущества
+#___ -:-:any length
+##__ support; mainstay; vertebrate spine or spinal column. backbone
+###_ поддержка; опора; позвоночный позвоночник или позвоночный столб
+#___ -:-:any length
+##__ mental or physical ability; ability to accommodate. capacity
+###_ умственные или физические способности; способность к адаптации.
+#___ -:-:any length
+##__ group of people appointed by a head of state or a prime minister. cabinet
+###_ группа людей, назначаемых главой государства или премьер-министром.
+#___ -:-:any length
+##__ calamity; disaster; state of extreme ruin and misfortune. catastrophe
+###_ бедствие; катастрофа; состояние крайнего разорения и несчастья.
+#___ -:-:any length
+##__ care; being attentive to possible danger. caution
+###_ осторожность; быть внимательным к возможной опасности.
+#___ -:-:any length
+##__ group; class; collection of things sharing a common attribute. category
+###_ группа; класс; коллекция вещей, имеющих общий признак.
+#___ -:-:any length
+##__ activity or gift that benefits the public at large. charity
+###_ деятельность или подарок, приносящий пользу обществу в целом.
+#___ -:-:any length
+##__ straightforward; frank; free from prejudice; impartial. candid
+###_ прямолинейный; откровенный; свободный от предрассудков; беспристрастный
+#___ -:-:any length
+##__ informal; purposeless; occurring by chance. casual
+###_ неофициальный; бесцельный; происходящий случайно.
+#___ -:-:any length
+##__ field where the buildings of a university are situated. campus
+###_ поле, на котором расположены здания университета.
+#___ -:-:any length
+##__ cut; sculpt. carve
+###_ резать; лепить.
+#___ -:-:any length
+##__ In the wilds of most every province of Tamriel, descended philosophically if not directly from the original inhabitants of the land, are the Ayleids, commonly called the Wild Elves.
+###_ В дебрях почти каждой провинции Тамриэля, происходящие философски, если не напрямую от коренных жителей земли, живут айлейды, обычно называемые Дикими эльфами.
+#___ -:-:any length
+##__ While three races of Elven stock -- the Altmer (or High Elves), the Bosmer (or Wood Elves), and the Dunmer (or Dark Elves) -- have assimilated well into the new cultures of Tamriel, the Ayleids and their brethren have remained aloof toward our civilization, preferring to practice the old ways far from the eyes of the world.
+###_ В то время как три расы эльфийского происхождения-альтмеры (или Высшие эльфы), босмеры (или Лесные эльфы) и Данмеры (или Темные эльфы) - хорошо ассимилировались в новых культурах Тамриэля, Айлейды и их братья остались в стороне от нашей цивилизации, предпочитая практиковать старые пути вдали от глаз мира.
+#___ -:-:any length
+##__ The Wild Elves speak a variation of Old Cyrodilic, opting to shun Tamrielic and separating themselves from the mainstream of Tamriel even further than the least urbanized of their Elven cousins.
+###_ Дикие эльфы говорят на разновидности Старого сиродильского, предпочитая избегать тамриэльского и отделяясь от основного потока Тамриэля даже дальше, чем наименее урбанизированные из их эльфийских кузенов.
+#___ -:-:any length
+##__ In temperament they are dark-spirited and taciturn -- though this is from the point of view of outsiders (or "Pellani" in their tongue), and doubtless they act differently within their own tribes.
+###_ По темпераменту они мрачны и молчаливы-хотя это с точки зрения посторонних (или "пеллани" на их языке), и, несомненно, они ведут себя по-разному в своих собственных племенах.
+#___ -:-:any length
+##__ Indeed, one of the finest sages of the University of Gwilym was a civilized Ayleid Elf, Tjurhane Fyrre (1E2790-2E227), whose published work on Wild Elves suggests a lively, vibrant culture.
+###_ Действительно, одним из лучших мудрецов Университета Гвилима был цивилизованный эльф Айлейд, Тюрхан Фирре (1E2790-2E227), чья опубликованная работа о Диких эльфах предполагает живую, яркую культуру.
+#___ -:-:any length
+##__ Fyrre is one of the very few Ayleids to speak freely on his people and religion, and he himself said "the nature of the Ayleid tribes is multihued, their personalities often wildly different from their neighbor[ing] tribes" (Fyrre, T., Nature of Ayleidic Poesy, p. 8, University of Gwilym Press, 2E12).
+###_ Фирре-один из очень немногих айлейдов, свободно говорящих о своем народе и религии, и он сам сказал, что "природа племен Айлейдов многогранна, их личности часто сильно отличаются от соседних племен" (Фирре, Т., Природа айлейдской поэзии, стр. 8, Университет Гвилим Пресс, 2E12).
+#___ -:-:any length
+##__ Like any alien culture, Wild Elves are often feared by the simple people of Tamriel. The Ayleids continue to be one of the greatest enigmas of the continent of Tamriel. 
+###_ Как и в любой другой инопланетной культуре, простые жители Тамриэля часто боятся Диких эльфов. Веки по-прежнему остаются одной из величайших загадок континента Тамриэль.
+#___ -:-:any length
+##__ They seldom appear in the pages of written history in any role, and then only as a strange sight a chronicler stumbles upon before they vanish into the wood.
+###_ Они редко появляются на страницах письменной истории в какой-либо роли, и то лишь как странное зрелище, на которое натыкается летописец, прежде чем они исчезнут в лесу.
+#___ -:-:any length
+##__ When probable fiction is filtered from common legend, we are left with almost nothing. 
+###_ Когда вероятная выдумка отфильтровывается из обычной легенды, мы остаемся почти ни с чем.
+#___ -:-:any length
+##__ The mysterious ways of the Ayleids have remained shrouded since before the First Era, and may well remain so for thousands of years to come.
+###_ Таинственные пути Айлейдов оставались скрытыми еще до Первой эры и вполне могут оставаться таковыми на протяжении тысячелетий.
+#___ -:-:any length
+##__ Smoking in the building is not _allowed.
+###_ Курение в здании не разрешается.
+#___ -:-:any length
+##__ A few bricks in the garden wall have come _loose.
+###_ Несколько кирпичей в стене сада отвалились.
+#___ -:-:any length
+##__ I am totally _uninterested in chemistry. It is dull.
+###_ Мне совершенно _неинтересна_ химия. Это скучно.
+#___ -:-:any length
+##__ The ball was _passed to the little boy who was looking at the far post.
+###_ Мяч был _передан_ маленькому мальчику, который смотрел на дальнюю стойку.
+#___ -:-:any length
+##__ He was _loath to admit to being wrong.
+###_ Он не любил признавать свою неправоту.
+#___ -:-:any length
+##__ The film was full of _special effects.
+###_ Фильм был полон _специальных_ эффектов.
+#___ -:-:any length
+##__ They needed to order some more _stationery.
+###_ Им нужно было заказать еще немного канцелярских принадлежностей.
+#___ -:-:any length
+##__ The old woman gave a chilling _prophecy.
+###_ Старуха произнесла леденящее душу _пророчество_.
+#___ -:-:any length
+##__ We had to _accept what the manager said.
+###_ Мы должны были согласиться с тем, что сказал менеджер.
+#___ -:-:any length
+##__ I’m not sure _whether I will be able to go to the party.
+###_ Я не уверен, смогу ли я пойти на вечеринку.
+#___ -:-:any length
+##__ The soldiers secured a _historic victory.
+###_ Солдаты одержали историческую победу.
+#___ -:-:any length
+##__ I came to you for some good _advice.
+###_ Я пришел к вам за хорошим советом.
+#___ -:-:any length
+##__ Are you _implying that his jokes are not funny?
+###_ Вы хотите подразумивать, что его шутки не смешные?
+#___ -:-:any length
+##__ The prime minister had led the country to an _economic crisis.
+###_ Премьер-министр привел страну к экономическому кризису.
+#___ -:-:any length
+##__ A mobile _comprises many small parts.
+###_ Мобильный _состоит_из_множества_мелких_частей.
+#___ -:-:any length
+##__ She tried to _elicit the answer from the students.
+###_ Она попыталась добиться ответа от студентов.
+#___ -:-:any length
+##__ I _loathe that woman sitting by the window.
+###_ Я ненавижу эту женщину, сидящую у окна.
+#___ -:-:any length
+##__ The actor was asked to read her lines _aloud.
+###_ Актера попросили прочитать свои реплики вслух.
+#___ -:-:any length
+##__ This looks like a good _site for the new theatre.
+###_ Это похоже на хорошее место для нового театра.
+#___ -:-:any length
+##__ That new house by the river is totally _incredible.
+###_ Этот новый дом у реки совершенно невероятен.
+#___ -:-:any length
+##__ As citizens of the Empire, all are of course familiar with the deeds of Emperor Tiber Septim. But it is the Emperor's ascent to godhood, as Talos, that is the subject of this work.
+###_ Как граждане Империи, все, конечно, знакомы с деяниями императора Тайбера Септима. Но именно восхождение императора к божественности в качестве Талоса является темой этой работы.
+#___ -:-:any length
+##__ Until Tiber Septim's death, there had been but Eight Divines: Akatosh, Dibella, Arkay, Zenithar, Stendarr, Mara, Kynareth, and Julianos. These gods were, and are, worshipped throughout the Empire. And while some may have different names in the varying provinces (for example, Akatosh is known as "Auri-El" to the Aldmer; and Arkay is sometimes known as "Ar'Kay"), all are recognized and revered by all races and cultures of Tamriel.
+###_ До смерти Тайбера Септима было всего восемь божеств: Акатош, Дибелла, Аркей, Зенитар, Стендарр, Мара, Кинарет и Юлианос. Этим богам поклонялись и поклоняются по всей Империи. И хотя в разных провинциях у некоторых из них могут быть разные имена (например, Акатош известен как "Аури-Эл" в Альдмере; а Аркай иногда называют "Ар'Кей"), все они признаны и почитаемы всеми расами и культурами Тамриэля.
+#___ -:-:any length
+##__ But when Tiber Septim passed to Aetherius, there came to be a Ninth Divine - Talos, also called Ysmir, the "Dragon of the North." The man who was so loved in life became worshipped in death. Indeed, it can be argued that Talos, the Ninth Divine, became even more important than the Eight that had preceded him, at least to humans. For he was a god who was once just a man, and through great deeds actually managed to ascend to godhood. And if one human could achieve such a feat - couldn't it be done again? Couldn't all humans aspire to achieve divinity?
+###_ Но когда Тибр Септим перешел к Этериусу, появился Девятый бог - Талос, также называемый Йсмир, "Дракон Севера". Человека, которого так любили при жизни, стали боготворить в смерти. Действительно, можно утверждать, что Талос, Девятое божество, стал даже более важным, чем Восемь предшествующих ему, по крайней мере, для людей. Ведь он был богом, который когда-то был просто человеком и благодаря великим деяниям сумел возвыситься до божества. И если один человек смог совершить такой подвиг - разве не может он повторить его? Разве не могут все люди стремиться к достижению божественности?
+#___ -:-:any length
+##__ So we thought, we humans. And so we continued to worship Talos, and revere him as the ultimate hero-god. But that was then. This is now. And now, we know the truth: We were wrong.
+###_ Так думали мы, люди. И поэтому мы продолжали поклоняться Талосу, почитая его как величайшего героя-бога. Но это было тогда. Сейчас мы живем сейчас. И теперь мы знаем правду: мы ошибались.
+#___ -:-:any length
+##__ As citizens of the Empire, we all experienced the horrors of the Great War. And it was not until the signing of the White-Gold Concordat, the treaty between the Empire and the Aldmeri Dominion, that we once again knew peace. One of the most important stipulations of that treaty, as every Imperial citizen is well aware, is that Talos can no longer be worshipped as a god. This edict shook the very foundations of the Empire. There were those who rebelled against the law. Indeed, some still do.
+###_ Будучи гражданами Империи, мы все пережили ужасы Великой войны. И только после подписания Бело-Золотого Конкордата, договора между Империей и Альдмерским Доминионом, мы вновь познали мир. Одним из важнейших условий этого договора, как хорошо известно каждому гражданину Империи, является то, что Талосу больше нельзя поклоняться как богу. Этот указ потряс самые основы Империи. Нашлись те, кто восстал против закона. Действительно, некоторые до сих пор восстают.
+#___ -:-:any length
+##__ But the citizens of the Empire must know this: the Emperor did not agree to outlaw the worship of Talos because it was demanded by the Thalmor, the ruling body of the Aldmeri Dominion.
+###_ Но граждане Империи должны знать следующее: Император согласился объявить поклонение Талосу вне закона не потому, что этого требовал Талмор, правящий орган Альдмерского доминиона.
+#___ -:-:any length
+##__ The Emperor agreed to the outlaw of the worship of Talos because it was the right thing to do.
+###_ Император согласился объявить поклонение Талосу вне закона, потому что это было правильно.
+#___ -:-:any length
+##__ Today, the Emperor, and indeed the Empire itself, recognizes that allowing the worship of Talos was a mistake. For by doing so, by allowing the worship of Talos as a Divine, the Empire actually did its people a great disservice: for this only succeeded in weakening the memory of the man Tiber Septim and his many extraordinary (though mortal) deeds; and pushing people away from the Eight Divines, the true gods, who do deserve our love and reverence.
+###_ Сегодня Император, да и сама Империя, признает, что разрешение поклонения Талосу было ошибкой. Ведь сделав это, разрешив поклонение Талосу как божеству, Империя фактически оказала своему народу большую услугу: это лишь ослабило память о человеке Тайбере Септиме и его многочисленных выдающихся (хотя и смертных) деяниях; и оттолкнуло людей от Восьми богов, истинных богов, которые действительно заслуживают нашей любви и почитания.
+#___ -:-:any length
+##__ And so, the Empire admits it was wrong. The Talos Mistake will not be repeated. May we find centuries of peace and prosperity with our new Thalmor friends, and continue to share a spirituality that binds together all the cultures and races of Tamriel.
+###_ И вот, Империя признает, что была неправа. Ошибка Талоса больше не повторится. Пусть мы обретем века мира и процветания с нашими новыми друзьями талморцами и продолжим разделять духовность, которая связывает все культуры и расы Тамриэля.
+The Talos Mistake
+The Wild Elves
+____ 
+#___ -:-:any length
+##__ Everything I needed and deserved... revenge.
+###_ Всё что я хотел и заслужил получить... месть.
+#___ -:-:any length
+##__ Yes, but this can also indicate the presence of a knob and tube wiring burn-off.
+###_ Да, но это также может указывать на наличие выступа и возгорание проводки.
+#___ -:-:any length
+##__ One man set out to rid England of its witches.
+###_ Один человек, поставил перед собой цель, избавить Англию от ведьм.
+#___ -:-:any length
+##__ How dare you give me that look. 
+###_ О, как ты смеешь так смотреть на меня.
+#___ -:-:any length
+##__ It prohibits secret detention places, solitary confinement or other similar forms of detention.
+###_ Он запрещает тайные места содержания под стражей, одиночное заключение или другие подобные формы содержания под стражей.
+#___ -:-:any length
+##__ The fellows also attended a seminar on Lethal Autonomous Robotics. 
+###_ Стипендиаты также приняли участие в семинаре по смертоносной автономной робототехнике. 
+#___ -:-:any length
+##__ I doubt if sanctions will work.
+###_ Сомневаюсь что санкции сработают.
+#___ -:-:any length
+##__ Igniting the light and letting it shine.
+###_ Зажечь свет и позволить ему сиять.
+#___ -:-:any length
+##__ Her former chief gave her positive references. 
+###_ Её бывший начальник дал ей хорошие рекомендации.
+#___ -:-:any length
+##__ Jill long was strangled in her laundry room while her family was camping outside.
+###_ Джилл давно была задушена в прачечной, пока ее семья была в кемпинге.
+#___ -:-:any length
+##__ There are signs of an intense struggle before she was strangled.
+###_ Тут признаки яростной борьбы, перед тем, как она была задушена.
+#___ -:-:any length
+##__ Four soldiers were also injured, two of whom reportedly died from their injuries. 
+###_ Также были ранены четыре солдата, двое из которых, согласно сообщениям, скончались в результате полученных ранений.
+#___ -:-:any length
+##__ Its restrictions should be binding on the predecessor and successor States.
+###_ Предусмотренные в ней ограничения должны быть обязательными как для государств-предшественников, так и для государств-правопреемников.
+#___ -:-:any length
+##__ This would imply that the issue of admissibility should be revisited.
+###_ Это могло бы означать, что вопрос о приемлемости следует рассмотреть еще раз.
+#___ -:-:any length
+##__ The complaints tend to be lodged against acquaintances, who may be in the individual's immediate entourage.
+###_ Как правило, жалоба касается знакомых лиц, которые могут входить в непосредственное окружение.
+#___ -:-:any length
+##__ Maybe he went home to change his conscience.
+###_ Может быть, пошел домой, чтобы успокоить свою совесть.
+#___ -:-:any length
+##__ By definition, every node dominates itself. 
+###_ В частности, каждый узел доминирует над самим собой.
+#___ -:-:any length
+##__ Ten units of firemen are there trying to put it out. 
+###_ Десять пожарных подразделений пытаются его потушить. 
+#___ -:-:any length
+##__ A pittance for humanity to pay to know peace.
+###_ Гроши для человечества, чтобы познать мир.
+#___ -:-:any length
+##__ You seem incapable of accepting my sincere apology.
+###_ Вы, кажется, не в состоянии принять мои искренние извинения.
+#___ -:-:any length
+##__ And apparently, Laurent is involved.
+###_ И, очевидно, в этом замешан Лоран.
+#___ -:-:any length
+##__ And swans, violinists in breeches and wigs, mail coaches worked in enamel. 
+###_ Лебеди, музыканты в белых париках и бриджах, лакированные почтовые дилижансы.
+#___ -:-:any length
+##__ This makes their affirmative vote even more noteworthy.
+###_ Это делает их положительное голосование еще более примечательным.
+#___ -:-:any length
+##__ Public interest immunity certificates were allegedly issued.
+###_ Утверждается, что были выданы справки о неприкосновенности общественных интересов.
+#___ -:-:any length
+##__ I can see the maudlin segment of tonight's binge is in full swing. 
+###_ В общем я могу видеть, что плаксивая часть вечернего разгула в полном разгаре.
+#___ -:-:any length
+##__ Yes, performing meager errands for Mrs. Sibley.
+###_ Да, выполняю скудные поручения миссис Сибли.
+#___ -:-:any length
+##__ Well, I would imagine captivity alters many natural instincts.
+###_ Я думаю, что содержание в неволе изменяет многие природные инстинкты.
+#___ -:-:any length
+##__ He was released after a bribe was paid. 
+###_ После уплаты взятки он был освобожден.
+#___ -:-:any length
+##__ Please clarify whether legislative amendments are foreseen to criminalize forced labour.
+###_ Просьба уточнить, планируется ли внести какие-либо поправки в законодательство с целью криминализации принудительного труда.
+#___ -:-:any length
+##__ There were several research and scientific assessment initiatives with respect to nitrogen.
+###_ В отношении азота выдвинуто несколько инициатив, связанных с проведением исследований и научной оценки.
+#___ -:-:any length
+##__ His revenge, apparently, is me.
+###_ И его месть, очевидно, - это я.
+#___ -:-:any length
+##__ It just bears striking similarities to that crime scene. 
+###_ Просто есть разительное сходство с тем местом преступления.
+#___ -:-:any length
+##__ International cooperation is not a handout; it is an investment. 
+###_ Международное сотрудничество - это не милостыня\подачка; это инвестиции.
+#___ -:-:any length
+##__ No matter how dissatisfied he is towards me, he shouldn't have complained to another woman. 
+###_ Неважно насколько он мной недоволен, не стоило жаловаться другой женщине.
+#___ -:-:any length
+##__ She is depicted in human form with wings, standing with a lion and accompanied by two attendants.
+###_ Она изображена в человеческой форме с крыльями, стоящей со львом и в сопровождении двух слуг.
+#___ -:-:any length
+##__ You're here to burn down the building and extinguish all the evidence therein
+###_ Вы здесь, чтобы сжечь здание и уничтожить все улики.
+#___ -:-:any length
+##__ We deplore and condemn this brutal violence and these attacks on innocent civilians. 
+###_ Мы сожалеем и осуждаем это жестокое насилие и эти нападения на невинных гражданских лиц. 
+#___ -:-:any length
+##__ His savagery is precisely what makes him dangerous.
+###_ Его дикость - это именно то, что делает его опасным.
+#___ -:-:any length
+##__ All you have left is my desire for you.
+###_ Все, ч то у тебя осталось, - мое желание к тебе.
+#___ -:-:any length
+##__ So regret is something less in your heart. 
+###_ Поэтому, сожаление - это то, что в твоем сердце менее всего. 
+#___ -:-:any length
+##__ I'm against deceiving such a simple man.
+###_ Я против того, чтобы обманывать такого простого человека.
 #___ 
